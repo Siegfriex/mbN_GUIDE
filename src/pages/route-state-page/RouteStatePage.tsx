@@ -1,21 +1,19 @@
-import { PrimaryNavigation } from '../../widgets/app-chrome'
 import { StatusNotice } from '../../shared/ui'
+import { useI18n } from '../../shared/i18n'
 
 type RouteStatePageProps = {
   routeName: string
 }
 
 export function RouteStatePage({ routeName }: RouteStatePageProps) {
+  const { t } = useI18n()
   return (
-    <>
-      <main className="product-page route-state-page">
-        <p className="eyebrow">M-2 in progress</p>
+    <main id="main-content" className="product-page route-state-page">
+        <p className="eyebrow">{t('routeState.eyebrow')}</p>
         <h1>{routeName}</h1>
-        <StatusNotice state="UNAVAILABLE" title="No fixture projection is connected yet.">
-          This route is reserved by the DOCS contract but has no data-backed UI in the current vertical slice.
+        <StatusNotice state="UNAVAILABLE" title={t('routeState.title')}>
+          {t('routeState.description')}
         </StatusNotice>
-      </main>
-      <PrimaryNavigation />
-    </>
+    </main>
   )
 }

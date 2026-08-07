@@ -23,3 +23,8 @@ export type Story = {
 export function getStoryContent(story: Story, locale: Locale) {
   return story.localized[locale] ?? story.localized.en
 }
+
+export function getStoryContentResolution(story: Story, locale: Locale) {
+  const servedLocale = story.localized[locale] ? locale : 'en'
+  return { content: getStoryContent(story, locale), requestedLocale: locale, servedLocale, fallbackUsed: servedLocale !== locale }
+}

@@ -35,9 +35,9 @@ const fixturePlaces: Place[] = [
       method: 'fixture',
       isSponsored: false,
     },
-    relatedStoryIds: [],
-    relatedLiveIds: [],
-    offerIds: [],
+    relatedStoryIds: ['fixture-riverside-story'],
+    relatedLiveIds: ['fixture-culture-session'],
+    offerIds: ['fixture-riverside-offer'],
     status: 'active',
   },
   {

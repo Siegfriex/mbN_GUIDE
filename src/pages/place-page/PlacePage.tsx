@@ -1,45 +1,25 @@
-import { useEffect, useState } from 'react'
-import type { Place } from '../../entities/place'
-import { fixtureProjection } from '../../features/projection-query'
-import { track } from '../../shared/analytics'
+import { usePlacePageModel } from '../../features/projection-query'
 import { useI18n } from '../../shared/i18n'
-import { Button, EmptyState, Skeleton } from '../../shared/ui'
-import { navigate } from '../../app/router/navigation'
-import { PrimaryNavigation } from '../../widgets/app-chrome'
+import { Button, Dialog, EmptyState, Skeleton } from '../../shared/ui'
+import { navigate, safeReturnPath } from '../../app/router/navigation'
 import { PlaceDetailContent } from '../../widgets/place-detail-sheet'
 
 type PlacePageProps = {
   placeId: string
+  presentation?: 'standalone' | 'modal'
 }
 
-export function PlacePage({ placeId }: PlacePageProps) {
-  const [place, setPlace] = useState<Place | null | undefined>(undefined)
+export function PlacePage({ placeId, presentation = 'standalone' }: PlacePageProps) {
   const { locale, t } = useI18n()
+  const placeModel = usePlacePageModel(placeId)
+  const place = placeModel.place
+  const returnTo = safeReturnPath(new URLSearchParams(window.location.search).get('returnTo'), '/guide')
 
-  useEffect(() => {
-    let isCurrent = true
-    fixtureProjection.getPlace(placeId).then((result) => {
-      if (isCurrent) {
-        setPlace(result)
-        if (result) {
-          track('place_detail_viewed', { placeId: result.id, entryPoint: 'guide' })
-        }
-      }
-    })
-    return () => {
-      isCurrent = false
-    }
-  }, [placeId])
+  const detail = <>{place === undefined ? <Skeleton className="guide-skeleton" /> : null}{place === null ? <EmptyState title={t('guide.unavailable')} description={t('state.unknownPlace')} /> : null}{place ? <PlaceDetailContent place={place} locale={locale} /> : null}</>
 
-  return (
-    <>
-      <main className="product-page">
-        <Button variant="ghost" onClick={() => navigate('/guide')}>{t('place.back')}</Button>
-        {place === undefined ? <Skeleton className="guide-skeleton" /> : null}
-        {place === null ? <EmptyState title={t('guide.unavailable')} description="The requested fixture ID does not exist." /> : null}
-        {place ? <PlaceDetailContent place={place} locale={locale} /> : null}
-      </main>
-      <PrimaryNavigation />
-    </>
-  )
+  if (presentation === 'modal') {
+    return <Dialog isOpen onClose={() => navigate(returnTo)} title={place ? place.localized[locale]?.name ?? place.localized.en.name : t('guide.unavailable')} closeLabel={t('guide.closeDetail')} presentation="sheet"><div data-testid="place-detail-modal">{detail}</div></Dialog>
+  }
+
+  return <main className="product-page"><Button variant="ghost" onClick={() => navigate(returnTo)}>{t('place.back')}</Button>{detail}</main>
 }

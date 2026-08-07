@@ -1,0 +1,30 @@
+{
+  "130:858": {
+    "surface": "DISCOVER",
+    "spatialIntent": "search-adjacent editorial entry, horizontal lead cards, and a compact section rhythm",
+    "implementation": ["pages/discover-page/DiscoverPage.tsx", "widgets/magazine-feed/MagazineFeed.tsx"],
+    "status": "PLANNED",
+    "intentionalDifferences": ["Three-primary-tab product navigation", "No fake view count or notification badge", "No unapproved magazine search engine"]
+  },
+  "130:940": {
+    "surface": "DISCOVER",
+    "spatialIntent": "media-led Story detail with contextual sections",
+    "implementation": ["pages/story-page/StoryPage.tsx"],
+    "status": "PLANNED",
+    "intentionalDifferences": ["No writable comment UI", "No unapproved standalone Article route"]
+  },
+  "130:1311": {
+    "surface": "LIVE",
+    "spatialIntent": "featured session region, category/filter controls, and horizontally dense session cards",
+    "implementation": ["pages/live-page/LivePage.tsx", "widgets/live-commerce-hub/LiveCommerceHub.tsx"],
+    "status": "PLANNED",
+    "intentionalDifferences": ["No fake viewer count, discount, product price, or cart", "Only approved culture taxonomy"]
+  },
+  "130:2174": {
+    "surface": "LIVE",
+    "spatialIntent": "immersive media-first session detail with clearly bounded context and action sections",
+    "implementation": ["pages/live-detail-page/LiveDetailPage.tsx"],
+    "status": "PLANNED",
+    "intentionalDifferences": ["No fake real-time chat", "No active commerce CTA without disclosure, availability, and outbound target"]
+  }
+}

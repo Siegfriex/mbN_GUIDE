@@ -26,3 +26,8 @@ export type Article = {
 export function getArticleContent(article: Article, locale: Locale) {
   return article.localized[locale] ?? article.localized.en
 }
+
+export function getArticleContentResolution(article: Article, locale: Locale) {
+  const servedLocale = article.localized[locale] ? locale : 'en'
+  return { content: getArticleContent(article, locale), requestedLocale: locale, servedLocale, fallbackUsed: servedLocale !== locale }
+}

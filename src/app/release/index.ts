@@ -1,2 +1,5 @@
-export { validateReleaseBundle } from './releaseValidator'
+export { REQUIRED_RELEASE_FILE_PATHS, validateReleaseBundle } from './releaseValidator'
+export { createReleaseProjectionRepository } from './releaseAdapter'
+export { parseReleaseProjection } from './releaseAdapter'
+export { createSyntheticGoldenReleaseBundle } from './syntheticGoldenRelease'
 export type { FrontendReleaseManifest, ReleaseBundle, ReleaseProjection, ReleaseValidationResult } from './types'

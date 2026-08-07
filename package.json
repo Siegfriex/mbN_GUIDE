@@ -9,7 +9,14 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint src vite.config.ts",
     "smoke": "node scripts/m1-smoke.mjs",
-    "test:release": "tsx scripts/release-validator-smoke.ts"
+    "test:release": "tsx scripts/release-validator-smoke.ts",
+    "test:regression": "tsx scripts/regression-smoke.ts",
+    "test:parity": "tsx scripts/data-line-smoke.ts",
+    "test:fsd": "tsx scripts/fsd-boundary-smoke.ts",
+    "test:design-system": "tsx scripts/design-system-smoke.ts",
+    "test": "npm run test:design-system && npm run test:fsd && npm run test:regression && npm run test:release && npm run test:parity",
+    "test:e2e": "playwright test",
+    "verify": "npm run typecheck && npm run lint && npm test && npm run test:e2e && npm run build"
   },
   "dependencies": {
     "@vitejs/plugin-react": "6.0.5",
@@ -19,6 +26,7 @@
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",
+    "@playwright/test": "^1.62.1",
     "@tailwindcss/vite": "4.3.3",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.4",
@@ -30,5 +38,8 @@
     "tsx": "4.21.0",
     "typescript": "6.0.3",
     "typescript-eslint": "8.66.0"
+  },
+  "overrides": {
+    "esbuild": "0.28.1"
   }
 }

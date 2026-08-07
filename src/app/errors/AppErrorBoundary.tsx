@@ -3,7 +3,7 @@ import type { ErrorInfo, ReactNode } from 'react'
 import { track } from '../../shared/analytics'
 import { Button, StatusNotice } from '../../shared/ui'
 
-type AppErrorBoundaryProps = { children: ReactNode }
+type AppErrorBoundaryProps = { children: ReactNode; title: string; description: string; actionLabel: string }
 type AppErrorBoundaryState = { error: Error | null }
 
 export class AppErrorBoundary extends Component<AppErrorBoundaryProps, AppErrorBoundaryState> {
@@ -27,10 +27,10 @@ export class AppErrorBoundary extends Component<AppErrorBoundaryProps, AppErrorB
     if (this.state.error) {
       return (
         <main className="product-page">
-          <StatusNotice state="ERROR" title="Something could not be displayed">
-            This fixture prototype recovered without exposing technical details.
+          <StatusNotice state="ERROR" title={this.props.title}>
+            {this.props.description}
           </StatusNotice>
-          <Button onClick={this.reset}>Return to guide</Button>
+          <Button onClick={this.reset}>{this.props.actionLabel}</Button>
         </main>
       )
     }

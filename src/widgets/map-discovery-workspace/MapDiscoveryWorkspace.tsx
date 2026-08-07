@@ -1,84 +1,187 @@
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Place, PlaceCategory } from '../../entities/place'
-import { getPlaceContent } from '../../entities/place'
+import { toPlaceViewModel } from '../../features/projection-query'
+import { FixtureMapCanvas, type FixtureMapMarker } from '../../shared/map'
 import { useI18n } from '../../shared/i18n'
 import type { Locale } from '../../shared/i18n'
-import { Button, EmptyState, StatusNotice } from '../../shared/ui'
+import { BottomSheet, Button, Chip, EmptyState, Icon, IconButton, StatusNotice } from '../../shared/ui'
+import markerIcon from '../../shared/assets/figma-guide/marker.svg'
+import './guide.css'
+
+type SheetMode = 'peek' | 'full'
+type GuideStateChange = Partial<{
+  query: string
+  sheet: SheetMode
+  selectedPlaceId: string | undefined
+  mapUnavailable: boolean
+}>
 
 type MapDiscoveryWorkspaceProps = {
   places: Place[]
   locale: Locale
   selectedCategory: PlaceCategory | 'all'
+  selectedArea: string
+  selectedPlaceId?: string
+  searchQuery: string
+  sheetMode: SheetMode
+  mapUnavailable: boolean
+  suppressOverlays?: boolean
+  onSelectArea: (area: 'seoul-central' | 'riverside') => void
   onSelectCategory: (category: PlaceCategory | 'all') => void
+  onSelectPlace: (place: Place) => void
+  onSearchSubmit: (query: string) => void
+  onGuideStateChange: (state: GuideStateChange) => void
   onOpenPlace: (place: Place) => void
 }
 
 const categoryOrder: Array<PlaceCategory | 'all'> = [
-  'all',
-  'performance',
-  'exhibition',
-  'music',
-  'food',
-  'beauty-fashion',
-  'broadcast-media',
-  'healing',
-  'activity',
+  'all', 'performance', 'exhibition', 'music', 'food', 'beauty-fashion', 'broadcast-media', 'healing', 'activity',
 ]
 
-export function MapDiscoveryWorkspace({
-  places,
-  locale,
-  selectedCategory,
-  onSelectCategory,
-  onOpenPlace,
-}: MapDiscoveryWorkspaceProps) {
+const mapPositions: Record<string, { x: number; y: number }> = {
+  'fixture-riverside-stage': { x: 67, y: 57 },
+  'fixture-studio-exhibit': { x: 38, y: 48 },
+  'fixture-night-market': { x: 54, y: 68 },
+}
+
+function categoryLabel(category: PlaceCategory | 'all', t: (key: string) => string) {
+  return category === 'all' ? t('guide.all') : t(`guide.category.${category}`)
+}
+
+export function MapDiscoveryWorkspace(props: MapDiscoveryWorkspaceProps) {
+  const { places, locale, selectedCategory, selectedArea, selectedPlaceId, searchQuery, sheetMode, mapUnavailable, suppressOverlays = false, onSelectArea, onSelectCategory, onSelectPlace, onSearchSubmit, onGuideStateChange, onOpenPlace } = props
   const { t } = useI18n()
-  return (
-    <section className="discovery-workspace" aria-labelledby="discovery-workspace-title">
-      <header className="discovery-workspace__header">
-        <p className="eyebrow">GUIDE</p>
-        <h1 id="discovery-workspace-title">{t('guide.title')}</h1>
-        <p>{t('guide.description')}</p>
-      </header>
+  const [isSearchOpen, setIsSearchOpen] = useState(Boolean(searchQuery))
+  const [draftQuery, setDraftQuery] = useState(searchQuery)
+  const [isFilterOpen, setIsFilterOpen] = useState(false)
+  const [draftCategory, setDraftCategory] = useState(selectedCategory)
+  const cardRefs = useRef(new Map<string, HTMLElement>())
 
-      <StatusNotice state="UNAVAILABLE" title={t('guide.mapUnavailableTitle')}>
-        {t('guide.mapUnavailableDescription')}
-      </StatusNotice>
+  useEffect(() => {
+    if (selectedPlaceId) {
+      const behavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
+      cardRefs.current.get(selectedPlaceId)?.scrollIntoView({ behavior, block: 'nearest', inline: 'center' })
+    }
+  }, [selectedPlaceId, sheetMode])
 
-      <div className="filter-row" aria-label={t('guide.filters')}>
-        {categoryOrder.map((category) => (
-          <button
-            key={category}
-            className={selectedCategory === category ? 'filter-chip filter-chip--active' : 'filter-chip'}
-            aria-pressed={selectedCategory === category}
-            onClick={() => onSelectCategory(category)}
-          >
-            {category === 'all' ? t('guide.all') : category}
-          </button>
-        ))}
+  const searchablePlaces = useMemo(() => places.filter((place) => {
+    const content = toPlaceViewModel(place, locale)
+    const normalized = draftQuery.trim().toLocaleLowerCase()
+    return !normalized || `${content.title} ${content.summary} ${place.category}`.toLocaleLowerCase().includes(normalized)
+  }), [draftQuery, locale, places])
+  const markers: FixtureMapMarker[] = searchablePlaces.map((place) => ({
+    id: place.id,
+    label: toPlaceViewModel(place, locale).title,
+    position: mapPositions[place.id] ?? { x: 50, y: 50 },
+    selected: place.id === selectedPlaceId,
+  }))
+  const resultCountLabel = t('guide.resultCount').replace('{count}', String(searchablePlaces.length))
+
+  const selectPlace = (place: Place) => {
+    onGuideStateChange({ selectedPlaceId: place.id })
+    onSelectPlace(place)
+  }
+  const submitSearch = () => {
+    onSearchSubmit(draftQuery)
+    onGuideStateChange({ query: draftQuery, selectedPlaceId: searchablePlaces[0]?.id })
+    setIsSearchOpen(false)
+  }
+  const resetSearch = () => {
+    setDraftQuery('')
+    onGuideStateChange({ query: '', selectedPlaceId: undefined })
+    if (selectedCategory !== 'all') onSelectCategory('all')
+  }
+
+  const previewCard = (place: Place, full = false) => {
+    const viewModel = toPlaceViewModel(place, locale)
+    const selected = place.id === selectedPlaceId
+    return <button
+      type="button"
+      ref={(node) => { if (node) cardRefs.current.set(place.id, node); else cardRefs.current.delete(place.id) }}
+      key={place.id}
+      data-testid={`guide-place-card-${place.id}`}
+      className={selected ? `guide-place-card guide-place-card--selected ${full ? 'guide-place-card--full' : ''}` : `guide-place-card ${full ? 'guide-place-card--full' : ''}`}
+      aria-label={viewModel.title}
+      aria-pressed={selected}
+      data-selected={selected || undefined}
+      onClick={() => { if (full || mapUnavailable || selected) onOpenPlace(place); else selectPlace(place) }}
+    >
+      <div className="guide-place-card__art" aria-hidden="true"><span>{categoryLabel(place.category, t).slice(0, 1)}</span></div>
+      <div className="guide-place-card__body">
+        <div className="guide-place-card__meta"><span>{categoryLabel(place.category, t)}</span><span>{selectedArea === 'riverside' ? t('guide.area.riverside') : t('guide.area.seoul-central')}</span></div>
+        <span className="guide-place-card__title">{viewModel.title}</span>
+        <p>{viewModel.whyItMatters}</p>
+        <span className="guide-place-card__provenance">{viewModel.provenanceLabel}</span>
       </div>
+    </button>
+  }
 
-      {places.length === 0 ? (
-        <EmptyState title={t('guide.noMatches')} description={t('guide.noMatchesDescription')} />
-      ) : (
-        <div className="discovery-tray">
-          {places.map((place) => {
-            const content = getPlaceContent(place, locale)
-            return (
-              <article className="place-preview" key={place.id}>
-                <div className="place-preview__meta">
-                  <span>{place.category}</span>
-                  <span>{place.status === 'active' ? t('guide.fixtureActive') : t('guide.unavailable')}</span>
-                </div>
-                <h2>{content.name}</h2>
-                <p>{content.summary}</p>
-                <p className="place-preview__why"><strong>{t('guide.whyItMatters')}</strong> {content.whyItMatters}</p>
-                <p className="place-preview__provenance">{place.provenance.label[locale]}</p>
-                <Button variant="secondary" onClick={() => onOpenPlace(place)}>{t('common.openDetail')}</Button>
-              </article>
-            )
-          })}
-        </div>
-      )}
-    </section>
-  )
+  return <section className="guide-map-workspace" aria-labelledby="discovery-workspace-title">
+    <h1 id="discovery-workspace-title" className="visually-hidden">{t('guide.title')}</h1>
+    <div className="guide-search-wrap">
+      <form className="guide-search" role="search" onSubmit={(event) => { event.preventDefault(); submitSearch() }}>
+        <label className="visually-hidden" htmlFor="guide-search-input">{t('guide.searchLabel')}</label>
+        <input
+          id="guide-search-input"
+          data-testid="guide-search"
+          value={draftQuery}
+          placeholder={t('guide.searchPlaceholder')}
+          onFocus={() => setIsSearchOpen(true)}
+          onChange={(event) => { setDraftQuery(event.target.value); setIsSearchOpen(true) }}
+          aria-expanded={isSearchOpen}
+          aria-controls="guide-search-suggestions"
+        />
+        <IconButton type="submit" variant="ghost" size="sm" label={t('guide.searchSubmit')}><Icon name="search" /></IconButton>
+        <span className="guide-search__divider" aria-hidden="true" />
+        <IconButton className="guide-filter-trigger" data-testid="guide-filter-trigger" label={t('guide.openFilter')} onClick={() => { setDraftCategory(selectedCategory); setIsFilterOpen(true) }}><Icon name="filter" /></IconButton>
+      </form>
+      {isSearchOpen ? <div id="guide-search-suggestions" className="guide-search-suggestions" role="listbox" aria-label={t('guide.searchSuggestions')}>
+        <p>{t('guide.searchAreas')}</p>
+        <button type="button" role="option" aria-selected={selectedArea === 'seoul-central'} onClick={() => { onSelectArea('seoul-central'); onGuideStateChange({ query: '', selectedPlaceId: undefined }); setIsSearchOpen(false) }}>{t('guide.area.seoul-central')}</button>
+        <button type="button" role="option" aria-selected={selectedArea === 'riverside'} onClick={() => { onSelectArea('riverside'); onGuideStateChange({ query: '', selectedPlaceId: undefined }); setIsSearchOpen(false) }}>{t('guide.area.riverside')}</button>
+        <p>{t('guide.searchPlaces')}</p>
+        {searchablePlaces.length ? searchablePlaces.map((place) => <button type="button" role="option" key={place.id} onClick={() => { setDraftQuery(toPlaceViewModel(place, locale).title); onGuideStateChange({ query: toPlaceViewModel(place, locale).title, selectedPlaceId: place.id }); setIsSearchOpen(false) }}>{toPlaceViewModel(place, locale).title}</button>) : <span>{t('guide.searchNoSuggestion')}</span>}
+      </div> : null}
+    </div>
+
+    <p className="guide-area-context" aria-live="polite"><span>{t('guide.area')}</span><strong>{selectedArea === 'riverside' ? t('guide.area.riverside') : t('guide.area.seoul-central')}</strong></p>
+    <div className="guide-category-row" data-testid="guide-category-row" aria-label={t('guide.filters')}>
+      {categoryOrder.map((category) => <Chip key={category} selected={selectedCategory === category} onClick={() => onSelectCategory(category)}>{categoryLabel(category, t)}</Chip>)}
+    </div>
+
+    <div className="guide-map-stage">
+      <FixtureMapCanvas
+        markers={markers}
+        clusters={searchablePlaces.length > 1 ? [{ id: 'eligible-results', count: searchablePlaces.length, position: { x: 30, y: 31 } }] : []}
+        markerIconSrc={markerIcon}
+        isUnavailable={mapUnavailable}
+        unavailable={<StatusNotice state="UNAVAILABLE" title={t('guide.mapUnavailableTitle')}>{t('guide.mapUnavailableDescription')}</StatusNotice>}
+        label={t('guide.mapRegionLabel')}
+        disclosure={t('guide.mapDisclosure')}
+        markerLabel={(marker) => `${marker.label}${marker.selected ? `, ${t('guide.selected')}` : ''}`}
+        onSelectMarker={(id) => { const place = searchablePlaces.find((candidate) => candidate.id === id); if (place) selectPlace(place) }}
+      />
+      {selectedPlaceId ? <Button variant="secondary" size="sm" className="guide-map-stage__refresh" onClick={() => onGuideStateChange({ selectedPlaceId: undefined })}><Icon name="refresh" />{t('guide.clearSelection')}</Button> : null}
+      <IconButton className="guide-map-stage__location" disabled label={t('guide.locationUnavailable')}><Icon name="location" /></IconButton>
+    </div>
+
+    {searchablePlaces.length === 0 ? <section className="guide-empty-recovery"><EmptyState title={t('guide.noMatches')} description={t('guide.noMatchesDescription')} /><Button variant="secondary" onClick={resetSearch}>{t('guide.reset')}</Button></section> : <section className="guide-discovery-tray" data-testid="guide-discovery-tray" aria-label={t('guide.trayLabel')}>
+      <header><span className="guide-discovery-tray__handle" aria-hidden="true" /><p aria-live="polite">{resultCountLabel}</p><Button data-testid="guide-list-toggle" variant="ghost" size="sm" aria-expanded={sheetMode === 'full'} onClick={() => onGuideStateChange({ sheet: 'full' })}><Icon name="list" />{t('guide.openList')}</Button></header>
+      <div className="guide-discovery-tray__rail">{searchablePlaces.map((place) => previewCard(place))}</div>
+    </section>}
+
+    <BottomSheet isOpen={!suppressOverlays && sheetMode === 'full'} onClose={() => onGuideStateChange({ sheet: 'peek' })} title={t('guide.listTitle')} closeLabel={t('common.close')}>
+      <div className="guide-full-list" data-testid="guide-sheet">
+        <header><p>{resultCountLabel}</p><Button variant="secondary" size="sm" onClick={() => onGuideStateChange({ sheet: 'peek' })}>{t('guide.showMap')}</Button></header>
+        {searchablePlaces.map((place) => previewCard(place, true))}
+      </div>
+    </BottomSheet>
+
+    <BottomSheet isOpen={!suppressOverlays && isFilterOpen} onClose={() => { setDraftCategory(selectedCategory); setIsFilterOpen(false) }} title={t('guide.filterTitle')} closeLabel={t('common.close')}>
+      <div className="guide-filter-sheet">
+        {categoryOrder.map((category) => <Chip key={category} selected={draftCategory === category} onClick={() => setDraftCategory(category)}>{categoryLabel(category, t)}</Chip>)}
+        <div className="guide-filter-sheet__actions"><Button variant="secondary" onClick={() => setDraftCategory('all')}>{t('guide.reset')}</Button><Button onClick={() => { onSelectCategory(draftCategory); setIsFilterOpen(false) }}>{t('guide.apply')}</Button></div>
+      </div>
+    </BottomSheet>
+  </section>
 }

@@ -1,16 +1,16 @@
 import type { PropsWithChildren } from 'react'
-import { PageContainer, VisuallyHidden } from '../../shared/ui'
+import { useI18n } from '../../shared/i18n'
+import { PrimaryNavigation } from '../../widgets/app-chrome'
 
 export function AppShell({ children }: PropsWithChildren) {
+  const { t } = useI18n()
   return (
     <div className="app-shell">
       <a className="skip-link" href="#main-content">
-        Skip to main content
+        {t('a11y.skipToMain')}
       </a>
-      <PageContainer as="main" id="main-content" className="app-shell__content" tabIndex={-1}>
-        <VisuallyHidden>Application foundation</VisuallyHidden>
-        {children}
-      </PageContainer>
+      <div className="app-shell__content">{children}</div>
+      <PrimaryNavigation />
     </div>
   )
 }

@@ -27,6 +27,7 @@ export type AnalyticsEventName =
   | 'search_submitted'
   | 'saved_hub_viewed'
   | 'locale_fallback_shown'
+  | 'profile_preferences_persisted'
   | 'loading'
   | 'empty'
   | 'error'

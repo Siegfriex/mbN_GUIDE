@@ -1,10 +1,10 @@
-import type { SavedItem } from '../../../entities/saved-item'
+import { isSavedItemList, type SavedItem } from '../../../entities/saved-item'
 import { createSafeStorage } from '../../../shared/model'
 
 const storage = createSafeStorage({ key: 'saved-items', version: 1 })
 
 export function getSavedItems() {
-  const result = storage.get<SavedItem[]>()
+  const result = storage.getValidated(isSavedItemList)
   return result.ok && result.value ? result.value : []
 }
 

@@ -1,0 +1,3466 @@
+{
+  "rootNodeId": "130:2241",
+  "text": [
+    {
+      "id": "130:1312",
+      "parentId": "130:1311",
+      "characters": "9:41",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1318",
+      "parentId": "130:1311",
+      "characters": "브랜드, 상품, 방송 검색",
+      "x": 56,
+      "y": 77,
+      "width": 124,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1323",
+      "parentId": "130:1311",
+      "characters": "3",
+      "x": 334,
+      "y": 68,
+      "width": 16,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1334",
+      "parentId": "130:1311",
+      "characters": "전체",
+      "x": 1,
+      "y": 172,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1340",
+      "parentId": "130:1311",
+      "characters": "K-푸드",
+      "x": 68,
+      "y": 172,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1345",
+      "parentId": "130:1311",
+      "characters": "굿즈",
+      "x": 135,
+      "y": 172,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1351",
+      "parentId": "130:1311",
+      "characters": "뷰티",
+      "x": 202,
+      "y": 172,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1355",
+      "parentId": "130:1311",
+      "characters": "여행",
+      "x": 269,
+      "y": 172,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1360",
+      "parentId": "130:1311",
+      "characters": "티켓",
+      "x": 336,
+      "y": 172,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1362",
+      "parentId": "130:1311",
+      "characters": "지금 인기 라이브",
+      "x": 20,
+      "y": 218,
+      "width": 111,
+      "height": 23,
+      "visible": true
+    },
+    {
+      "id": "130:1363",
+      "parentId": "130:1311",
+      "characters": "더보기",
+      "x": 341,
+      "y": 222,
+      "width": 31,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1369",
+      "parentId": "130:1311",
+      "characters": "LIVE",
+      "x": 24,
+      "y": 256,
+      "width": 42,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1371",
+      "parentId": "130:1311",
+      "characters": "1.2만",
+      "x": 64,
+      "y": 256,
+      "width": 62,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1372",
+      "parentId": "130:1311",
+      "characters": "전현무계획 부산 반건조 오징어",
+      "x": 26,
+      "y": 382,
+      "width": 132,
+      "height": 36,
+      "visible": true
+    },
+    {
+      "id": "130:1373",
+      "parentId": "130:1311",
+      "characters": "MBN LIVE",
+      "x": 26,
+      "y": 424,
+      "width": 45,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1374",
+      "parentId": "130:1311",
+      "characters": "29% 19,900원",
+      "x": 26,
+      "y": 440,
+      "width": 86,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1378",
+      "parentId": "130:1311",
+      "characters": "LIVE",
+      "x": 184,
+      "y": 256,
+      "width": 42,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1380",
+      "parentId": "130:1311",
+      "characters": "1.2만",
+      "x": 224,
+      "y": 256,
+      "width": 62,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1381",
+      "parentId": "130:1311",
+      "characters": "한일가왕 공연 굿즈 단독 예약",
+      "x": 186,
+      "y": 382,
+      "width": 132,
+      "height": 36,
+      "visible": true
+    },
+    {
+      "id": "130:1382",
+      "parentId": "130:1311",
+      "characters": "MBN MUSIC",
+      "x": 186,
+      "y": 424,
+      "width": 55,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1383",
+      "parentId": "130:1311",
+      "characters": "15% 34,000원",
+      "x": 186,
+      "y": 440,
+      "width": 86,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1387",
+      "parentId": "130:1311",
+      "characters": "LIVE",
+      "x": 344,
+      "y": 256,
+      "width": 42,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1389",
+      "parentId": "130:1311",
+      "characters": "1.2만",
+      "x": 384,
+      "y": 256,
+      "width": 62,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1390",
+      "parentId": "130:1311",
+      "characters": "성수동 전시 굿즈 라이브",
+      "x": 346,
+      "y": 382,
+      "width": 132,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1391",
+      "parentId": "130:1311",
+      "characters": "MBN GUIDE",
+      "x": 346,
+      "y": 424,
+      "width": 54,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1392",
+      "parentId": "130:1311",
+      "characters": "20% 12,000원",
+      "x": 346,
+      "y": 440,
+      "width": 86,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1394",
+      "parentId": "130:1311",
+      "characters": "오늘의 특가",
+      "x": 20,
+      "y": 498,
+      "width": 78,
+      "height": 23,
+      "visible": true
+    },
+    {
+      "id": "130:1395",
+      "parentId": "130:1311",
+      "characters": "더보기",
+      "x": 341,
+      "y": 502,
+      "width": 31,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1400",
+      "parentId": "130:1311",
+      "characters": "특가",
+      "x": 24,
+      "y": 536,
+      "width": 29,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1401",
+      "parentId": "130:1311",
+      "characters": "부산 어묵 세트",
+      "x": 18,
+      "y": 656,
+      "width": 116,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1402",
+      "parentId": "130:1311",
+      "characters": "12,900원",
+      "x": 18,
+      "y": 678,
+      "width": 55,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1405",
+      "parentId": "130:1311",
+      "characters": "특가",
+      "x": 152,
+      "y": 536,
+      "width": 29,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1406",
+      "parentId": "130:1311",
+      "characters": "공연 실물 포토북",
+      "x": 146,
+      "y": 656,
+      "width": 116,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1407",
+      "parentId": "130:1311",
+      "characters": "24,000원",
+      "x": 146,
+      "y": 678,
+      "width": 55,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1410",
+      "parentId": "130:1311",
+      "characters": "특가",
+      "x": 280,
+      "y": 536,
+      "width": 29,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1411",
+      "parentId": "130:1311",
+      "characters": "전시 아트 포스터",
+      "x": 274,
+      "y": 656,
+      "width": 116,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1412",
+      "parentId": "130:1311",
+      "characters": "9,900원",
+      "x": 274,
+      "y": 678,
+      "width": 47,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1415",
+      "parentId": "130:1311",
+      "characters": "특가",
+      "x": 408,
+      "y": 536,
+      "width": 29,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1416",
+      "parentId": "130:1311",
+      "characters": "제주 감귤 박스",
+      "x": 402,
+      "y": 656,
+      "width": 116,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1417",
+      "parentId": "130:1311",
+      "characters": "18,500원",
+      "x": 402,
+      "y": 678,
+      "width": 55,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1420",
+      "parentId": "130:1311",
+      "characters": "알림 신청하고 특가 소식 받기",
+      "x": 76,
+      "y": 730,
+      "width": 156,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1421",
+      "parentId": "130:1311",
+      "characters": "라이브 시작 10분 전에 알려드려요",
+      "x": 76,
+      "y": 750,
+      "width": 154,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1430",
+      "parentId": "130:1311",
+      "characters": "지도",
+      "x": 0.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1434",
+      "parentId": "130:1311",
+      "characters": "매거진",
+      "x": 100.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1438",
+      "parentId": "130:1311",
+      "characters": "라이브",
+      "x": 201.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1442",
+      "parentId": "130:1311",
+      "characters": "마이",
+      "x": 301.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1445",
+      "parentId": "130:1444",
+      "characters": "9:41",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1451",
+      "parentId": "130:1444",
+      "characters": "브랜드, 상품, 방송 검색",
+      "x": 56,
+      "y": 77,
+      "width": 124,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1456",
+      "parentId": "130:1444",
+      "characters": "3",
+      "x": 334,
+      "y": 68,
+      "width": 16,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1462",
+      "parentId": "130:1444",
+      "characters": "오늘 예정 라이브",
+      "x": 20,
+      "y": 140,
+      "width": 111,
+      "height": 23,
+      "visible": true
+    },
+    {
+      "id": "130:1463",
+      "parentId": "130:1444",
+      "characters": "더보기",
+      "x": 341,
+      "y": 144,
+      "width": 31,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1467",
+      "parentId": "130:1444",
+      "characters": "부산 전통시장 어묵 명가 라이브",
+      "x": 120,
+      "y": 180,
+      "width": 190,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1468",
+      "parentId": "130:1444",
+      "characters": "MBN LIVE · 오후 8:00 시작",
+      "x": 120,
+      "y": 204,
+      "width": 127,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1469",
+      "parentId": "130:1444",
+      "characters": "예약 특가 12,900원",
+      "x": 120,
+      "y": 226,
+      "width": 109,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1471",
+      "parentId": "130:1444",
+      "characters": "알림받기",
+      "x": 306,
+      "y": 206,
+      "width": 76,
+      "height": 32,
+      "visible": true
+    },
+    {
+      "id": "130:1474",
+      "parentId": "130:1444",
+      "characters": "한일가왕 공연 굿즈 선주문",
+      "x": 120,
+      "y": 280,
+      "width": 190,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1475",
+      "parentId": "130:1444",
+      "characters": "MBN MUSIC · 오후 9:00 시작",
+      "x": 120,
+      "y": 304,
+      "width": 138,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1476",
+      "parentId": "130:1444",
+      "characters": "34,000원",
+      "x": 120,
+      "y": 326,
+      "width": 55,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1478",
+      "parentId": "130:1444",
+      "characters": "알림받기",
+      "x": 306,
+      "y": 306,
+      "width": 76,
+      "height": 32,
+      "visible": true
+    },
+    {
+      "id": "130:1481",
+      "parentId": "130:1444",
+      "characters": "성수동 전시 한정 아트 상품",
+      "x": 120,
+      "y": 380,
+      "width": 190,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1482",
+      "parentId": "130:1444",
+      "characters": "MBN GUIDE · 오후 10:30 시작",
+      "x": 120,
+      "y": 404,
+      "width": 144,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1483",
+      "parentId": "130:1444",
+      "characters": "9,900원",
+      "x": 120,
+      "y": 426,
+      "width": 47,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1485",
+      "parentId": "130:1444",
+      "characters": "알림받기",
+      "x": 306,
+      "y": 406,
+      "width": 76,
+      "height": 32,
+      "visible": true
+    },
+    {
+      "id": "130:1487",
+      "parentId": "130:1444",
+      "characters": "이번주 예정 라이브",
+      "x": 20,
+      "y": 506,
+      "width": 125,
+      "height": 23,
+      "visible": true
+    },
+    {
+      "id": "130:1488",
+      "parentId": "130:1444",
+      "characters": "더보기",
+      "x": 341,
+      "y": 510,
+      "width": 31,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1493",
+      "parentId": "130:1444",
+      "characters": "수요일",
+      "x": 24,
+      "y": 544,
+      "width": 46,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1494",
+      "parentId": "130:1444",
+      "characters": "제주 감귤 농가 직송",
+      "x": 18,
+      "y": 664,
+      "width": 116,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1495",
+      "parentId": "130:1444",
+      "characters": "오후 7시",
+      "x": 18,
+      "y": 700,
+      "width": 39,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1498",
+      "parentId": "130:1444",
+      "characters": "목요일",
+      "x": 152,
+      "y": 544,
+      "width": 46,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1499",
+      "parentId": "130:1444",
+      "characters": "공연장 근처 숙소 특가",
+      "x": 146,
+      "y": 664,
+      "width": 116,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1500",
+      "parentId": "130:1444",
+      "characters": "오후 8시",
+      "x": 146,
+      "y": 700,
+      "width": 39,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1503",
+      "parentId": "130:1444",
+      "characters": "금요일",
+      "x": 280,
+      "y": 544,
+      "width": 46,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1504",
+      "parentId": "130:1444",
+      "characters": "전통 공예 원데이",
+      "x": 274,
+      "y": 664,
+      "width": 116,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1505",
+      "parentId": "130:1444",
+      "characters": "오후 8시",
+      "x": 274,
+      "y": 700,
+      "width": 39,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1508",
+      "parentId": "130:1444",
+      "characters": "토요일",
+      "x": 408,
+      "y": 544,
+      "width": 46,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1509",
+      "parentId": "130:1444",
+      "characters": "부산 밀면 세트",
+      "x": 402,
+      "y": 664,
+      "width": 116,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1510",
+      "parentId": "130:1444",
+      "characters": "오후 9시",
+      "x": 402,
+      "y": 700,
+      "width": 39,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1512",
+      "parentId": "130:1444",
+      "characters": "AI 추천 라이브",
+      "x": 20,
+      "y": 748,
+      "width": 97,
+      "height": 23,
+      "visible": true
+    },
+    {
+      "id": "130:1513",
+      "parentId": "130:1444",
+      "characters": "더보기",
+      "x": 341,
+      "y": 752,
+      "width": 31,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1516",
+      "parentId": "130:1444",
+      "characters": "시청 기록과 지도 탭 관심 지역을 바탕으로 추천해요",
+      "x": 20,
+      "y": 770,
+      "width": 230,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1523",
+      "parentId": "130:1444",
+      "characters": "지도",
+      "x": 0.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1527",
+      "parentId": "130:1444",
+      "characters": "매거진",
+      "x": 100.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1531",
+      "parentId": "130:1444",
+      "characters": "라이브",
+      "x": 201.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1535",
+      "parentId": "130:1444",
+      "characters": "마이",
+      "x": 301.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1538",
+      "parentId": "130:1537",
+      "characters": "9:41",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1545",
+      "parentId": "130:1537",
+      "characters": "브랜드, 상품, 방송 검색",
+      "x": 70,
+      "y": 78,
+      "width": 134,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1546",
+      "parentId": "130:1537",
+      "characters": "취소",
+      "x": 326,
+      "y": 62,
+      "width": 60,
+      "height": 48,
+      "visible": true
+    },
+    {
+      "id": "130:1548",
+      "parentId": "130:1537",
+      "characters": "최근 검색어",
+      "x": 20,
+      "y": 144,
+      "width": 63,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1549",
+      "parentId": "130:1537",
+      "characters": "전체 삭제",
+      "x": 339,
+      "y": 146,
+      "width": 43,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1551",
+      "parentId": "130:1537",
+      "characters": "어묵 세트",
+      "x": 34,
+      "y": 184,
+      "width": 47,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1555",
+      "parentId": "130:1537",
+      "characters": "공연 굿즈",
+      "x": 148,
+      "y": 184,
+      "width": 47,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1559",
+      "parentId": "130:1537",
+      "characters": "전시 포스터",
+      "x": 262,
+      "y": 184,
+      "width": 58,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1563",
+      "parentId": "130:1537",
+      "characters": "MBN 추천 검색어",
+      "x": 20,
+      "y": 252,
+      "width": 96,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1564",
+      "parentId": "130:1537",
+      "characters": "08.08 기준",
+      "x": 336,
+      "y": 255,
+      "width": 46,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1565",
+      "parentId": "130:1537",
+      "characters": "1",
+      "x": 20,
+      "y": 286,
+      "width": 22,
+      "height": 22,
+      "visible": true
+    },
+    {
+      "id": "130:1566",
+      "parentId": "130:1537",
+      "characters": "전현무계획 어묵",
+      "x": 50,
+      "y": 287,
+      "width": 94,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1569",
+      "parentId": "130:1537",
+      "characters": "2",
+      "x": 20,
+      "y": 328,
+      "width": 22,
+      "height": 22,
+      "visible": true
+    },
+    {
+      "id": "130:1570",
+      "parentId": "130:1537",
+      "characters": "한일가왕 굿즈",
+      "x": 50,
+      "y": 329,
+      "width": 81,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1573",
+      "parentId": "130:1537",
+      "characters": "3",
+      "x": 20,
+      "y": 370,
+      "width": 22,
+      "height": 22,
+      "visible": true
+    },
+    {
+      "id": "130:1574",
+      "parentId": "130:1537",
+      "characters": "성수동 전시 포스터",
+      "x": 50,
+      "y": 371,
+      "width": 110,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1577",
+      "parentId": "130:1537",
+      "characters": "4",
+      "x": 20,
+      "y": 412,
+      "width": 22,
+      "height": 22,
+      "visible": true
+    },
+    {
+      "id": "130:1578",
+      "parentId": "130:1537",
+      "characters": "부산 밀면 세트",
+      "x": 50,
+      "y": 413,
+      "width": 84,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1581",
+      "parentId": "130:1537",
+      "characters": "5",
+      "x": 20,
+      "y": 454,
+      "width": 22,
+      "height": 22,
+      "visible": true
+    },
+    {
+      "id": "130:1582",
+      "parentId": "130:1537",
+      "characters": "제주 감귤 직송",
+      "x": 50,
+      "y": 455,
+      "width": 84,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1586",
+      "parentId": "130:1537",
+      "characters": "키 보 드",
+      "x": 0,
+      "y": 690,
+      "width": 402,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1587",
+      "parentId": "130:1537",
+      "characters": "※ 키보드가 올라오면 탭바는 가려짐",
+      "x": 16,
+      "y": 550,
+      "width": 148,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1589",
+      "parentId": "130:1588",
+      "characters": "9:41",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1593",
+      "parentId": "130:1588",
+      "characters": "카테고리",
+      "x": 60,
+      "y": 68,
+      "width": 67,
+      "height": 26,
+      "visible": true
+    },
+    {
+      "id": "130:1598",
+      "parentId": "130:1588",
+      "characters": "카테고리 검색",
+      "x": 56,
+      "y": 127,
+      "width": 75,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1601",
+      "parentId": "130:1588",
+      "characters": "추천",
+      "x": 0,
+      "y": 175,
+      "width": 104,
+      "height": 54,
+      "visible": true
+    },
+    {
+      "id": "130:1604",
+      "parentId": "130:1588",
+      "characters": "K-푸드",
+      "x": 0,
+      "y": 229,
+      "width": 104,
+      "height": 54,
+      "visible": true
+    },
+    {
+      "id": "130:1605",
+      "parentId": "130:1588",
+      "characters": "굿즈 · MD",
+      "x": 0,
+      "y": 283,
+      "width": 104,
+      "height": 54,
+      "visible": true
+    },
+    {
+      "id": "130:1606",
+      "parentId": "130:1588",
+      "characters": "뷰티",
+      "x": 0,
+      "y": 337,
+      "width": 104,
+      "height": 54,
+      "visible": true
+    },
+    {
+      "id": "130:1607",
+      "parentId": "130:1588",
+      "characters": "패션",
+      "x": 0,
+      "y": 391,
+      "width": 104,
+      "height": 54,
+      "visible": true
+    },
+    {
+      "id": "130:1608",
+      "parentId": "130:1588",
+      "characters": "리빙",
+      "x": 0,
+      "y": 445,
+      "width": 104,
+      "height": 54,
+      "visible": true
+    },
+    {
+      "id": "130:1609",
+      "parentId": "130:1588",
+      "characters": "여행 · 숙박",
+      "x": 0,
+      "y": 499,
+      "width": 104,
+      "height": 54,
+      "visible": true
+    },
+    {
+      "id": "130:1610",
+      "parentId": "130:1588",
+      "characters": "티켓 · 체험",
+      "x": 0,
+      "y": 553,
+      "width": 104,
+      "height": 54,
+      "visible": true
+    },
+    {
+      "id": "130:1611",
+      "parentId": "130:1588",
+      "characters": "K-푸드",
+      "x": 124,
+      "y": 192,
+      "width": 43,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1612",
+      "parentId": "130:1588",
+      "characters": "전체 보기",
+      "x": 339,
+      "y": 195,
+      "width": 43,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1614",
+      "parentId": "130:1588",
+      "characters": "어묵 · 수산",
+      "x": 110,
+      "y": 294,
+      "width": 88,
+      "height": 28,
+      "visible": true
+    },
+    {
+      "id": "130:1616",
+      "parentId": "130:1588",
+      "characters": "밀키트",
+      "x": 202,
+      "y": 294,
+      "width": 88,
+      "height": 28,
+      "visible": true
+    },
+    {
+      "id": "130:1618",
+      "parentId": "130:1588",
+      "characters": "반찬 · 김치",
+      "x": 294,
+      "y": 294,
+      "width": 88,
+      "height": 28,
+      "visible": true
+    },
+    {
+      "id": "130:1620",
+      "parentId": "130:1588",
+      "characters": "과일 · 청과",
+      "x": 110,
+      "y": 402,
+      "width": 88,
+      "height": 28,
+      "visible": true
+    },
+    {
+      "id": "130:1622",
+      "parentId": "130:1588",
+      "characters": "디저트",
+      "x": 202,
+      "y": 402,
+      "width": 88,
+      "height": 28,
+      "visible": true
+    },
+    {
+      "id": "130:1624",
+      "parentId": "130:1588",
+      "characters": "음료 · 차",
+      "x": 294,
+      "y": 402,
+      "width": 88,
+      "height": 28,
+      "visible": true
+    },
+    {
+      "id": "130:1626",
+      "parentId": "130:1588",
+      "characters": "전통주",
+      "x": 110,
+      "y": 510,
+      "width": 88,
+      "height": 28,
+      "visible": true
+    },
+    {
+      "id": "130:1628",
+      "parentId": "130:1588",
+      "characters": "지역 특산",
+      "x": 202,
+      "y": 510,
+      "width": 88,
+      "height": 28,
+      "visible": true
+    },
+    {
+      "id": "130:1630",
+      "parentId": "130:1588",
+      "characters": "선물 세트",
+      "x": 294,
+      "y": 510,
+      "width": 88,
+      "height": 28,
+      "visible": true
+    },
+    {
+      "id": "130:1632",
+      "parentId": "130:1588",
+      "characters": "지금 K-푸드 라이브 3개 진행 중",
+      "x": 124,
+      "y": 584,
+      "width": 154,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1634",
+      "parentId": "130:1588",
+      "characters": "라이브 보러가기",
+      "x": 124,
+      "y": 612,
+      "width": 258,
+      "height": 44,
+      "visible": true
+    },
+    {
+      "id": "130:1640",
+      "parentId": "130:1588",
+      "characters": "지도",
+      "x": 0.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1644",
+      "parentId": "130:1588",
+      "characters": "매거진",
+      "x": 100.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1648",
+      "parentId": "130:1588",
+      "characters": "라이브",
+      "x": 201.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1652",
+      "parentId": "130:1588",
+      "characters": "마이",
+      "x": 301.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1655",
+      "parentId": "130:1654",
+      "characters": "9:41",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1663",
+      "parentId": "130:1654",
+      "characters": "어묵",
+      "x": 88,
+      "y": 78,
+      "width": 26,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1667",
+      "parentId": "130:1654",
+      "characters": "취소",
+      "x": 326,
+      "y": 62,
+      "width": 60,
+      "height": 48,
+      "visible": true
+    },
+    {
+      "id": "130:1669",
+      "parentId": "130:1654",
+      "characters": "전체",
+      "x": 16,
+      "y": 124,
+      "width": 56,
+      "height": 32,
+      "visible": true
+    },
+    {
+      "id": "130:1671",
+      "parentId": "130:1654",
+      "characters": "라이브 중",
+      "x": 80,
+      "y": 124,
+      "width": 95,
+      "height": 32,
+      "visible": true
+    },
+    {
+      "id": "130:1673",
+      "parentId": "130:1654",
+      "characters": "예정",
+      "x": 183,
+      "y": 124,
+      "width": 56,
+      "height": 32,
+      "visible": true
+    },
+    {
+      "id": "130:1675",
+      "parentId": "130:1654",
+      "characters": "다시보기",
+      "x": 247,
+      "y": 124,
+      "width": 82,
+      "height": 32,
+      "visible": true
+    },
+    {
+      "id": "130:1676",
+      "parentId": "130:1654",
+      "characters": "&#39;어묵&#39; 검색 결과 24건",
+      "x": 20,
+      "y": 176,
+      "width": 116,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1678",
+      "parentId": "130:1654",
+      "characters": "인기순",
+      "x": 318,
+      "y": 176,
+      "width": 31,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1684",
+      "parentId": "130:1654",
+      "characters": "LIVE",
+      "x": 24,
+      "y": 222,
+      "width": 44,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1686",
+      "parentId": "130:1654",
+      "characters": "1.2만",
+      "x": 24,
+      "y": 361,
+      "width": 60,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1687",
+      "parentId": "130:1654",
+      "characters": "MBN LIVE",
+      "x": 26,
+      "y": 398,
+      "width": 45,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1688",
+      "parentId": "130:1654",
+      "characters": "전현무계획 부산 반건조 오징어 · 어묵 세트",
+      "x": 26,
+      "y": 416,
+      "width": 155,
+      "height": 36,
+      "visible": true
+    },
+    {
+      "id": "130:1689",
+      "parentId": "130:1654",
+      "characters": "29%",
+      "x": 26,
+      "y": 456,
+      "width": 28,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1690",
+      "parentId": "130:1654",
+      "characters": "19,900원",
+      "x": 60,
+      "y": 456,
+      "width": 55,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1694",
+      "parentId": "130:1654",
+      "characters": "LIVE",
+      "x": 211,
+      "y": 222,
+      "width": 44,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1696",
+      "parentId": "130:1654",
+      "characters": "8,420",
+      "x": 211,
+      "y": 361,
+      "width": 60,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1697",
+      "parentId": "130:1654",
+      "characters": "MBN LIVE",
+      "x": 213,
+      "y": 398,
+      "width": 45,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1698",
+      "parentId": "130:1654",
+      "characters": "부산 삼진어묵 명가 골라담기",
+      "x": 213,
+      "y": 416,
+      "width": 155,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1699",
+      "parentId": "130:1654",
+      "characters": "35%",
+      "x": 213,
+      "y": 456,
+      "width": 28,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1700",
+      "parentId": "130:1654",
+      "characters": "12,900원",
+      "x": 247,
+      "y": 456,
+      "width": 55,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1704",
+      "parentId": "130:1654",
+      "characters": "예정",
+      "x": 24,
+      "y": 508,
+      "width": 52,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1706",
+      "parentId": "130:1654",
+      "characters": "오후 8시",
+      "x": 24,
+      "y": 647,
+      "width": 60,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1707",
+      "parentId": "130:1654",
+      "characters": "MBN GUIDE",
+      "x": 26,
+      "y": 684,
+      "width": 54,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1708",
+      "parentId": "130:1654",
+      "characters": "수제 어묵바 10종 선물세트",
+      "x": 26,
+      "y": 702,
+      "width": 155,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1709",
+      "parentId": "130:1654",
+      "characters": "15%",
+      "x": 26,
+      "y": 742,
+      "width": 28,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1710",
+      "parentId": "130:1654",
+      "characters": "24,000원",
+      "x": 60,
+      "y": 742,
+      "width": 55,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1714",
+      "parentId": "130:1654",
+      "characters": "예정",
+      "x": 211,
+      "y": 508,
+      "width": 52,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1716",
+      "parentId": "130:1654",
+      "characters": "내일 7시",
+      "x": 211,
+      "y": 647,
+      "width": 60,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1717",
+      "parentId": "130:1654",
+      "characters": "MBN GUIDE",
+      "x": 213,
+      "y": 684,
+      "width": 54,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1718",
+      "parentId": "130:1654",
+      "characters": "부산 어묵 고로케 냉동 세트",
+      "x": 213,
+      "y": 702,
+      "width": 155,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1719",
+      "parentId": "130:1654",
+      "characters": "20%",
+      "x": 213,
+      "y": 742,
+      "width": 28,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1720",
+      "parentId": "130:1654",
+      "characters": "16,500원",
+      "x": 247,
+      "y": 742,
+      "width": 55,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1727",
+      "parentId": "130:1654",
+      "characters": "지도",
+      "x": 0.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1731",
+      "parentId": "130:1654",
+      "characters": "매거진",
+      "x": 100.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1735",
+      "parentId": "130:1654",
+      "characters": "라이브",
+      "x": 201.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1739",
+      "parentId": "130:1654",
+      "characters": "마이",
+      "x": 301.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1743",
+      "parentId": "130:1741",
+      "characters": "라 이 브 영 상 영 역",
+      "x": 0,
+      "y": 380,
+      "width": 402,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1746",
+      "parentId": "130:1741",
+      "characters": "9:41",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1750",
+      "parentId": "130:1741",
+      "characters": "MBN 라이브",
+      "x": 62,
+      "y": 68,
+      "width": 69,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1751",
+      "parentId": "130:1741",
+      "characters": "부산 어묵 명가 특집",
+      "x": 62,
+      "y": 86,
+      "width": 81,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1753",
+      "parentId": "130:1741",
+      "characters": "팔로우",
+      "x": 166,
+      "y": 72,
+      "width": 54,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "id": "130:1755",
+      "parentId": "130:1741",
+      "characters": "LIVE",
+      "x": 234,
+      "y": 72,
+      "width": 44,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "id": "130:1757",
+      "parentId": "130:1741",
+      "characters": "1.2만",
+      "x": 284,
+      "y": 72,
+      "width": 60,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "id": "130:1762",
+      "parentId": "130:1741",
+      "characters": "2.4만",
+      "x": 336,
+      "y": 500,
+      "width": 60,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1768",
+      "parentId": "130:1741",
+      "characters": "공유",
+      "x": 336,
+      "y": 572,
+      "width": 60,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1772",
+      "parentId": "130:1741",
+      "characters": "알림",
+      "x": 336,
+      "y": 644,
+      "width": 60,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1773",
+      "parentId": "130:1741",
+      "characters": "YUJIN2",
+      "x": 20,
+      "y": 626,
+      "width": 39,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1774",
+      "parentId": "130:1741",
+      "characters": "지금 주문하면 오늘 발송인가요?",
+      "x": 78,
+      "y": 626,
+      "width": 145,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1775",
+      "parentId": "130:1741",
+      "characters": "@준KUJIN2",
+      "x": 20,
+      "y": 656,
+      "width": 61,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1776",
+      "parentId": "130:1741",
+      "characters": "어묵 종류 알려주세요",
+      "x": 94,
+      "y": 656,
+      "width": 96,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1777",
+      "parentId": "130:1741",
+      "characters": "글로벌LIVE",
+      "x": 20,
+      "y": 686,
+      "width": 54,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1778",
+      "parentId": "130:1741",
+      "characters": "해외 배송 되나요?",
+      "x": 86,
+      "y": 686,
+      "width": 81,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1782",
+      "parentId": "130:1741",
+      "characters": "1/3",
+      "x": 24,
+      "y": 726,
+      "width": 30,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1783",
+      "parentId": "130:1741",
+      "characters": "전현무계획 부산 어묵 10종 세트",
+      "x": 88,
+      "y": 730,
+      "width": 190,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1784",
+      "parentId": "130:1741",
+      "characters": "29% 19,900원",
+      "x": 88,
+      "y": 754,
+      "width": 86,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1786",
+      "parentId": "130:1741",
+      "characters": "구매하기",
+      "x": 292,
+      "y": 734,
+      "width": 82,
+      "height": 36,
+      "visible": true
+    },
+    {
+      "id": "130:1788",
+      "parentId": "130:1741",
+      "characters": "메시지 보내기",
+      "x": 36,
+      "y": 812,
+      "width": 69,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1793",
+      "parentId": "130:1741",
+      "characters": "※ 몰입 화면이라 탭바 숨김",
+      "x": 20,
+      "y": 856,
+      "width": 111,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1797",
+      "parentId": "130:1741",
+      "characters": "리뷰",
+      "x": 358,
+      "y": 116,
+      "width": 21,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1800",
+      "parentId": "130:1798",
+      "characters": "라 이 브 영 상 (축소)",
+      "x": 0,
+      "y": 140,
+      "width": 402,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1801",
+      "parentId": "130:1798",
+      "characters": "9:41",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1805",
+      "parentId": "130:1798",
+      "characters": "MBN 라이브",
+      "x": 58,
+      "y": 74,
+      "width": 64,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1807",
+      "parentId": "130:1798",
+      "characters": "LIVE",
+      "x": 214,
+      "y": 70,
+      "width": 44,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "id": "130:1811",
+      "parentId": "130:1798",
+      "characters": "방송 상품 3",
+      "x": 20,
+      "y": 332,
+      "width": 86,
+      "height": 26,
+      "visible": true
+    },
+    {
+      "id": "130:1815",
+      "parentId": "130:1798",
+      "characters": "1",
+      "x": 16,
+      "y": 432,
+      "width": 20,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1818",
+      "parentId": "130:1798",
+      "characters": "방송 중",
+      "x": 42,
+      "y": 392,
+      "width": 56,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1819",
+      "parentId": "130:1798",
+      "characters": "전현무계획 부산 어묵 10종 세트",
+      "x": 152,
+      "y": 398,
+      "width": 160,
+      "height": 36,
+      "visible": true
+    },
+    {
+      "id": "130:1820",
+      "parentId": "130:1798",
+      "characters": "27,900원",
+      "x": 152,
+      "y": 440,
+      "width": 44,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1821",
+      "parentId": "130:1798",
+      "characters": "29%",
+      "x": 152,
+      "y": 460,
+      "width": 30,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1822",
+      "parentId": "130:1798",
+      "characters": "19,900원",
+      "x": 190,
+      "y": 460,
+      "width": 59,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1824",
+      "parentId": "130:1798",
+      "characters": "구매",
+      "x": 316,
+      "y": 426,
+      "width": 66,
+      "height": 34,
+      "visible": true
+    },
+    {
+      "id": "130:1826",
+      "parentId": "130:1798",
+      "characters": "2",
+      "x": 16,
+      "y": 556,
+      "width": 20,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1828",
+      "parentId": "130:1798",
+      "characters": "삼진어묵 명가 골라담기 8종",
+      "x": 152,
+      "y": 522,
+      "width": 160,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1829",
+      "parentId": "130:1798",
+      "characters": "19,900원",
+      "x": 152,
+      "y": 564,
+      "width": 44,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1830",
+      "parentId": "130:1798",
+      "characters": "35%",
+      "x": 152,
+      "y": 584,
+      "width": 30,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1831",
+      "parentId": "130:1798",
+      "characters": "12,900원",
+      "x": 190,
+      "y": 584,
+      "width": 59,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1833",
+      "parentId": "130:1798",
+      "characters": "구매",
+      "x": 316,
+      "y": 550,
+      "width": 66,
+      "height": 34,
+      "visible": true
+    },
+    {
+      "id": "130:1835",
+      "parentId": "130:1798",
+      "characters": "3",
+      "x": 16,
+      "y": 680,
+      "width": 20,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1837",
+      "parentId": "130:1798",
+      "characters": "수제 어묵바 10종 선물세트",
+      "x": 152,
+      "y": 646,
+      "width": 160,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1838",
+      "parentId": "130:1798",
+      "characters": "28,000원",
+      "x": 152,
+      "y": 688,
+      "width": 44,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1839",
+      "parentId": "130:1798",
+      "characters": "15%",
+      "x": 152,
+      "y": 708,
+      "width": 30,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1840",
+      "parentId": "130:1798",
+      "characters": "24,000원",
+      "x": 190,
+      "y": 708,
+      "width": 59,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1842",
+      "parentId": "130:1798",
+      "characters": "구매",
+      "x": 316,
+      "y": 674,
+      "width": 66,
+      "height": 34,
+      "visible": true
+    },
+    {
+      "id": "130:1845",
+      "parentId": "130:1798",
+      "characters": "장바구니 보기 (2)",
+      "x": 16,
+      "y": 786,
+      "width": 370,
+      "height": 50,
+      "visible": true
+    },
+    {
+      "id": "130:1846",
+      "parentId": "130:1798",
+      "characters": "※ 몰입 화면이라 탭바 숨김",
+      "x": 20,
+      "y": 848,
+      "width": 111,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1848",
+      "parentId": "130:1847",
+      "characters": "9:41",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1852",
+      "parentId": "130:1847",
+      "characters": "리뷰",
+      "x": 56,
+      "y": 68,
+      "width": 34,
+      "height": 26,
+      "visible": true
+    },
+    {
+      "id": "130:1854",
+      "parentId": "130:1847",
+      "characters": "4.8",
+      "x": 20,
+      "y": 138,
+      "width": 49,
+      "height": 45,
+      "visible": true
+    },
+    {
+      "id": "130:1865",
+      "parentId": "130:1847",
+      "characters": "리뷰 1,284개",
+      "x": 84,
+      "y": 174,
+      "width": 66,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1866",
+      "parentId": "130:1847",
+      "characters": "5점",
+      "x": 214,
+      "y": 140,
+      "width": 15,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1869",
+      "parentId": "130:1847",
+      "characters": "78%",
+      "x": 356,
+      "y": 140,
+      "width": 21,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1870",
+      "parentId": "130:1847",
+      "characters": "4점",
+      "x": 214,
+      "y": 158,
+      "width": 15,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1873",
+      "parentId": "130:1847",
+      "characters": "12%",
+      "x": 356,
+      "y": 158,
+      "width": 21,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1874",
+      "parentId": "130:1847",
+      "characters": "3점",
+      "x": 214,
+      "y": 176,
+      "width": 15,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1877",
+      "parentId": "130:1847",
+      "characters": "6%",
+      "x": 356,
+      "y": 176,
+      "width": 15,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1878",
+      "parentId": "130:1847",
+      "characters": "2점",
+      "x": 214,
+      "y": 194,
+      "width": 15,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1881",
+      "parentId": "130:1847",
+      "characters": "4%",
+      "x": 356,
+      "y": 194,
+      "width": 15,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1884",
+      "parentId": "130:1847",
+      "characters": "최신순",
+      "x": 32,
+      "y": 248,
+      "width": 34,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1888",
+      "parentId": "130:1847",
+      "characters": "사진 리뷰만",
+      "x": 116,
+      "y": 240,
+      "width": 96,
+      "height": 32,
+      "visible": true
+    },
+    {
+      "id": "130:1890",
+      "parentId": "130:1847",
+      "characters": "니체송",
+      "x": 62,
+      "y": 293,
+      "width": 36,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1901",
+      "parentId": "130:1847",
+      "characters": "2026.08.06",
+      "x": 327,
+      "y": 294,
+      "width": 55,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1902",
+      "parentId": "130:1847",
+      "characters": "해외배송도 빨리 왔어요! 어묵 상태도 좋고 방송에서 본 그대로였습니다.",
+      "x": 20,
+      "y": 340,
+      "width": 362,
+      "height": 36,
+      "visible": true
+    },
+    {
+      "id": "130:1905",
+      "parentId": "130:1847",
+      "characters": "10종 세트 · 1개",
+      "x": 20,
+      "y": 490,
+      "width": 73,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1908",
+      "parentId": "130:1847",
+      "characters": "도움돼요 12",
+      "x": 340,
+      "y": 489,
+      "width": 56,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1911",
+      "parentId": "130:1847",
+      "characters": "Yuki",
+      "x": 62,
+      "y": 525,
+      "width": 28,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1922",
+      "parentId": "130:1847",
+      "characters": "2026.08.04",
+      "x": 327,
+      "y": 526,
+      "width": 55,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1923",
+      "parentId": "130:1847",
+      "characters": "일본에서 주문했는데 포장이 꼼꼼했어요. 재구매 의사 있습니다.",
+      "x": 20,
+      "y": 572,
+      "width": 362,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1926",
+      "parentId": "130:1847",
+      "characters": "8종 골라담기",
+      "x": 20,
+      "y": 722,
+      "width": 60,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1929",
+      "parentId": "130:1847",
+      "characters": "도움돼요 8",
+      "x": 340,
+      "y": 721,
+      "width": 50,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1932",
+      "parentId": "130:1847",
+      "characters": "※ 상품 상세에서 &#39;리뷰 더보기&#39; 탭 시 진입",
+      "x": 20,
+      "y": 762,
+      "width": 170,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1938",
+      "parentId": "130:1847",
+      "characters": "지도",
+      "x": 0.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1942",
+      "parentId": "130:1847",
+      "characters": "매거진",
+      "x": 100.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1946",
+      "parentId": "130:1847",
+      "characters": "라이브",
+      "x": 201.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1950",
+      "parentId": "130:1847",
+      "characters": "마이",
+      "x": 301.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1954",
+      "parentId": "130:1952",
+      "characters": "라 이 브 영 상",
+      "x": 0,
+      "y": 400,
+      "width": 102,
+      "height": 40,
+      "visible": true
+    },
+    {
+      "id": "130:1955",
+      "parentId": "130:1952",
+      "characters": "9:41",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1960",
+      "parentId": "130:1952",
+      "characters": "어두워진 라이브 화면 탭하면 닫힘",
+      "x": 0,
+      "y": 400,
+      "width": 102,
+      "height": 80,
+      "visible": true
+    },
+    {
+      "id": "130:1963",
+      "parentId": "130:1952",
+      "characters": "리뷰",
+      "x": 126,
+      "y": 62,
+      "width": 34,
+      "height": 26,
+      "visible": true
+    },
+    {
+      "id": "130:1969",
+      "parentId": "130:1952",
+      "characters": "방송 중",
+      "x": 126,
+      "y": 122,
+      "width": 44,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1970",
+      "parentId": "130:1952",
+      "characters": "전현무계획 부산 어묵 10종 세트",
+      "x": 184,
+      "y": 124,
+      "width": 190,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1971",
+      "parentId": "130:1952",
+      "characters": "29% 19,900원",
+      "x": 184,
+      "y": 152,
+      "width": 79,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1973",
+      "parentId": "130:1952",
+      "characters": "4.8",
+      "x": 126,
+      "y": 204,
+      "width": 43,
+      "height": 40,
+      "visible": true
+    },
+    {
+      "id": "130:1984",
+      "parentId": "130:1952",
+      "characters": "리뷰 1,284개",
+      "x": 180,
+      "y": 232,
+      "width": 61,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1985",
+      "parentId": "130:1952",
+      "characters": "5점",
+      "x": 126,
+      "y": 258,
+      "width": 15,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1988",
+      "parentId": "130:1952",
+      "characters": "78%",
+      "x": 322,
+      "y": 258,
+      "width": 21,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1989",
+      "parentId": "130:1952",
+      "characters": "4점",
+      "x": 126,
+      "y": 274,
+      "width": 15,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1992",
+      "parentId": "130:1952",
+      "characters": "12%",
+      "x": 322,
+      "y": 274,
+      "width": 21,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1993",
+      "parentId": "130:1952",
+      "characters": "3점",
+      "x": 126,
+      "y": 290,
+      "width": 15,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1996",
+      "parentId": "130:1952",
+      "characters": "6%",
+      "x": 322,
+      "y": 290,
+      "width": 15,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1999",
+      "parentId": "130:1952",
+      "characters": "최신순",
+      "x": 137,
+      "y": 342,
+      "width": 31,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:2003",
+      "parentId": "130:1952",
+      "characters": "사진 리뷰만",
+      "x": 216,
+      "y": 334,
+      "width": 88,
+      "height": 30,
+      "visible": true
+    },
+    {
+      "id": "130:2005",
+      "parentId": "130:1952",
+      "characters": "니체송",
+      "x": 164,
+      "y": 389,
+      "width": 34,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:2016",
+      "parentId": "130:1952",
+      "characters": "08.06",
+      "x": 353,
+      "y": 390,
+      "width": 25,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2017",
+      "parentId": "130:1952",
+      "characters": "해외배송도 빨리 왔어요! 방송에서 본 그대로였습니다.",
+      "x": 126,
+      "y": 430,
+      "width": 252,
+      "height": 34,
+      "visible": true
+    },
+    {
+      "id": "130:2020",
+      "parentId": "130:1952",
+      "characters": "10종 세트 · 1개",
+      "x": 126,
+      "y": 566,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2023",
+      "parentId": "130:1952",
+      "characters": "도움돼요 12",
+      "x": 336,
+      "y": 565,
+      "width": 51,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2026",
+      "parentId": "130:1952",
+      "characters": "Yuki",
+      "x": 164,
+      "y": 597,
+      "width": 25,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:2037",
+      "parentId": "130:1952",
+      "characters": "08.04",
+      "x": 353,
+      "y": 598,
+      "width": 25,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2038",
+      "parentId": "130:1952",
+      "characters": "일본에서 주문했는데 포장이 꼼꼼했어요. 재구매 의사 있습니다.",
+      "x": 126,
+      "y": 638,
+      "width": 252,
+      "height": 34,
+      "visible": true
+    },
+    {
+      "id": "130:2041",
+      "parentId": "130:1952",
+      "characters": "8종 골라담기",
+      "x": 126,
+      "y": 774,
+      "width": 54,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2044",
+      "parentId": "130:1952",
+      "characters": "도움돼요 8",
+      "x": 336,
+      "y": 773,
+      "width": 45,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2050",
+      "parentId": "130:1952",
+      "characters": "전체 리뷰 1,284개 보기",
+      "x": 126,
+      "y": 806,
+      "width": 252,
+      "height": 46,
+      "visible": true
+    },
+    {
+      "id": "130:2051",
+      "parentId": "130:1952",
+      "characters": "※ 드로어 폭 300 (화면의 75%)",
+      "x": 126,
+      "y": 858,
+      "width": 117,
+      "height": 13,
+      "visible": true
+    },
+    {
+      "id": "130:2053",
+      "parentId": "130:2052",
+      "characters": "9:41",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:2059",
+      "parentId": "130:2052",
+      "characters": "브랜드, 상품, 방송 검색",
+      "x": 56,
+      "y": 77,
+      "width": 124,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:2064",
+      "parentId": "130:2052",
+      "characters": "3",
+      "x": 334,
+      "y": 68,
+      "width": 16,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:2075",
+      "parentId": "130:2052",
+      "characters": "전체",
+      "x": 1,
+      "y": 172,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2081",
+      "parentId": "130:2052",
+      "characters": "K-푸드",
+      "x": 68,
+      "y": 172,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2086",
+      "parentId": "130:2052",
+      "characters": "굿즈",
+      "x": 135,
+      "y": 172,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2092",
+      "parentId": "130:2052",
+      "characters": "뷰티",
+      "x": 202,
+      "y": 172,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2096",
+      "parentId": "130:2052",
+      "characters": "여행",
+      "x": 269,
+      "y": 172,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2101",
+      "parentId": "130:2052",
+      "characters": "티켓",
+      "x": 336,
+      "y": 172,
+      "width": 66,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2103",
+      "parentId": "130:2052",
+      "characters": "지금 인기 라이브",
+      "x": 20,
+      "y": 218,
+      "width": 111,
+      "height": 23,
+      "visible": true
+    },
+    {
+      "id": "130:2104",
+      "parentId": "130:2052",
+      "characters": "더보기",
+      "x": 341,
+      "y": 222,
+      "width": 31,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:2110",
+      "parentId": "130:2052",
+      "characters": "LIVE",
+      "x": 24,
+      "y": 256,
+      "width": 42,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:2112",
+      "parentId": "130:2052",
+      "characters": "1.2만",
+      "x": 24,
+      "y": 538,
+      "width": 58,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:2113",
+      "parentId": "130:2052",
+      "characters": "전현무계획 부산 반건조 오징어 세트",
+      "x": 26,
+      "y": 578,
+      "width": 132,
+      "height": 36,
+      "visible": true
+    },
+    {
+      "id": "130:2114",
+      "parentId": "130:2052",
+      "characters": "MBN LIVE",
+      "x": 26,
+      "y": 620,
+      "width": 45,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2115",
+      "parentId": "130:2052",
+      "characters": "29% 19,900원",
+      "x": 26,
+      "y": 636,
+      "width": 86,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:2117",
+      "parentId": "130:2052",
+      "characters": "8,420",
+      "x": 184,
+      "y": 538,
+      "width": 58,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:2118",
+      "parentId": "130:2052",
+      "characters": "한일가왕 공연 굿즈 단독 예약",
+      "x": 255,
+      "y": 578,
+      "width": 132,
+      "height": 36,
+      "visible": true
+    },
+    {
+      "id": "130:2119",
+      "parentId": "130:2052",
+      "characters": "MBN MUSIC",
+      "x": 255,
+      "y": 620,
+      "width": 55,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2120",
+      "parentId": "130:2052",
+      "characters": "15% 34,000원",
+      "x": 255,
+      "y": 636,
+      "width": 86,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:2123",
+      "parentId": "130:2052",
+      "characters": "알림 신청하고 특가 소식 받기",
+      "x": 76,
+      "y": 688,
+      "width": 156,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:2124",
+      "parentId": "130:2052",
+      "characters": "라이브 시작 10분 전에 알려드려요",
+      "x": 76,
+      "y": 708,
+      "width": 154,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:2128",
+      "parentId": "130:2052",
+      "characters": "오늘의 특가",
+      "x": 20,
+      "y": 772,
+      "width": 78,
+      "height": 23,
+      "visible": true
+    },
+    {
+      "id": "130:2129",
+      "parentId": "130:2052",
+      "characters": "더보기",
+      "x": 341,
+      "y": 776,
+      "width": 31,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:2134",
+      "parentId": "130:2052",
+      "characters": "특가",
+      "x": 24,
+      "y": 810,
+      "width": 38,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:2135",
+      "parentId": "130:2052",
+      "characters": "부산 어묵 세트",
+      "x": 18,
+      "y": 930,
+      "width": 116,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:2136",
+      "parentId": "130:2052",
+      "characters": "12,900원",
+      "x": 18,
+      "y": 952,
+      "width": 55,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:2139",
+      "parentId": "130:2052",
+      "characters": "특가",
+      "x": 152,
+      "y": 810,
+      "width": 38,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:2140",
+      "parentId": "130:2052",
+      "characters": "공연 실물 포토북",
+      "x": 146,
+      "y": 930,
+      "width": 116,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:2141",
+      "parentId": "130:2052",
+      "characters": "24,000원",
+      "x": 146,
+      "y": 952,
+      "width": 55,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:2144",
+      "parentId": "130:2052",
+      "characters": "특가",
+      "x": 280,
+      "y": 810,
+      "width": 38,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:2145",
+      "parentId": "130:2052",
+      "characters": "전시 아트 포스터",
+      "x": 274,
+      "y": 930,
+      "width": 116,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:2146",
+      "parentId": "130:2052",
+      "characters": "9,900원",
+      "x": 274,
+      "y": 952,
+      "width": 47,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:2149",
+      "parentId": "130:2052",
+      "characters": "특가",
+      "x": 408,
+      "y": 810,
+      "width": 38,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:2150",
+      "parentId": "130:2052",
+      "characters": "제주 감귤 박스",
+      "x": 402,
+      "y": 930,
+      "width": 116,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:2151",
+      "parentId": "130:2052",
+      "characters": "18,500원",
+      "x": 402,
+      "y": 952,
+      "width": 55,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:2157",
+      "parentId": "130:2052",
+      "characters": "지도",
+      "x": 0.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2161",
+      "parentId": "130:2052",
+      "characters": "매거진",
+      "x": 100.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2165",
+      "parentId": "130:2052",
+      "characters": "라이브",
+      "x": 201.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2169",
+      "parentId": "130:2052",
+      "characters": "마이",
+      "x": 301.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2173",
+      "parentId": "130:2052",
+      "characters": "LIVE",
+      "x": 258,
+      "y": 256,
+      "width": 42,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:2176",
+      "parentId": "130:2174",
+      "characters": "라 이 브 영 상 영 역",
+      "x": 0,
+      "y": 380,
+      "width": 402,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:2179",
+      "parentId": "130:2174",
+      "characters": "9:41",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:2183",
+      "parentId": "130:2174",
+      "characters": "MBN 라이브",
+      "x": 62,
+      "y": 68,
+      "width": 69,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:2184",
+      "parentId": "130:2174",
+      "characters": "부산 어묵 명가 특집",
+      "x": 62,
+      "y": 86,
+      "width": 81,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2186",
+      "parentId": "130:2174",
+      "characters": "팔로우",
+      "x": 166,
+      "y": 72,
+      "width": 54,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "id": "130:2188",
+      "parentId": "130:2174",
+      "characters": "LIVE",
+      "x": 234,
+      "y": 72,
+      "width": 44,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "id": "130:2190",
+      "parentId": "130:2174",
+      "characters": "1.2만",
+      "x": 284,
+      "y": 72,
+      "width": 60,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "id": "130:2195",
+      "parentId": "130:2174",
+      "characters": "2.4만",
+      "x": 336,
+      "y": 500,
+      "width": 60,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2201",
+      "parentId": "130:2174",
+      "characters": "공유",
+      "x": 336,
+      "y": 572,
+      "width": 60,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2205",
+      "parentId": "130:2174",
+      "characters": "알림",
+      "x": 336,
+      "y": 644,
+      "width": 60,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2206",
+      "parentId": "130:2174",
+      "characters": "YUJIN2",
+      "x": 20,
+      "y": 626,
+      "width": 39,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:2207",
+      "parentId": "130:2174",
+      "characters": "지금 주문하면 오늘 발송인가요?",
+      "x": 78,
+      "y": 626,
+      "width": 145,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:2208",
+      "parentId": "130:2174",
+      "characters": "@준KUJIN2",
+      "x": 20,
+      "y": 656,
+      "width": 61,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:2209",
+      "parentId": "130:2174",
+      "characters": "어묵 종류 알려주세요",
+      "x": 94,
+      "y": 656,
+      "width": 96,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:2210",
+      "parentId": "130:2174",
+      "characters": "글로벌LIVE",
+      "x": 20,
+      "y": 686,
+      "width": 54,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:2211",
+      "parentId": "130:2174",
+      "characters": "해외 배송 되나요?",
+      "x": 86,
+      "y": 686,
+      "width": 81,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:2215",
+      "parentId": "130:2174",
+      "characters": "1/3",
+      "x": 24,
+      "y": 726,
+      "width": 30,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:2216",
+      "parentId": "130:2174",
+      "characters": "전현무계획 부산 어묵 10종 세트",
+      "x": 88,
+      "y": 730,
+      "width": 190,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:2217",
+      "parentId": "130:2174",
+      "characters": "29% 19,900원",
+      "x": 88,
+      "y": 754,
+      "width": 86,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:2219",
+      "parentId": "130:2174",
+      "characters": "구매하기",
+      "x": 292,
+      "y": 734,
+      "width": 82,
+      "height": 36,
+      "visible": true
+    },
+    {
+      "id": "130:2221",
+      "parentId": "130:2174",
+      "characters": "메시지 보내기",
+      "x": 36,
+      "y": 812,
+      "width": 69,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:2226",
+      "parentId": "130:2174",
+      "characters": "※ 몰입 화면이라 탭바 숨김",
+      "x": 20,
+      "y": 856,
+      "width": 111,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2230",
+      "parentId": "130:2174",
+      "characters": "리뷰",
+      "x": 358,
+      "y": 116,
+      "width": 21,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:2234",
+      "parentId": "130:2174",
+      "characters": "AD",
+      "x": 24,
+      "y": 126,
+      "width": 22,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2235",
+      "parentId": "130:2174",
+      "characters": "함께 보면 좋은 라이브",
+      "x": 70,
+      "y": 126,
+      "width": 81,
+      "height": 12,
+      "visible": true
+    },
+    {
+      "id": "130:2236",
+      "parentId": "130:2174",
+      "characters": "한일가왕 공연 굿즈 예약",
+      "x": 70,
+      "y": 141,
+      "width": 99,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:2237",
+      "parentId": "130:2174",
+      "characters": "지금 8,420명 시청 중",
+      "x": 70,
+      "y": 156,
+      "width": 70,
+      "height": 11,
+      "visible": true
+    }
+  ]
+}
+

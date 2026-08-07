@@ -4,10 +4,11 @@ import { Button } from './Button'
 
 type Toast = { id: number; message: string }
 type ToastContextValue = { pushToast: (input: { message: string }) => void }
+type ToastProviderProps = PropsWithChildren<{ notificationsLabel?: string; dismissLabel?: string }>
 
 const ToastContext = createContext<ToastContextValue | null>(null)
 
-export function ToastProvider({ children }: PropsWithChildren) {
+export function ToastProvider({ children, notificationsLabel, dismissLabel }: ToastProviderProps) {
   const [toasts, setToasts] = useState<Toast[]>([])
   const dismiss = useCallback((id: number) => {
     setToasts((current) => current.filter((toast) => toast.id !== id))
@@ -25,11 +26,11 @@ export function ToastProvider({ children }: PropsWithChildren) {
   return (
     <ToastContext.Provider value={value}>
       {children}
-      <div className="ui-toast-region" aria-live="polite" aria-label="Notifications">
+      <div className="ui-toast-region" aria-live="polite" aria-label={notificationsLabel}>
         {toasts.map((toast) => (
           <div className="ui-toast" key={toast.id} role="status">
             <span>{toast.message}</span>
-            <Button size="sm" variant="ghost" onClick={() => dismiss(toast.id)} aria-label="Dismiss notification">
+            <Button size="sm" variant="ghost" onClick={() => dismiss(toast.id)} aria-label={dismissLabel}>
               ×
             </Button>
           </div>

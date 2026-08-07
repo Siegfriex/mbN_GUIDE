@@ -7,7 +7,7 @@ export type StorageNamespace = {
 
 export type StorageReadResult<T> =
   | { ok: true; value: T | null }
-  | { ok: false; value: null; reason: 'UNAVAILABLE' | 'PARSE_ERROR' | 'MIGRATION_ERROR' }
+  | { ok: false; value: null; reason: 'UNAVAILABLE' | 'PARSE_ERROR' | 'MIGRATION_ERROR' | 'INVALID_VALUE' }
 
 export type StorageMigration = {
   fromVersion: number
@@ -86,6 +86,18 @@ export function createSafeStorage(
         }
         return { ok: false, value: null, reason: 'PARSE_ERROR' }
       }
+    },
+    getValidated<T>(isValid: (value: unknown) => value is T): StorageReadResult<T> {
+      const result = this.get<unknown>()
+      if (!result.ok || result.value === null) return result as StorageReadResult<T>
+      if (isValid(result.value)) return { ok: true, value: result.value }
+
+      try {
+        storage?.removeItem(storageKey)
+      } catch {
+        // Invalid persisted data must never escape into application state.
+      }
+      return { ok: false, value: null, reason: 'INVALID_VALUE' }
     },
     set<T>(value: T): boolean {
       if (!storage) {

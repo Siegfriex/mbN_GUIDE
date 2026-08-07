@@ -11,6 +11,7 @@ type DialogProps = PropsWithChildren<{
   onClose: () => void
   title: string
   presentation?: DialogPresentation
+  closeLabel: string
 }>
 
 const focusableSelector = [
@@ -22,7 +23,7 @@ const focusableSelector = [
   '[tabindex]:not([tabindex="-1"])',
 ].join(',')
 
-export function Dialog({ isOpen, onClose, title, presentation = 'dialog', children }: DialogProps) {
+export function Dialog({ isOpen, onClose, title, presentation = 'dialog', closeLabel, children }: DialogProps) {
   const dialogRef = useRef<HTMLDivElement>(null)
   const titleId = useId()
 
@@ -88,7 +89,7 @@ export function Dialog({ isOpen, onClose, title, presentation = 'dialog', childr
       >
         <header className="ui-dialog__header">
           <h2 id={titleId}>{title}</h2>
-          <Button variant="ghost" size="sm" onClick={onClose} aria-label="Close dialog">
+          <Button variant="ghost" size="sm" onClick={onClose} aria-label={closeLabel}>
             ×
           </Button>
         </header>

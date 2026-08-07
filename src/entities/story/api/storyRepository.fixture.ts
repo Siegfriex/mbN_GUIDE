@@ -16,7 +16,7 @@ const fixtureStories: Story[] = [
         summary: 'A non-empirical Story fixture for validating the connection between place and editorial context.',
       },
     },
-    articleIds: [],
+    articleIds: ['fixture-riverside-article'],
     placeIds: ['fixture-riverside-stage'],
     liveIds: ['fixture-culture-session'],
     tags: ['demo', 'performance', 'context'],

@@ -42,6 +42,7 @@ export function RootShellPage() {
         isOpen={isSheetOpen}
         onClose={() => setIsSheetOpen(false)}
         title={t('foundation.overlay.title')}
+        closeLabel={t('foundation.overlay.close')}
       >
         <p>{t('foundation.overlay.description')}</p>
         <Button onClick={() => setIsSheetOpen(false)}>{t('foundation.overlay.close')}</Button>

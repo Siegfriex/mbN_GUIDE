@@ -1,0 +1,24 @@
+{
+  "source": "figma",
+  "fileKey": "p4yJxHEYlrNiitXrWAwbbK",
+  "root": {
+    "id": "130:2241",
+    "parentId": null,
+    "type": "section",
+    "name": "Section 3",
+    "x": 37784,
+    "y": 20502,
+    "width": 4602,
+    "height": 2078,
+    "visible": true,
+    "text": null
+  },
+  "captureMode": "WIRE_FRAME_SPATIAL_REFERENCE",
+  "referenceOnly": [
+    "componentArchitecture",
+    "interactionSemantics",
+    "designTokens",
+    "productSemantics"
+  ]
+}
+

@@ -35,3 +35,8 @@ export type LiveSession = {
 export function getLiveContent(session: LiveSession, locale: Locale) {
   return session.localized[locale] ?? session.localized.en
 }
+
+export function getLiveContentResolution(session: LiveSession, locale: Locale) {
+  const servedLocale = session.localized[locale] ? locale : 'en'
+  return { content: getLiveContent(session, locale), requestedLocale: locale, servedLocale, fallbackUsed: servedLocale !== locale }
+}

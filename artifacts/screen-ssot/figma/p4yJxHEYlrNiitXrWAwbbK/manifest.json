@@ -1,0 +1,48 @@
+{
+  "source": "figma",
+  "fileKey": "p4yJxHEYlrNiitXrWAwbbK",
+  "capturedAt": "2026-08-08T00:00:00+09:00",
+  "captureMode": "WIRE_FRAME_SPATIAL_REFERENCE",
+  "nodes": [
+    {
+      "surface": "DISCOVER",
+      "rootNodeId": "130:1310",
+      "name": "Section 2",
+      "screenshotFiles": ["tab2-discover/screens/130-858.png", "tab2-discover/screens/130-940.png"],
+      "geometryFile": "tab2-discover/geometry.json",
+      "nodeTreeFile": "tab2-discover/node-tree.json",
+      "textInventoryFile": "tab2-discover/text-inventory.json"
+    },
+    {
+      "surface": "LIVE",
+      "rootNodeId": "130:2241",
+      "name": "Section 3",
+      "screenshotFiles": ["tab3-live/screens/130-1311.png", "tab3-live/screens/130-2174.png"],
+      "geometryFile": "tab3-live/geometry.json",
+      "nodeTreeFile": "tab3-live/node-tree.json",
+      "textInventoryFile": "tab3-live/text-inventory.json"
+    }
+  ],
+  "sha256": {
+    "tab2-discover/root.json": "b5b29e58bbb10566cbedb77ea286a512c7886a11da4935dd9028e7cc3008c406",
+    "tab2-discover/node-tree.json": "467d24d245f3230c028f26d5ee220267995f736c67dece15b98906d7b698670a",
+    "tab2-discover/text-inventory.json": "af958513fb14dc433e2d64daa687723f0ef79c739833d44cb2763b4c3a4f02ea",
+    "tab2-discover/geometry.json": "b49e35782f235e3ae73ee713bebef8faf9dbad96ccbea1269d7de387d15d1250",
+    "tab2-discover/screens/130-858.png": "ede8e50769882be8809037f4962ef9de72e46dff03171e4199e989fe609eb25f",
+    "tab2-discover/screens/130-940.png": "20953776160f5f31bac34b7ccac193145e1fc356f4571b2d392e1cd43c50902e",
+    "tab3-live/root.json": "8974dd77a8aa2bf76b539c2ff72b3c05cf427502740cb46dc73ee8dc8896ce5e",
+    "tab3-live/node-tree.json": "c144370ce0bb8258fb6a858d4dfee23bb3c3b8ae8d100a63eb32a6582b82c14b",
+    "tab3-live/text-inventory.json": "4596ccfa795dd5813459f3fee09c2588d7d7e1ef8f9793b08802b27438b23af1",
+    "tab3-live/geometry.json": "e8ae01e84dd8abc966ab2a3caf717c1181e5ca7ae45fb80ff84a7e3d2f4e258b",
+    "tab3-live/screens/130-1311.png": "a12ecfe85f4dad3e916346b81ecc93f592407d57cadf858d5186c0345a002323",
+    "tab3-live/screens/130-2174.png": "098af25e321a65e3527dd00e4476fc0fe3f9a67df208cbdd765c79a629ae6c41"
+  },
+  "authority": {
+    "spatialLayout": true,
+    "visibleCopyReference": true,
+    "productSemantics": false,
+    "designTokens": false,
+    "interactionSemantics": false,
+    "componentArchitecture": false
+  }
+}

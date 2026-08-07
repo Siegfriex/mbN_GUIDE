@@ -24,7 +24,7 @@ const fixtureLiveSessions: LiveSession[] = [
     offer: { status: 'unavailable', reason: 'NO_ELIGIBLE_OFFER' },
     placeIds: ['fixture-riverside-stage'],
     articleIds: ['fixture-riverside-article'],
-    offerIds: [],
+    offerIds: ['fixture-riverside-offer'],
     provenance: {
       source: 'editor',
       referenceId: 'fixture:live:culture-session',

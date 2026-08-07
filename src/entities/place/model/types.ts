@@ -53,3 +53,8 @@ export type Place = {
 export function getPlaceContent(place: Place, locale: Locale) {
   return place.localized[locale] ?? place.localized.en
 }
+
+export function getPlaceContentResolution(place: Place, locale: Locale) {
+  const servedLocale = place.localized[locale] ? locale : 'en'
+  return { content: getPlaceContent(place, locale), requestedLocale: locale, servedLocale, fallbackUsed: servedLocale !== locale }
+}

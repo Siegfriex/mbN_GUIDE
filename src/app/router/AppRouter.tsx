@@ -44,7 +44,9 @@ export function AppRouter() {
   }
   if (pathname.startsWith('/place/')) {
     const placeId = decodeRouteId(pathname.slice('/place/'.length))
-    return placeId ? <PlacePage key={placeId} placeId={placeId} /> : <RouteStatePage routeName="Unknown place" />
+    const returnTo = new URLSearchParams(path.split('?')[1] ?? '').get('returnTo')
+    const guideBackground = returnTo?.startsWith('/guide') ? returnTo : null
+    return placeId ? guideBackground ? <><GuidePage locationOverride={guideBackground} /><PlacePage key={placeId} placeId={placeId} presentation="modal" /></> : <PlacePage key={placeId} placeId={placeId} /> : <RouteStatePage routeName="Unknown place" />
   }
   if (pathname === '/discover') {
     return <DiscoverPage />
