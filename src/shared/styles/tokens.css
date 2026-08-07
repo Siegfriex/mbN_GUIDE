@@ -1,0 +1,68 @@
+:root {
+  /* Primitive tokens */
+  --primitive-white: #ffffff;
+  --primitive-ink-950: #16181d;
+  --primitive-ink-700: #454a54;
+  --primitive-ink-500: #69707d;
+  --primitive-slate-100: #eef0f3;
+  --primitive-slate-200: #dfe3e8;
+  --primitive-slate-300: #c8ced6;
+  --primitive-slate-800: #2a2e36;
+  --primitive-indigo-600: #4655c9;
+  --primitive-indigo-700: #3745b1;
+  --primitive-red-600: #b3261e;
+  --primitive-amber-100: #fff3cd;
+  --primitive-amber-800: #725600;
+  --primitive-space-1: 0.25rem;
+  --primitive-space-2: 0.5rem;
+  --primitive-space-3: 0.75rem;
+  --primitive-space-4: 1rem;
+  --primitive-space-5: 1.25rem;
+  --primitive-space-6: 1.5rem;
+  --primitive-space-8: 2rem;
+  --primitive-space-10: 2.5rem;
+  --primitive-radius-sm: 0.5rem;
+  --primitive-radius-md: 0.75rem;
+  --primitive-radius-lg: 1rem;
+  --primitive-radius-full: 999rem;
+  --primitive-shadow-sm: 0 1px 2px rgb(22 24 29 / 8%);
+  --primitive-shadow-md: 0 12px 30px rgb(22 24 29 / 12%);
+  --primitive-duration-fast: 150ms;
+  --primitive-duration-normal: 220ms;
+  --primitive-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Semantic tokens */
+  --color-surface-base: #f7f7f8;
+  --color-surface-raised: var(--primitive-white);
+  --color-surface-muted: var(--primitive-slate-100);
+  --color-text-strong: var(--primitive-ink-950);
+  --color-text: var(--primitive-ink-700);
+  --color-text-muted: var(--primitive-ink-500);
+  --color-accent: var(--primitive-indigo-600);
+  --color-accent-strong: var(--primitive-indigo-700);
+  --color-on-accent: var(--primitive-white);
+  --color-border: var(--primitive-slate-200);
+  --color-focus: var(--primitive-indigo-600);
+  --color-danger: var(--primitive-red-600);
+  --color-notice-bg: var(--primitive-amber-100);
+  --color-notice-text: var(--primitive-amber-800);
+  --space-page-inline: clamp(var(--primitive-space-4), 4vw, var(--primitive-space-8));
+  --space-page-block: clamp(var(--primitive-space-6), 5vw, var(--primitive-space-10));
+  --radius-control: var(--primitive-radius-md);
+  --radius-surface: var(--primitive-radius-lg);
+  --shadow-surface: var(--primitive-shadow-sm);
+  --duration-interactive: var(--primitive-duration-fast);
+  --easing-interactive: var(--primitive-easing-standard);
+
+  /* Component tokens */
+  --button-radius: var(--radius-control);
+  --button-height: 2.75rem;
+  --button-padding-inline: var(--primitive-space-4);
+  --card-background: var(--color-surface-raised);
+  --card-border: var(--color-border);
+  --card-radius: var(--radius-surface);
+  --card-padding: var(--primitive-space-5);
+  --dialog-background: var(--color-surface-raised);
+  --dialog-radius: var(--radius-surface);
+  --dialog-shadow: var(--primitive-shadow-md);
+}
