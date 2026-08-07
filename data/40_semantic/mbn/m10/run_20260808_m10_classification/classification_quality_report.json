@@ -1,0 +1,494 @@
+{
+  "authority": "OBSERVED_MBN_EDITORIAL_LABEL_CONTRACT; HIGH_CONFIDENCE_TAXONOMY_SILVER only",
+  "humanGoldAvailable": false,
+  "docsTaxonomyAvailable": false,
+  "taxonomyLimitation": "No DOCS semantic taxonomy found; labels are observed editorial tokens, not inferred genre classes.",
+  "counts": {
+    "articles": 461,
+    "taxonomyClasses": 58,
+    "confirmed": 461,
+    "provisional": 0,
+    "unknown": 0,
+    "conflict": 0
+  },
+  "metrics": {
+    "accuracy": 1.0,
+    "macroPrecision": 1.0,
+    "macroRecall": 1.0,
+    "macroF1": 1.0,
+    "metricScope": "explicit metadata self-consistency; not external accuracy",
+    "perClass": [
+      {
+        "label": "Movie",
+        "support": 31,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "굿모닝문화",
+        "support": 29,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Music",
+        "support": 28,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Tour List",
+        "support": 27,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Find Dining",
+        "support": 24,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Pet",
+        "support": 24,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Mind Note",
+        "support": 23,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Health Recipe",
+        "support": 20,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Style",
+        "support": 20,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Issue Pick",
+        "support": 18,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Musical",
+        "support": 17,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Overseas Trip",
+        "support": 16,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Travel",
+        "support": 16,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Book",
+        "support": 15,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Cover Story",
+        "support": 14,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Travel News",
+        "support": 12,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Culture",
+        "support": 12,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "AI기상캐스터",
+        "support": 11,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Consumer News",
+        "support": 11,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Gallery",
+        "support": 11,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Book City",
+        "support": 10,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "MBN이 본 신간",
+        "support": 8,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Buzz Buzz",
+        "support": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "현장M",
+        "support": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "남도마실",
+        "support": 5,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "속보",
+        "support": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "신간소개",
+        "support": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "박기자 어디가",
+        "support": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Trend",
+        "support": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Hotel News",
+        "support": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "김도열의 AI 시대 문화 오디세이",
+        "support": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "MBN이 만난 저자",
+        "support": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "MBN이 본 전시",
+        "support": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "뉴스추적",
+        "support": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Season Item",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Travel Trend",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "진료는 의사에게",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "MBN이 만난 에녹",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "MBN이 만난 배우",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "단독",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Cine Interview",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Cover",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "MBN이 만난 인물",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "인사",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Interview",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "MBN이 본 공연",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Stage",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "MBN 인터뷰",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Film",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "공연 소식",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "문화",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "AI Trend",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "남도찰칵",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "여기는 밀라노",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Trend Note",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "Gourmet Interview",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "MBN이 만난 사람",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      },
+      {
+        "label": "신간",
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "authority": "HIGH_CONFIDENCE_TAXONOMY_SILVER"
+      }
+    ]
+  },
+  "checks": {
+    "invalidTaxonomy": 0,
+    "brokenEvidenceFK": 0,
+    "prototypeLeakage": 0,
+    "formulaMismatch": 0
+  },
+  "runtimeSeconds": 1.0629937409976264
+}

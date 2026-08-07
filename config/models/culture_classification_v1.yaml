@@ -1,0 +1,20 @@
+version: culture_classification_v1
+taxonomyAuthority: OBSERVED_MBN_EDITORIAL_LABEL_CONTRACT
+taxonomyDocsAvailable: false
+representation:
+  aggregation: MEAN_NORMALIZED
+  version: m10_body_centroid@1
+fusionWeights:
+  metadata: 0.25
+  bracket: 0.05
+  keyword: 0.10
+  geo: 0.15
+  prototype: 0.30
+  neighbor: 0.15
+recipes:
+  - BALANCED
+  - SEMANTIC_HEAVY
+  - STRUCTURED_HEAVY
+confidenceThreshold: 0.70
+marginThreshold: 0.10
+propagationRounds: 1

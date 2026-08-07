@@ -1,0 +1,584 @@
+taxonomyVersion: observed_editorial_taxonomy_v1
+authority: OBSERVED_MBN_EDITORIAL_LABEL_CONTRACT
+docsTaxonomyAvailable: false
+items:
+- taxonomyId: editorial_001
+  label: AI Trend
+  displayName: AI Trend
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - AI Trend
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_002
+  label: AI기상캐스터
+  displayName: AI기상캐스터
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - AI기상캐스터
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_003
+  label: Book
+  displayName: Book
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Book
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_004
+  label: Book City
+  displayName: Book City
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Book City
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_005
+  label: Buzz Buzz
+  displayName: Buzz Buzz
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Buzz Buzz
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_006
+  label: Cine Interview
+  displayName: Cine Interview
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Cine Interview
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_007
+  label: Consumer News
+  displayName: Consumer News
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Consumer News
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_008
+  label: Cover
+  displayName: Cover
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Cover
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_009
+  label: Cover Story
+  displayName: Cover Story
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Cover Story
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_010
+  label: Culture
+  displayName: Culture
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Culture
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_011
+  label: Film
+  displayName: Film
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Film
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_012
+  label: Find Dining
+  displayName: Find Dining
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Find Dining
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_013
+  label: Gallery
+  displayName: Gallery
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Gallery
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_014
+  label: Gourmet Interview
+  displayName: Gourmet Interview
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Gourmet Interview
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_015
+  label: Health Recipe
+  displayName: Health Recipe
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Health Recipe
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_016
+  label: Hotel News
+  displayName: Hotel News
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Hotel News
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_017
+  label: Interview
+  displayName: Interview
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Interview
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_018
+  label: Issue Pick
+  displayName: Issue Pick
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Issue Pick
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_019
+  label: MBN 인터뷰
+  displayName: MBN 인터뷰
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - MBN 인터뷰
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_020
+  label: MBN이 만난 배우
+  displayName: MBN이 만난 배우
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - MBN이 만난 배우
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_021
+  label: MBN이 만난 사람
+  displayName: MBN이 만난 사람
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - MBN이 만난 사람
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_022
+  label: MBN이 만난 에녹
+  displayName: MBN이 만난 에녹
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - MBN이 만난 에녹
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_023
+  label: MBN이 만난 인물
+  displayName: MBN이 만난 인물
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - MBN이 만난 인물
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_024
+  label: MBN이 만난 저자
+  displayName: MBN이 만난 저자
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - MBN이 만난 저자
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_025
+  label: MBN이 본 공연
+  displayName: MBN이 본 공연
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - MBN이 본 공연
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_026
+  label: MBN이 본 신간
+  displayName: MBN이 본 신간
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - MBN이 본 신간
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_027
+  label: MBN이 본 전시
+  displayName: MBN이 본 전시
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - MBN이 본 전시
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_028
+  label: Mind Note
+  displayName: Mind Note
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Mind Note
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_029
+  label: Movie
+  displayName: Movie
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Movie
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_030
+  label: Music
+  displayName: Music
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Music
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_031
+  label: Musical
+  displayName: Musical
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Musical
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_032
+  label: Overseas Trip
+  displayName: Overseas Trip
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Overseas Trip
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_033
+  label: Pet
+  displayName: Pet
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Pet
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_034
+  label: Season Item
+  displayName: Season Item
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Season Item
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_035
+  label: Stage
+  displayName: Stage
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Stage
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_036
+  label: Style
+  displayName: Style
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Style
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_037
+  label: Tour List
+  displayName: Tour List
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Tour List
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_038
+  label: Travel
+  displayName: Travel
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Travel
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_039
+  label: Travel News
+  displayName: Travel News
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Travel News
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_040
+  label: Travel Trend
+  displayName: Travel Trend
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Travel Trend
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_041
+  label: Trend
+  displayName: Trend
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Trend
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_042
+  label: Trend Note
+  displayName: Trend Note
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - Trend Note
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_043
+  label: 공연 소식
+  displayName: 공연 소식
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 공연 소식
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_044
+  label: 굿모닝문화
+  displayName: 굿모닝문화
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 굿모닝문화
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_045
+  label: 김도열의 AI 시대 문화 오디세이
+  displayName: 김도열의 AI 시대 문화 오디세이
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 김도열의 AI 시대 문화 오디세이
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_046
+  label: 남도마실
+  displayName: 남도마실
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 남도마실
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_047
+  label: 남도찰칵
+  displayName: 남도찰칵
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 남도찰칵
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_048
+  label: 뉴스추적
+  displayName: 뉴스추적
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 뉴스추적
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_049
+  label: 단독
+  displayName: 단독
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 단독
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_050
+  label: 문화
+  displayName: 문화
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 문화
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_051
+  label: 박기자 어디가
+  displayName: 박기자 어디가
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 박기자 어디가
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_052
+  label: 속보
+  displayName: 속보
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 속보
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_053
+  label: 신간
+  displayName: 신간
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 신간
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_054
+  label: 신간소개
+  displayName: 신간소개
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 신간소개
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_055
+  label: 여기는 밀라노
+  displayName: 여기는 밀라노
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 여기는 밀라노
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_056
+  label: 인사
+  displayName: 인사
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 인사
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_057
+  label: 진료는 의사에게
+  displayName: 진료는 의사에게
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 진료는 의사에게
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1
+- taxonomyId: editorial_058
+  label: 현장M
+  displayName: 현장M
+  description: Observed MBN normalized editorial bracket token; no DOCS semantic taxonomy
+    was available.
+  aliases:
+  - 현장M
+  parentId: null
+  status: ACTIVE
+  taxonomyVersion: observed_editorial_taxonomy_v1

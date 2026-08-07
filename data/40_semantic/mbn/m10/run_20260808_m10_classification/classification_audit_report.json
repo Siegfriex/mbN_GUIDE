@@ -1,0 +1,7 @@
+{
+  "audit": "M10_DETERMINISTIC_AUDIT",
+  "articlePkDuplicate": 0,
+  "confirmedWithoutEvidence": 0,
+  "formulaMismatchCount": 0,
+  "auditVerdict": "M10_AUDIT_PASS"
+}

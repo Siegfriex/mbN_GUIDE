@@ -1,0 +1,75 @@
+{
+  "m10Gate": "M10_CLASSIFICATION_READY",
+  "sourceCommit": "e5cd8e69b5b9d081024a369a6afc8fce695db6cf",
+  "m8Commit": "b8e01c38e571790e453b4e3bffd4ac9c6dcb2fdd",
+  "m9Commit": "e5cd8e69b5b9d081024a369a6afc8fce695db6cf",
+  "files": [
+    {
+      "path": "data/40_semantic/mbn/m10/run_20260808_m10_classification/taxonomy_snapshot.yaml",
+      "bytes": 17406,
+      "sha256": "d21867c38118dc4a3848b9133989dda181e6ec17dbc21b4bdf1aa3d22972a699",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m10/run_20260808_m10_classification/m10_completion_report.md",
+      "bytes": 94,
+      "sha256": "272ef7580be99b96b0ff2091fae9feb01816711d36cff58d194f09f6921abf40",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m10/run_20260808_m10_classification/article_classification.parquet",
+      "bytes": 25359,
+      "sha256": "b828751d7982ef556b321db75d747a2f406aa698828d28b11ecdc813f83023a5",
+      "rows": 461
+    },
+    {
+      "path": "data/40_semantic/mbn/m10/run_20260808_m10_classification/m10_final_gate.json",
+      "bytes": 445,
+      "sha256": "9282d36e32cd0000f830addd9f736571d59be5076267ede191bba89bc753372e",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m10/run_20260808_m10_classification/article_classification_evidence.parquet",
+      "bytes": 21985,
+      "sha256": "cd95b681311726c7246eecedd7be90173dddc6a5b04029ee07d9a008ab244ab8",
+      "rows": 461
+    },
+    {
+      "path": "data/40_semantic/mbn/m10/run_20260808_m10_classification/classification_quality_report.json",
+      "bytes": 12121,
+      "sha256": "c6305e6d845fc4d7de7fddba0667b69dcb2a611df4d2af59ea2c1706c793cf23",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m10/run_20260808_m10_classification/taxonomy_prototype_metadata.parquet",
+      "bytes": 6237,
+      "sha256": "95ae82579dd2e3e982ebc3abd30d1e2dff7e30d219e563128f3d87c35c0caa33",
+      "rows": 58
+    },
+    {
+      "path": "data/40_semantic/mbn/m10/run_20260808_m10_classification/classification_seed_articles.parquet",
+      "bytes": 10844,
+      "sha256": "0117bbbc90b5f5ca0c63ea32947f39771063b6122067c622e7f92923fa08323c",
+      "rows": 461
+    },
+    {
+      "path": "data/40_semantic/mbn/m10/run_20260808_m10_classification/article_body_representation.npy",
+      "bytes": 1888384,
+      "sha256": "9216bbc4608a6e6a7877ed02110f3b14dc6c5f892c81d67668e220107c68ba0d",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m10/run_20260808_m10_classification/article_body_representation_metadata.parquet",
+      "bytes": 43545,
+      "sha256": "4013970357711125a3e0a992ac9c6c577975e06c0c1d39b6718c89a17591d488",
+      "rows": 461
+    },
+    {
+      "path": "data/40_semantic/mbn/m10/run_20260808_m10_classification/taxonomy_prototype_embeddings.npy",
+      "bytes": 237696,
+      "sha256": "3eb4cfe2807d6bbbacf1bfa0f9b7a73dff6a1bd2dc9d084286db1ddcb7c1283d",
+      "rows": null
+    }
+  ],
+  "generatedAt": "2026-08-07T20:08:22.702747+00:00"
+}

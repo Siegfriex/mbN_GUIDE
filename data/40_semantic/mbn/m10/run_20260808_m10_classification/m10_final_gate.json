@@ -1,0 +1,19 @@
+{
+  "m10Gate": "M10_CLASSIFICATION_READY",
+  "taxonomyAuthority": "OBSERVED_MBN_EDITORIAL_LABEL_CONTRACT; HIGH_CONFIDENCE_TAXONOMY_SILVER only",
+  "counts": {
+    "articles": 461,
+    "taxonomyClasses": 58,
+    "confirmed": 461,
+    "provisional": 0,
+    "unknown": 0,
+    "conflict": 0
+  },
+  "checks": {
+    "invalidTaxonomy": 0,
+    "brokenEvidenceFK": 0,
+    "prototypeLeakage": 0,
+    "formulaMismatch": 0
+  },
+  "manifestHashMismatch": 0
+}
