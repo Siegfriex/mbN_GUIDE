@@ -1,0 +1,1376 @@
+{
+  "rootNodeId": "130:1310",
+  "text": [
+    {
+      "id": "130:860",
+      "parentId": "130:858",
+      "characters": "8:13",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 22,
+      "visible": true
+    },
+    {
+      "id": "130:866",
+      "parentId": "130:858",
+      "characters": "매거진 검색",
+      "x": 58,
+      "y": 79,
+      "width": 63,
+      "height": 19,
+      "visible": true
+    },
+    {
+      "id": "130:868",
+      "parentId": "130:858",
+      "characters": "검색",
+      "x": 272,
+      "y": 62,
+      "width": 58,
+      "height": 48,
+      "visible": true
+    },
+    {
+      "id": "130:874",
+      "parentId": "130:858",
+      "characters": "2",
+      "x": 372,
+      "y": 60,
+      "width": 18,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:879",
+      "parentId": "130:858",
+      "characters": "HOT 매거진",
+      "x": 42,
+      "y": 140,
+      "width": 92,
+      "height": 26,
+      "visible": true
+    },
+    {
+      "id": "130:882",
+      "parentId": "130:858",
+      "characters": "이미지 1",
+      "x": 16,
+      "y": 236,
+      "width": 250,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:883",
+      "parentId": "130:858",
+      "characters": "[문화] 매거진 1",
+      "x": 32,
+      "y": 340,
+      "width": 218,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:884",
+      "parentId": "130:858",
+      "characters": "조회 1,248",
+      "x": 32,
+      "y": 364,
+      "width": 51,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:887",
+      "parentId": "130:858",
+      "characters": "이미지 1",
+      "x": 278,
+      "y": 236,
+      "width": 250,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:888",
+      "parentId": "130:858",
+      "characters": "[음악] 매거진 2",
+      "x": 294,
+      "y": 340,
+      "width": 218,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:889",
+      "parentId": "130:858",
+      "characters": "조회 984",
+      "x": 294,
+      "y": 364,
+      "width": 42,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:890",
+      "parentId": "130:858",
+      "characters": "전체 매거진",
+      "x": 20,
+      "y": 410,
+      "width": 87,
+      "height": 26,
+      "visible": true
+    },
+    {
+      "id": "130:891",
+      "parentId": "130:858",
+      "characters": "전체보기",
+      "x": 323,
+      "y": 415,
+      "width": 45,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:896",
+      "parentId": "130:858",
+      "characters": "이미지 1",
+      "x": 16,
+      "y": 506,
+      "width": 250,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:897",
+      "parentId": "130:858",
+      "characters": "[문화] 매거진 1",
+      "x": 32,
+      "y": 610,
+      "width": 218,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:898",
+      "parentId": "130:858",
+      "characters": "조회 1,248",
+      "x": 32,
+      "y": 634,
+      "width": 51,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:901",
+      "parentId": "130:858",
+      "characters": "이미지 1",
+      "x": 278,
+      "y": 506,
+      "width": 250,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:902",
+      "parentId": "130:858",
+      "characters": "[푸드] 매거진 3",
+      "x": 294,
+      "y": 610,
+      "width": 218,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:903",
+      "parentId": "130:858",
+      "characters": "조회 726",
+      "x": 294,
+      "y": 634,
+      "width": 42,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:904",
+      "parentId": "130:858",
+      "characters": "공지사항",
+      "x": 20,
+      "y": 680,
+      "width": 67,
+      "height": 26,
+      "visible": true
+    },
+    {
+      "id": "130:905",
+      "parentId": "130:858",
+      "characters": "전체보기",
+      "x": 323,
+      "y": 685,
+      "width": 45,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:909",
+      "parentId": "130:858",
+      "characters": "MBN GUIDE 글로벌 서비스 이용 안내",
+      "x": 20,
+      "y": 722,
+      "width": 202,
+      "height": 19,
+      "visible": true
+    },
+    {
+      "id": "130:913",
+      "parentId": "130:858",
+      "characters": "매거진 콘텐츠 업데이트 안내",
+      "x": 20,
+      "y": 760,
+      "width": 153,
+      "height": 19,
+      "visible": true
+    },
+    {
+      "id": "130:917",
+      "parentId": "130:858",
+      "characters": "표시 언어 지원 확대 안내",
+      "x": 20,
+      "y": 798,
+      "width": 132,
+      "height": 19,
+      "visible": true
+    },
+    {
+      "id": "130:926",
+      "parentId": "130:858",
+      "characters": "지도",
+      "x": 0.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:930",
+      "parentId": "130:858",
+      "characters": "매거진",
+      "x": 100.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:934",
+      "parentId": "130:858",
+      "characters": "라이브",
+      "x": 201.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:938",
+      "parentId": "130:858",
+      "characters": "마이",
+      "x": 301.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:942",
+      "parentId": "130:940",
+      "characters": "8:13",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 22,
+      "visible": true
+    },
+    {
+      "id": "130:948",
+      "parentId": "130:940",
+      "characters": "매거진 검색",
+      "x": 58,
+      "y": 79,
+      "width": 63,
+      "height": 19,
+      "visible": true
+    },
+    {
+      "id": "130:950",
+      "parentId": "130:940",
+      "characters": "검색",
+      "x": 272,
+      "y": 62,
+      "width": 58,
+      "height": 48,
+      "visible": true
+    },
+    {
+      "id": "130:956",
+      "parentId": "130:940",
+      "characters": "2",
+      "x": 372,
+      "y": 60,
+      "width": 18,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:962",
+      "parentId": "130:940",
+      "characters": "매거진 &gt; 문화 &gt; 방송 · 예능",
+      "x": 68,
+      "y": 145,
+      "width": 148,
+      "height": 19,
+      "visible": true
+    },
+    {
+      "id": "130:964",
+      "parentId": "130:940",
+      "characters": "이미지 1",
+      "x": 0,
+      "y": 260,
+      "width": 402,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:967",
+      "parentId": "130:940",
+      "characters": "문화",
+      "x": 20,
+      "y": 372,
+      "width": 44,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "id": "130:969",
+      "parentId": "130:940",
+      "characters": "방송 · 예능",
+      "x": 72,
+      "y": 372,
+      "width": 99,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "id": "130:970",
+      "parentId": "130:940",
+      "characters": "[문화] 매거진 1",
+      "x": 20,
+      "y": 406,
+      "width": 128,
+      "height": 29,
+      "visible": true
+    },
+    {
+      "id": "130:971",
+      "parentId": "130:940",
+      "characters": "작성자 MBN 에디터",
+      "x": 20,
+      "y": 440,
+      "width": 90,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:972",
+      "parentId": "130:940",
+      "characters": "조회수 1,248",
+      "x": 132,
+      "y": 440,
+      "width": 61,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:973",
+      "parentId": "130:940",
+      "characters": "2026.08.08",
+      "x": 218,
+      "y": 440,
+      "width": 55,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:975",
+      "parentId": "130:940",
+      "characters": "매거진 본문이 들어가는 공간입니다. 실제 콘텐츠에서는 방송 장면, 장소, 상품 정보가 함께 연결됩니다.",
+      "x": 20,
+      "y": 488,
+      "width": 362,
+      "height": 38,
+      "visible": true
+    },
+    {
+      "id": "130:980",
+      "parentId": "130:940",
+      "characters": "지도에서 보기",
+      "x": 174,
+      "y": 562,
+      "width": 81,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:993",
+      "parentId": "130:940",
+      "characters": "129",
+      "x": 228,
+      "y": 668,
+      "width": 19,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:995",
+      "parentId": "130:940",
+      "characters": "댓글 0",
+      "x": 20,
+      "y": 710,
+      "width": 40,
+      "height": 22,
+      "visible": true
+    },
+    {
+      "id": "130:996",
+      "parentId": "130:940",
+      "characters": "첫 댓글을 남겨보세요.",
+      "x": 20,
+      "y": 734,
+      "width": 109,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:998",
+      "parentId": "130:940",
+      "characters": "댓글을 입력하세요",
+      "x": 34,
+      "y": 772,
+      "width": 91,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1000",
+      "parentId": "130:940",
+      "characters": "등록",
+      "x": 324,
+      "y": 760,
+      "width": 58,
+      "height": 44,
+      "visible": true
+    },
+    {
+      "id": "130:1007",
+      "parentId": "130:940",
+      "characters": "지도",
+      "x": 0.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1011",
+      "parentId": "130:940",
+      "characters": "매거진",
+      "x": 100.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1015",
+      "parentId": "130:940",
+      "characters": "라이브",
+      "x": 201.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1019",
+      "parentId": "130:940",
+      "characters": "마이",
+      "x": 301.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1022",
+      "parentId": "130:1021",
+      "characters": "8:13",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1025",
+      "parentId": "130:1021",
+      "characters": "마이페이지",
+      "x": 20,
+      "y": 62,
+      "width": 92,
+      "height": 28,
+      "visible": true
+    },
+    {
+      "id": "130:1029",
+      "parentId": "130:1021",
+      "characters": "HJ",
+      "x": 24,
+      "y": 129,
+      "width": 76,
+      "height": 76,
+      "visible": true
+    },
+    {
+      "id": "130:1030",
+      "parentId": "130:1021",
+      "characters": "사진 변경",
+      "x": 30,
+      "y": 210,
+      "width": 43,
+      "height": 15,
+      "visible": true
+    },
+    {
+      "id": "130:1031",
+      "parentId": "130:1021",
+      "characters": "닉네임",
+      "x": 116,
+      "y": 130,
+      "width": 31,
+      "height": 15,
+      "visible": true
+    },
+    {
+      "id": "130:1033",
+      "parentId": "130:1021",
+      "characters": "한류여행자",
+      "x": 132,
+      "y": 163,
+      "width": 65,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1035",
+      "parentId": "130:1021",
+      "characters": "언어 및 화면",
+      "x": 20,
+      "y": 260,
+      "width": 76,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1039",
+      "parentId": "130:1021",
+      "characters": "표시 언어",
+      "x": 50,
+      "y": 301,
+      "width": 51,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1041",
+      "parentId": "130:1021",
+      "characters": "한국어",
+      "x": 246,
+      "y": 303,
+      "width": 34,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1047",
+      "parentId": "130:1021",
+      "characters": "글자 크기",
+      "x": 50,
+      "y": 345,
+      "width": 51,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1049",
+      "parentId": "130:1021",
+      "characters": "보통",
+      "x": 246,
+      "y": 347,
+      "width": 23,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1053",
+      "parentId": "130:1021",
+      "characters": "콘텐츠 설정",
+      "x": 20,
+      "y": 396,
+      "width": 73,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1058",
+      "parentId": "130:1021",
+      "characters": "매거진 자동 번역",
+      "x": 50,
+      "y": 430,
+      "width": 90,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1059",
+      "parentId": "130:1021",
+      "characters": "선택한 언어로 매거진을 먼저 보여줍니다",
+      "x": 50,
+      "y": 448,
+      "width": 250,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1065",
+      "parentId": "130:1021",
+      "characters": "동영상 자동 재생",
+      "x": 50,
+      "y": 476,
+      "width": 90,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1066",
+      "parentId": "130:1021",
+      "characters": "Wi-Fi 환경에서 자동으로 재생합니다",
+      "x": 50,
+      "y": 494,
+      "width": 250,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1074",
+      "parentId": "130:1021",
+      "characters": "데이터 절약 모드",
+      "x": 50,
+      "y": 522,
+      "width": 90,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1075",
+      "parentId": "130:1021",
+      "characters": "이미지와 영상 품질을 자동 조정합니다",
+      "x": 50,
+      "y": 540,
+      "width": 250,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1079",
+      "parentId": "130:1021",
+      "characters": "알림 및 편의",
+      "x": 20,
+      "y": 594,
+      "width": 76,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1084",
+      "parentId": "130:1021",
+      "characters": "LIVE 시작 알림",
+      "x": 50,
+      "y": 628,
+      "width": 81,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1085",
+      "parentId": "130:1021",
+      "characters": "관심 프로그램의 방송 시작을 알려드립니다",
+      "x": 50,
+      "y": 646,
+      "width": 260,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1092",
+      "parentId": "130:1021",
+      "characters": "위치 기반 추천",
+      "x": 50,
+      "y": 674,
+      "width": 78,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1093",
+      "parentId": "130:1021",
+      "characters": "현재 위치 주변의 문화 콘텐츠를 추천합니다",
+      "x": 50,
+      "y": 692,
+      "width": 260,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1099",
+      "parentId": "130:1021",
+      "characters": "화면 모드",
+      "x": 50,
+      "y": 727,
+      "width": 51,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1101",
+      "parentId": "130:1021",
+      "characters": "기기 설정",
+      "x": 246,
+      "y": 729,
+      "width": 47,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1110",
+      "parentId": "130:1021",
+      "characters": "지도",
+      "x": 0.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1114",
+      "parentId": "130:1021",
+      "characters": "매거진",
+      "x": 100.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1118",
+      "parentId": "130:1021",
+      "characters": "라이브",
+      "x": 201.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1122",
+      "parentId": "130:1021",
+      "characters": "마이",
+      "x": 301.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1125",
+      "parentId": "130:1124",
+      "characters": "8:13",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1128",
+      "parentId": "130:1124",
+      "characters": "My Page",
+      "x": 20,
+      "y": 62,
+      "width": 81,
+      "height": 28,
+      "visible": true
+    },
+    {
+      "id": "130:1132",
+      "parentId": "130:1124",
+      "characters": "HJ",
+      "x": 24,
+      "y": 129,
+      "width": 76,
+      "height": 76,
+      "visible": true
+    },
+    {
+      "id": "130:1133",
+      "parentId": "130:1124",
+      "characters": "Change photo",
+      "x": 30,
+      "y": 210,
+      "width": 74,
+      "height": 15,
+      "visible": true
+    },
+    {
+      "id": "130:1134",
+      "parentId": "130:1124",
+      "characters": "Nickname",
+      "x": 116,
+      "y": 130,
+      "width": 52,
+      "height": 15,
+      "visible": true
+    },
+    {
+      "id": "130:1136",
+      "parentId": "130:1124",
+      "characters": "한류여행자",
+      "x": 132,
+      "y": 163,
+      "width": 65,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1138",
+      "parentId": "130:1124",
+      "characters": "Language &amp; display",
+      "x": 20,
+      "y": 260,
+      "width": 144,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1142",
+      "parentId": "130:1124",
+      "characters": "Display language",
+      "x": 50,
+      "y": 301,
+      "width": 106,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1144",
+      "parentId": "130:1124",
+      "characters": "English",
+      "x": 246,
+      "y": 303,
+      "width": 41,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1150",
+      "parentId": "130:1124",
+      "characters": "Text size",
+      "x": 50,
+      "y": 345,
+      "width": 53,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1152",
+      "parentId": "130:1124",
+      "characters": "Medium",
+      "x": 246,
+      "y": 347,
+      "width": 46,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1156",
+      "parentId": "130:1124",
+      "characters": "Content settings",
+      "x": 20,
+      "y": 396,
+      "width": 122,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1161",
+      "parentId": "130:1124",
+      "characters": "Auto-translate magazines",
+      "x": 50,
+      "y": 430,
+      "width": 158,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1162",
+      "parentId": "130:1124",
+      "characters": "Show posts in your selected language first",
+      "x": 50,
+      "y": 448,
+      "width": 250,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1168",
+      "parentId": "130:1124",
+      "characters": "Video autoplay",
+      "x": 50,
+      "y": 476,
+      "width": 93,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1169",
+      "parentId": "130:1124",
+      "characters": "Play automatically on Wi-Fi",
+      "x": 50,
+      "y": 494,
+      "width": 250,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1177",
+      "parentId": "130:1124",
+      "characters": "Data saver",
+      "x": 50,
+      "y": 522,
+      "width": 65,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1178",
+      "parentId": "130:1124",
+      "characters": "Adjust image and video quality automatically",
+      "x": 50,
+      "y": 540,
+      "width": 250,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1182",
+      "parentId": "130:1124",
+      "characters": "Notifications &amp; access",
+      "x": 20,
+      "y": 594,
+      "width": 160,
+      "height": 21,
+      "visible": true
+    },
+    {
+      "id": "130:1187",
+      "parentId": "130:1124",
+      "characters": "LIVE alerts",
+      "x": 50,
+      "y": 628,
+      "width": 65,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1188",
+      "parentId": "130:1124",
+      "characters": "Get notified when followed programs start",
+      "x": 50,
+      "y": 646,
+      "width": 260,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1195",
+      "parentId": "130:1124",
+      "characters": "Location recommendations",
+      "x": 50,
+      "y": 674,
+      "width": 171,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1196",
+      "parentId": "130:1124",
+      "characters": "Recommend culture content near you",
+      "x": 50,
+      "y": 692,
+      "width": 260,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1202",
+      "parentId": "130:1124",
+      "characters": "Display mode",
+      "x": 50,
+      "y": 727,
+      "width": 85,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1204",
+      "parentId": "130:1124",
+      "characters": "System",
+      "x": 246,
+      "y": 729,
+      "width": 41,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1213",
+      "parentId": "130:1124",
+      "characters": "Map",
+      "x": 0.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1217",
+      "parentId": "130:1124",
+      "characters": "Magazine",
+      "x": 100.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1221",
+      "parentId": "130:1124",
+      "characters": "Live",
+      "x": 201.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1225",
+      "parentId": "130:1124",
+      "characters": "My Page",
+      "x": 301.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1229",
+      "parentId": "130:1227",
+      "characters": "8:13",
+      "x": 30,
+      "y": 16,
+      "width": 32,
+      "height": 22,
+      "visible": true
+    },
+    {
+      "id": "130:1235",
+      "parentId": "130:1227",
+      "characters": "Search magazines",
+      "x": 58,
+      "y": 79,
+      "width": 110,
+      "height": 19,
+      "visible": true
+    },
+    {
+      "id": "130:1237",
+      "parentId": "130:1227",
+      "characters": "Search",
+      "x": 268,
+      "y": 62,
+      "width": 62,
+      "height": 48,
+      "visible": true
+    },
+    {
+      "id": "130:1243",
+      "parentId": "130:1227",
+      "characters": "2",
+      "x": 372,
+      "y": 60,
+      "width": 18,
+      "height": 18,
+      "visible": true
+    },
+    {
+      "id": "130:1248",
+      "parentId": "130:1227",
+      "characters": "HOT magazines",
+      "x": 42,
+      "y": 140,
+      "width": 137,
+      "height": 26,
+      "visible": true
+    },
+    {
+      "id": "130:1251",
+      "parentId": "130:1227",
+      "characters": "Image 1",
+      "x": 16,
+      "y": 236,
+      "width": 250,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1252",
+      "parentId": "130:1227",
+      "characters": "[Culture] Magazine 1",
+      "x": 32,
+      "y": 340,
+      "width": 218,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1253",
+      "parentId": "130:1227",
+      "characters": "1,248 views",
+      "x": 32,
+      "y": 364,
+      "width": 59,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1256",
+      "parentId": "130:1227",
+      "characters": "Image 1",
+      "x": 278,
+      "y": 236,
+      "width": 250,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1257",
+      "parentId": "130:1227",
+      "characters": "[Music] Magazine 2",
+      "x": 294,
+      "y": 340,
+      "width": 218,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1258",
+      "parentId": "130:1227",
+      "characters": "984 views",
+      "x": 294,
+      "y": 364,
+      "width": 50,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1259",
+      "parentId": "130:1227",
+      "characters": "All magazines",
+      "x": 20,
+      "y": 410,
+      "width": 122,
+      "height": 26,
+      "visible": true
+    },
+    {
+      "id": "130:1260",
+      "parentId": "130:1227",
+      "characters": "View all",
+      "x": 325,
+      "y": 415,
+      "width": 43,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1265",
+      "parentId": "130:1227",
+      "characters": "Image 1",
+      "x": 16,
+      "y": 506,
+      "width": 250,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1266",
+      "parentId": "130:1227",
+      "characters": "[Culture] Magazine 1",
+      "x": 32,
+      "y": 610,
+      "width": 218,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1267",
+      "parentId": "130:1227",
+      "characters": "1,248 views",
+      "x": 32,
+      "y": 634,
+      "width": 59,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1270",
+      "parentId": "130:1227",
+      "characters": "Image 1",
+      "x": 278,
+      "y": 506,
+      "width": 250,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1271",
+      "parentId": "130:1227",
+      "characters": "[Food] Magazine 3",
+      "x": 294,
+      "y": 610,
+      "width": 218,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "id": "130:1272",
+      "parentId": "130:1227",
+      "characters": "726 views",
+      "x": 294,
+      "y": 634,
+      "width": 50,
+      "height": 16,
+      "visible": true
+    },
+    {
+      "id": "130:1273",
+      "parentId": "130:1227",
+      "characters": "Notices",
+      "x": 20,
+      "y": 680,
+      "width": 66,
+      "height": 26,
+      "visible": true
+    },
+    {
+      "id": "130:1274",
+      "parentId": "130:1227",
+      "characters": "View all",
+      "x": 325,
+      "y": 685,
+      "width": 43,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "id": "130:1278",
+      "parentId": "130:1227",
+      "characters": "MBN GUIDE Global Service Guide",
+      "x": 20,
+      "y": 722,
+      "width": 199,
+      "height": 19,
+      "visible": true
+    },
+    {
+      "id": "130:1282",
+      "parentId": "130:1227",
+      "characters": "Magazine content update",
+      "x": 20,
+      "y": 760,
+      "width": 153,
+      "height": 19,
+      "visible": true
+    },
+    {
+      "id": "130:1286",
+      "parentId": "130:1227",
+      "characters": "Expanded display language support",
+      "x": 20,
+      "y": 798,
+      "width": 217,
+      "height": 19,
+      "visible": true
+    },
+    {
+      "id": "130:1295",
+      "parentId": "130:1227",
+      "characters": "Map",
+      "x": 0.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1299",
+      "parentId": "130:1227",
+      "characters": "Magazine",
+      "x": 100.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1303",
+      "parentId": "130:1227",
+      "characters": "Live",
+      "x": 201.25,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    },
+    {
+      "id": "130:1307",
+      "parentId": "130:1227",
+      "characters": "My Page",
+      "x": 301.75,
+      "y": 831,
+      "width": 100,
+      "height": 14,
+      "visible": true
+    }
+  ]
+}
+

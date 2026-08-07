@@ -1,0 +1,33 @@
+/* Story spatial contract: p4yJxHEYlrNiitXrWAwbbK / 130:940. */
+.editorial-detail-page { gap: 0; padding-top: 0; }
+.figma-detail-page { width: min(100%, var(--layout-mobile-max)); padding-inline: 0; background: #f6f6f6; }
+.figma-detail-page__topbar { display: flex; min-height: 3.875rem; align-items: center; gap: .75rem; padding: .625rem 1rem; border-bottom: 1px solid #e6e6e6; background: #fff; }
+.figma-detail-page__topbar p { margin: 0; color: #404040; font-size: .8125rem; }
+.figma-detail-page__back { width: 2.5rem; min-width: 2.5rem; min-height: 2.5rem; border: 1px solid #dbdbdb; border-radius: 50%; padding: 0; background: #fff; color: #262626; font-size: 1.75rem; line-height: 1; }
+
+.editorial-detail { display: grid; gap: 1.25rem; padding-bottom: 1.25rem; }
+
+.editorial-detail .media-frame {
+  min-height: 10.625rem;
+  border: 0;
+  border-radius: 0;
+  background: #e3e3e3;
+}
+
+.editorial-detail__media-note { max-width: 18rem; color: var(--color-text-muted); font-size: .875rem; line-height: 1.5; }
+
+.editorial-detail__header { display: grid; gap: .625rem; padding-inline: 1.25rem; max-width: 44rem; }
+.editorial-detail__tags { display: flex; flex-wrap: wrap; gap: .5rem; }
+.editorial-detail__tags span { border-radius: .75rem; padding: .3125rem .625rem; background: #ededed; color: #525252; font-size: .6875rem; }
+.editorial-detail__header h1 { margin: .25rem 0 0; color: #0f0f0f; font-size: clamp(1.25rem, 5.2vw, 1.5rem); line-height: 1.32; letter-spacing: -.04em; text-wrap: balance; }
+.editorial-detail__summary { margin: .5rem 0 0; max-width: 38rem; color: #4d4d4d; font-size: .8125rem; line-height: 1.6; }
+.editorial-detail__provenance { margin: 0; color: #808080; font-size: .6875rem; }
+
+.editorial-detail__section { display: grid; gap: .75rem; margin-inline: 1.25rem; padding-top: 1rem; border-top: 1px solid #ebebeb; }
+.editorial-detail__section > h2 { margin: 0; color: #1a1a1a; font-size: 1rem; letter-spacing: -.02em; }
+.editorial-detail__section .ui-button { justify-self: start; border-color: #595959; background: #f9f9f9; }
+.editorial-detail__actions { display: flex; margin-inline: 1.25rem; padding-top: .75rem; border-top: 1px solid #ebebeb; }
+
+@media (max-width: 22rem) {
+  .editorial-detail__header h1 { font-size: clamp(1.85rem, 10vw, 2.25rem); }
+}
