@@ -1,0 +1,20 @@
+{
+  "m12Gate": "M12_RANKING_READY",
+  "checks": {
+    "candidateLoss": 0,
+    "duplicateRecommendation": 0,
+    "rankGaps": 0,
+    "selectedTopKMismatch": 0,
+    "missingReasonSelected": 0,
+    "reasonEvidenceMismatch": 0,
+    "baseFormulaMismatch": 0,
+    "mmrFormulaMismatch": 0,
+    "nan": 0,
+    "inf": 0,
+    "m10AuthorityLeakage": 0,
+    "fakePopularity": 0,
+    "fakePersonalization": 0,
+    "sponsoredBoost": 0
+  },
+  "manifestHashMismatch": 0
+}

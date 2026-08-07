@@ -1,0 +1,12 @@
+rankingVersion: ranking_v1
+rankingAuthority: HEURISTIC_EXPLAINABLE_CONTENT_BASED
+randomSeed: 42
+topK: {C1_DISCOVER_RELATED_ARTICLE: 10, C2_DISCOVER_LINKED_ENTITY: 5, C3_GUIDE_RELATED_CONTENT: 10, C4_GUIDE_NEARBY_ENTITY: 10}
+mmr: {lambda: 0.75, sets: [C1_DISCOVER_RELATED_ARTICLE, C3_GUIDE_RELATED_CONTENT]}
+weights:
+  C1_DISCOVER_RELATED_ARTICLE: {semantic: 0.70, context: 0.15, editorialWeak: 0.05, recency: 0.10}
+  C2_DISCOVER_LINKED_ENTITY: {semantic: 0.60, direct: 0.30, temporal: 0.10}
+  C3_GUIDE_RELATED_CONTENT: {semantic: 0.55, direct: 0.35, recency: 0.10}
+  C4_GUIDE_NEARBY_ENTITY: {geo: 0.55, entitySemantic: 0.25, temporal: 0.15, context: 0.05}
+recencyHalfLifeDays: 180
+upcomingHalfLifeDays: 30

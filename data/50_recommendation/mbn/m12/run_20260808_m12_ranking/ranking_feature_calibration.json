@@ -1,0 +1,23 @@
+{
+  "C1_DISCOVER_RELATED_ARTICLE": {
+    "semanticP05": 0.4689490348100662,
+    "semanticP95": 0.6323983073234558
+  },
+  "C2_DISCOVER_LINKED_ENTITY": {
+    "semanticP05": 0.3105748549103737,
+    "semanticP95": 0.48294191062450414
+  },
+  "C3_GUIDE_RELATED_CONTENT": {
+    "semanticP05": 0.33358309864997865,
+    "semanticP95": 0.5029357492923736
+  },
+  "C4_GUIDE_NEARBY_ENTITY": {
+    "semanticP05": 0.0,
+    "semanticP95": 0.0
+  },
+  "C4": {
+    "entitySemanticP05": 0.28344498425722126,
+    "entitySemanticP95": 0.5619860857725143,
+    "geoHalfLifeMeters": 89210.74001844139
+  }
+}

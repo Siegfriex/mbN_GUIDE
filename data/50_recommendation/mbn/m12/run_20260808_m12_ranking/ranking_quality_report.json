@@ -1,0 +1,26 @@
+{
+  "rankingAuthority": "HEURISTIC_EXPLAINABLE_CONTENT_BASED",
+  "counts": {
+    "rankable": 13084,
+    "ranked": 13084,
+    "selected": 7522,
+    "reasonRows": 7522
+  },
+  "checks": {
+    "candidateLoss": 0,
+    "duplicateRecommendation": 0,
+    "rankGaps": 0,
+    "selectedTopKMismatch": 0,
+    "missingReasonSelected": 0,
+    "reasonEvidenceMismatch": 0,
+    "baseFormulaMismatch": 0,
+    "mmrFormulaMismatch": 0,
+    "nan": 0,
+    "inf": 0,
+    "m10AuthorityLeakage": 0,
+    "fakePopularity": 0,
+    "fakePersonalization": 0,
+    "sponsoredBoost": 0
+  },
+  "runtimeSeconds": 32.61564589900081
+}

@@ -1,0 +1,62 @@
+{
+  "m12Gate": "M12_RANKING_READY",
+  "m11Commit": "ea4e24b4abe018b61bba9cbc7d39214f689200dc",
+  "m10Commit": "f451043b8cb15045832eab27971a8084dbecb48d",
+  "files": [
+    {
+      "path": "data/50_recommendation/mbn/m12/run_20260808_m12_ranking/m12_completion_report.md",
+      "bytes": 92,
+      "sha256": "86d4ab05a9a1ebbde830c660f4bd5404e8c4aa5c1e8de48005b04bb95e9796d4",
+      "rows": null
+    },
+    {
+      "path": "data/50_recommendation/mbn/m12/run_20260808_m12_ranking/recommendation_score_components.parquet",
+      "bytes": 785902,
+      "sha256": "2bd112693bd4e2676c8a1423ae96f48b083634f5369e9059c66038e56c9ba81f",
+      "rows": 13084
+    },
+    {
+      "path": "data/50_recommendation/mbn/m12/run_20260808_m12_ranking/ranking_feature_calibration.json",
+      "bytes": 581,
+      "sha256": "d026ee0488930b6ebe80e6e2238d17dc2d77dbffada26ea99fabedc2f7e415d6",
+      "rows": null
+    },
+    {
+      "path": "data/50_recommendation/mbn/m12/run_20260808_m12_ranking/m12_final_gate.json",
+      "bytes": 453,
+      "sha256": "69c83b9344d0d91cec400000856387b7f55f0a4d7431e7c34ad10f75d0801205",
+      "rows": null
+    },
+    {
+      "path": "data/50_recommendation/mbn/m12/run_20260808_m12_ranking/ranking_missing_feature_report.parquet",
+      "bytes": 1917,
+      "sha256": "82c519d23b47ed151de48a86ed1c6809ce2e9e5a21d2c394eb23444b93439cad",
+      "rows": 5
+    },
+    {
+      "path": "data/50_recommendation/mbn/m12/run_20260808_m12_ranking/recommendation_reasons.parquet",
+      "bytes": 229411,
+      "sha256": "da8003b31ae30ed2d7b7dfe98f9e088777f7a440b551089285028bf84944a741",
+      "rows": 7522
+    },
+    {
+      "path": "data/50_recommendation/mbn/m12/run_20260808_m12_ranking/recommendation_ranking.parquet",
+      "bytes": 1540530,
+      "sha256": "fbc686251a971f5f238987cad5d4a1ad044408e30f92e5ee879a7c78105e03f4",
+      "rows": 13084
+    },
+    {
+      "path": "data/50_recommendation/mbn/m12/run_20260808_m12_ranking/ranking_quality_report.json",
+      "bytes": 598,
+      "sha256": "bb361f79e30df34902869c2189464520a2d6fb9951b7c914b51313b0600ce39d",
+      "rows": null
+    },
+    {
+      "path": "data/50_recommendation/mbn/m12/run_20260808_m12_ranking/ranked_recommendations_topk.parquet",
+      "bytes": 879685,
+      "sha256": "314a4050fb60e49aeb9e6981e80a57be7a63a4c42656a859672695f98e2b7c08",
+      "rows": 7522
+    }
+  ],
+  "generatedAt": "2026-08-07T20:23:42.085794+00:00"
+}

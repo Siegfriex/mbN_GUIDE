@@ -1,0 +1,8 @@
+{
+  "audit": "M12_INDEPENDENT_SAMPLE_AUDIT",
+  "formulaSampleRows": 300,
+  "baseFormulaMismatch": 0,
+  "mmrFormulaMismatch": 0,
+  "missingReason": 0,
+  "auditVerdict": "M12_AUDIT_PASS"
+}
