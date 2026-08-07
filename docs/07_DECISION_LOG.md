@@ -3,7 +3,7 @@
 Document: `07_DECISION_LOG`
 Status: `PROPOSED`
 Authority: Decision audit trail for normative product contracts
-Contract Version: `0.2.0`
+Contract Version: `0.3.0`
 Owner: MBN GUIDE Product Architecture & Documentation Director
 Upstream Authority: User-directed product constitution and v2.1 candidate
 Downstream Consumers: `00~06`, FRONT, PY
@@ -183,6 +183,19 @@ Rejected Alternatives: Treat `ENDED` as `Unavailable`; display ended sessions as
 Affected Contracts: `00`, `03`, `04`, `05`, `06`.
 Affected Branches: DOCS, FRONT, PY.
 Migration Required: Yes — any future LiveSession schema must preserve the lifecycle/action distinction.
+
+### ALG-003 — Article-context navigation contract
+
+Decision ID: `ALG-003`
+Date: 2026-08-07
+Status: `PROPOSED`
+Context: The contextual relationship engine requires `articleId` as MAGAZINE's current object, while the accepted route candidate set contains `/story/:storyId` but no standalone Article-detail route.
+Decision: Do not select an Article URL or expand the canonical route set yet. Until a route decision is accepted, Article context is a resolved state within the existing Story/detail flow; data relations remain keyed by `articleId`.
+Reason: A URL/screen boundary is an IA decision, not an algorithm implementation detail.
+Rejected Alternatives: Silently treat `/story/:storyId` as an Article route; add `/article/:articleId` without product-owner approval; key Article relations by Story ID alone.
+Affected Contracts: `02`, `03`, `04`, `06`.
+Affected Branches: DOCS, FRONT, PY.
+Migration Required: Yes after acceptance if a dedicated Article route is selected.
 
 ## Open decision queue
 

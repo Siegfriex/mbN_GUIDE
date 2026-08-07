@@ -3,7 +3,7 @@
 Document: `02_IA_USER_FLOW`
 Status: `PROPOSED`
 Authority: Normative navigation-state contract
-Contract Version: `0.1.0`
+Contract Version: `0.2.0`
 Owner: MBN GUIDE Product Architecture & Documentation Director
 Upstream Authority: `00_PRODUCT_CONSTITUTION.md`, `01_PRD.md`
 Downstream Consumers: `03`, `06`, FRONT
@@ -36,6 +36,10 @@ Magazine and Community are views of DISCOVER, not separate primary surfaces. Uti
 | `/settings` | Utility | — | section | Manage language, interests, visitor mode, and persistence. | Prior route | P-01~P-04, S-04~S-07 |
 
 The canonical route set deliberately contains no separate Community primary route. A community view is `/discover?view=community`.
+
+### Article-context navigation boundary
+
+The contextual-relation contract uses `articleId` as MAGAZINE's current object, but this IA has not accepted a standalone Article-detail route. Until `ALG-003` is decided, an Article context may be presented only as a resolved part of the existing Story/detail flow; implementation must not infer or create a canonical `/article/:articleId` route. The relation data contract remains valid independently of the eventual URL choice.
 
 ## Entry, exit, and state preservation
 
