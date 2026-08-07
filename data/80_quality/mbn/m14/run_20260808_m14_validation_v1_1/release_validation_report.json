@@ -1,0 +1,65 @@
+{
+  "releaseId": "mbn-guide-dc9f6a80d54985d6",
+  "checks": [
+    {
+      "checkId": "json_parse",
+      "count": 0
+    },
+    {
+      "checkId": "duplicate_ids",
+      "count": 0
+    },
+    {
+      "checkId": "broken_fk",
+      "count": 0
+    },
+    {
+      "checkId": "invalid_coordinates",
+      "count": 0
+    },
+    {
+      "checkId": "missing_why",
+      "count": 0
+    },
+    {
+      "checkId": "missing_reason",
+      "count": 0
+    },
+    {
+      "checkId": "reason_mismatch",
+      "count": 0
+    },
+    {
+      "checkId": "hash_mismatch",
+      "count": 0
+    },
+    {
+      "checkId": "byte_mismatch",
+      "count": 0
+    },
+    {
+      "checkId": "secret_leak",
+      "count": 0
+    },
+    {
+      "checkId": "internal_artifact_leak",
+      "count": 0
+    },
+    {
+      "checkId": "unsupported_coercion",
+      "count": 0
+    }
+  ],
+  "gate": {
+    "releaseId": "mbn-guide-dc9f6a80d54985d6",
+    "validationStatus": "PASS_WITH_WARNINGS",
+    "promotionVerdict": "FRONTEND_READY",
+    "schemaErrors": 0,
+    "duplicateIds": 0,
+    "brokenFK": 0,
+    "invalidCoordinates": 0,
+    "manifestMismatch": 0,
+    "hashMismatch": 0,
+    "secretLeak": 0
+  }
+}

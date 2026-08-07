@@ -1,0 +1,60 @@
+{
+  "releaseId": "mbn-guide-dc9f6a80d54985d6",
+  "status": "PASS_WITH_WARNINGS",
+  "files": [
+    {
+      "path": "data/80_quality/mbn/m14/run_20260808_m14_validation_v1_1/m14_completion_report.md",
+      "bytes": 127,
+      "sha256": "83bc1954d17e722ad27a08065016878653ae72a2281655c1c62d4a2953165a38",
+      "rows": null
+    },
+    {
+      "path": "data/80_quality/mbn/m14/run_20260808_m14_validation_v1_1/m14_final_gate.json",
+      "bytes": 282,
+      "sha256": "e8e8566ff818a9ee8bb6f52d43eed875a6d57fc0960e6858cd807aae8fbb8e0d",
+      "rows": null
+    },
+    {
+      "path": "data/80_quality/mbn/m14/run_20260808_m14_validation_v1_1/release_fk_audit.parquet",
+      "bytes": 636,
+      "sha256": "4f2104c0ab435e42cc5194c124be60dc6b9ab89095f4647767d644264f776b7b",
+      "rows": 0
+    },
+    {
+      "path": "data/80_quality/mbn/m14/run_20260808_m14_validation_v1_1/release_manifest_audit.parquet",
+      "bytes": 2480,
+      "sha256": "f90d2c91ed1809f3ae1a1a4fd79f1b4f3d46405fc1561e93ebf3589075cbc968",
+      "rows": 1
+    },
+    {
+      "path": "data/80_quality/mbn/m14/run_20260808_m14_validation_v1_1/release_projection_coverage.json",
+      "bytes": 286,
+      "sha256": "21a09a1e180a2a09cd128b8ea9451aa6fca00fd26c972a15d78770fb12f2abb5",
+      "rows": null
+    },
+    {
+      "path": "data/80_quality/mbn/m14/run_20260808_m14_validation_v1_1/release_schema_audit.parquet",
+      "bytes": 3254,
+      "sha256": "9f0230a3e046125e81c91f0c091f5c8acf0fb6c24003d98be1f0279f80d5ad23",
+      "rows": 1
+    },
+    {
+      "path": "data/80_quality/mbn/m14/run_20260808_m14_validation_v1_1/release_security_audit.json",
+      "bytes": 68,
+      "sha256": "231bde154f51b5b9672d162628515ca9c837bca606da4842c8fc812ae835c6ff",
+      "rows": null
+    },
+    {
+      "path": "data/80_quality/mbn/m14/run_20260808_m14_validation_v1_1/release_validation_checks.parquet",
+      "bytes": 1928,
+      "sha256": "acdea7681460d5dfc00cac3b3a0517f3bccb62a13f00705d5f21fd2bfe180414",
+      "rows": 12
+    },
+    {
+      "path": "data/80_quality/mbn/m14/run_20260808_m14_validation_v1_1/release_validation_report.json",
+      "bytes": 1163,
+      "sha256": "8403277a6f0d54f14b446ec65c613a867862857e7c59337ae61e031fee44ed31",
+      "rows": null
+    }
+  ]
+}

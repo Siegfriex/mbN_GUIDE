@@ -1,0 +1,12 @@
+{
+  "releaseId": "mbn-guide-dc9f6a80d54985d6",
+  "sourceArticles": 461,
+  "projectedPlaces": 19,
+  "projectedRecommendations": 109,
+  "warnings": [
+    "EVENT_FRONTEND_SCHEMA_GAP",
+    "NO_CANONICAL_STORY_BUNDLE",
+    "C1_C2_C3_EXCLUDED_BY_FRONTEND_ENUM_GAP",
+    "KO_ONLY_LOCALE"
+  ]
+}
