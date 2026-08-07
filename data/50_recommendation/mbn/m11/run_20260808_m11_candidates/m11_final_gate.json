@@ -1,0 +1,23 @@
+{
+  "m11Gate": "M11_CANDIDATE_READY",
+  "checks": {
+    "duplicateCandidatePK": 0,
+    "brokenContextFK": 0,
+    "brokenTargetFK": 0,
+    "selfTarget": 0,
+    "nonMapEntityPromoted": 0,
+    "expiredEventPromoted": 0,
+    "finalScoreColumnPresent": 0,
+    "rankingColumnViolation": 0
+  },
+  "counts": {
+    "candidates": 13084,
+    "evidence": 13146,
+    "eligible": 13001,
+    "eligibleWithMissingFeature": 83,
+    "hold": 0,
+    "ineligible": 0,
+    "c3SemanticDroppedByConfiguredCap": 1078
+  },
+  "manifestHashMismatch": 0
+}

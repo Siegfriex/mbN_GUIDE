@@ -1,0 +1,45 @@
+{
+  "m11Gate": "M11_CANDIDATE_READY",
+  "sourceCommit": "8c300a9fe8ca2f47b6d2901a53e5199666a097ae",
+  "m9Commit": "e5cd8e69b5b9d081024a369a6afc8fce695db6cf",
+  "m10Commit": "f451043b8cb15045832eab27971a8084dbecb48d",
+  "files": [
+    {
+      "path": "data/50_recommendation/mbn/m11/run_20260808_m11_candidates/candidate_quality_report.json",
+      "bytes": 527,
+      "sha256": "7e2463dc32dc681150865df841062b919ccf1a43c142c35c2bc349627386ca70",
+      "rows": null
+    },
+    {
+      "path": "data/50_recommendation/mbn/m11/run_20260808_m11_candidates/m11_completion_report.md",
+      "bytes": 75,
+      "sha256": "b2496622e6123d7f772f2ace8de07fc1ee5dca8f7875ce4268bf49b7d7662cc4",
+      "rows": null
+    },
+    {
+      "path": "data/50_recommendation/mbn/m11/run_20260808_m11_candidates/recommendation_candidate_evidence.parquet",
+      "bytes": 550821,
+      "sha256": "ed0aae31158fde0ed0ea19e5b859bbbd255ae57e14e22f59921efed2fbc7233d",
+      "rows": 13146
+    },
+    {
+      "path": "data/50_recommendation/mbn/m11/run_20260808_m11_candidates/candidate_coverage_report.parquet",
+      "bytes": 8761,
+      "sha256": "1b44f4db446a28aa96524541df7fb0449f4fd1449934b480ce47a0d234304ee4",
+      "rows": 4
+    },
+    {
+      "path": "data/50_recommendation/mbn/m11/run_20260808_m11_candidates/m11_final_gate.json",
+      "bytes": 526,
+      "sha256": "7b5870c9a4922e4a168ea27c9d27993ee6e42b2538ca24f4bba9726804061745",
+      "rows": null
+    },
+    {
+      "path": "data/50_recommendation/mbn/m11/run_20260808_m11_candidates/recommendation_candidates.parquet",
+      "bytes": 511836,
+      "sha256": "53fe29db10cf1a4f47974d032d105285a59ac8bc1f5ea320aed839542641845b",
+      "rows": 13084
+    }
+  ],
+  "generatedAt": "2026-08-07T20:13:26.650173+00:00"
+}

@@ -1,0 +1,7 @@
+version: recommendation_retrieval_v1
+articleSemanticTopK: 20
+entitySemanticTopK: 5
+geoRetrievalTopK: 10
+entityRelatedContentHardCap: 50
+ranking: NOT_RANKED
+eventUnknownTemporalEligibleWithFinding: true

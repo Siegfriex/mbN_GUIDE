@@ -1,0 +1,10 @@
+{
+  "audit": "M11_DETERMINISTIC_AUDIT",
+  "candidatePkDuplicate": 0,
+  "orphanEvidence": 0,
+  "missingDirectRelation": 0,
+  "configuredC3CapDrop": 1078,
+  "finalScoreColumnPresent": 0,
+  "formulaMismatchCount": 0,
+  "auditVerdict": "M11_AUDIT_PASS"
+}
