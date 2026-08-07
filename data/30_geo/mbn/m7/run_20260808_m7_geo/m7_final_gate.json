@@ -1,0 +1,16 @@
+{
+  "resolvedWithoutEvidence": 0,
+  "brokenArticleFK": 0,
+  "brokenBlockFK": 0,
+  "ambiguousMapPins": 0,
+  "notFoundMapPins": 0,
+  "errorMapPins": 0,
+  "invalidCoordinates": 0,
+  "missingWhyMapEligible": 0,
+  "ledgerHashMissing": 0,
+  "ledgerSuccessFalse": 0,
+  "providerIdNonNull": 25,
+  "latLngNonNull": 32,
+  "manifestHashMismatch": 0,
+  "m7Gate": "M7_GEO_READY"
+}

@@ -1,0 +1,11 @@
+version: provider_priority_v1
+authority: evidence_rebuilt_provider_queue
+rules:
+  P3:
+    when: "entityType == EVENT"
+  P0:
+    when: "non-EVENT; >=2 source articles; literal canonical name; member-evidence-backed region; verificationConfidence >= 0.85; no split parent"
+  P1:
+    when: "non-EVENT; literal canonical name; verificationConfidence >= 0.85"
+  P2:
+    when: "other eligible, evidence-backed non-EVENT candidate"

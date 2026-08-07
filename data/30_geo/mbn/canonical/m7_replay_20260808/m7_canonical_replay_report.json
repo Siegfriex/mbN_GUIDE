@@ -1,0 +1,18 @@
+{
+  "sourceCounts": {
+    "places": 25,
+    "events": 7,
+    "mapEligible": 32,
+    "articlePlaceRelations": 40,
+    "articleEventRelations": 8
+  },
+  "replayCounts": {
+    "places": 25,
+    "events": 7,
+    "mapEligible": 32,
+    "articlePlaceRelations": 40,
+    "articleEventRelations": 8
+  },
+  "semanticEquivalent": true,
+  "verdict": "M7_CANONICAL_REPLAY_PASS"
+}

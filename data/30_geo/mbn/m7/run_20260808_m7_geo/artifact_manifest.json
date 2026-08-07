@@ -1,0 +1,193 @@
+{
+  "sourceBranch": "nbM_GUIDE_PY",
+  "adapterVersion": "tourapi_korservice2@1",
+  "resolutionVersion": "m7@1",
+  "generatedAt": "2026-08-07T17:56:18.359849+00:00",
+  "files": [
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/article_event_relation.parquet",
+      "bytes": 8740,
+      "sha256": "5fe3ad8117f1afeaa900ed9a49d4eaa0df32a2da17118e3e7e3b0fc18fc3525f"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/article_place_relation.parquet",
+      "bytes": 11405,
+      "sha256": "f1bfe974df4e8e6a4767bbcbaee351b0df9cb44482dde21f1d78841cebdf839b"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/canonical_places.parquet",
+      "bytes": 16747,
+      "sha256": "be3d8d2a6a34aa98724e424eadfdafebbd4c211cc4c68b2c6f8e0b43ffca52aa"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/culture_events.parquet",
+      "bytes": 12190,
+      "sha256": "d34904a3aacf3b9101d0e5fd15bc44365589f97041a6b17cc2c79a5911b8b6cb"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/event_place_relation.parquet",
+      "bytes": 2390,
+      "sha256": "177601c631edf9933eded40686a280c0bfc2a41a556608f1e58e6a5b53b7651b"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/expanded_pilot_selection.parquet",
+      "bytes": 31301,
+      "sha256": "728cf408a9d5527ee1005171a24e9469a5e077edff4f1ec10e9cda5225d6a702"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/expanded_resolution_quality_report.json",
+      "bytes": 358,
+      "sha256": "7b13dbec807a2de30e35f824485e20f5cb3ea3ac47209159d89596c0a97bc04a"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/full_queue_selection.parquet",
+      "bytes": 17847,
+      "sha256": "60e7497f84e09fc7e4b909109894adf64b87c87fe2921296635c121d70880b88"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/geo_quality_report.json",
+      "bytes": 432,
+      "sha256": "53ce2d3dbce88572819ce69bb697359a0dc377d639801edc7d05b4a40e6347cb"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/geocode_results.parquet",
+      "bytes": 2322,
+      "sha256": "4b00786abed3f555843dbe99869cd3888652bf97b35341a303fad4c7ae295f2d"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/m7_completion_report.md",
+      "bytes": 427,
+      "sha256": "a432d6fe5eece1758a84dbbb06f1e641bfb843d7af3a086ebe9ead054e95f41a"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/m7_final_gate.json",
+      "bytes": 367,
+      "sha256": "6f75ee47bccecd4ea8bf3b661c6e0f5d96c3c60b9f606f5208c12b3e91f8bd58"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/map_eligibility.parquet",
+      "bytes": 5303,
+      "sha256": "afc4d424857199764df4409234d1a2c5b6d8476e485bab7635c056301cac4572"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/p0_resolution_quality_report.json",
+      "bytes": 453,
+      "sha256": "3fe01120c96da51cfe34bb9535c36c8a8fb5eff5593b59bc436fe3ace69e0f10"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_call_ledger.parquet",
+      "bytes": 48716,
+      "sha256": "81f6ee5f6aae014192e7a406863611ab9c324cdfb1f8e18c940092c4b68750f4"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_call_ledger_expanded.parquet",
+      "bytes": 41933,
+      "sha256": "fbc3b06b194c694500a7a5e4f84522f8ae530cdf74a2efb20a2c4adf5f063451"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_call_ledger_full.parquet",
+      "bytes": 16391,
+      "sha256": "81c81b62e89c23bb8a05c0246d45e462fc01114150cce8e0ba24921585c8ec21"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_call_ledger_p0.parquet",
+      "bytes": 10147,
+      "sha256": "e9c98e77dd7a820abfee800e31a5f4b3ddd12b7b911e7c880774b4ad56f2cb1c"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_match_verification_expanded.parquet",
+      "bytes": 9847,
+      "sha256": "d001d00f0346379758889c6170d3bcb5c6f957612464a806ce898fe1e5e30649"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_match_verification_full.parquet",
+      "bytes": 8111,
+      "sha256": "7ebc16111fb7b45df2d395e716e5e0358b23e8d3dc79d72a654890216076d5a7"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_match_verification_p0.parquet",
+      "bytes": 636,
+      "sha256": "4f2104c0ab435e42cc5194c124be60dc6b9ab89095f4647767d644264f776b7b"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_observations.parquet",
+      "bytes": 24853,
+      "sha256": "75fd690a2c554aad2936bd35c09a22692e1af1bcb011634962f7aae77600637d"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_observations_expanded.parquet",
+      "bytes": 23642,
+      "sha256": "e6976445d39eb3b28a1598ff52edc5668db5f607f0fb5e555e244e5ebc7b7aa4"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_observations_full.parquet",
+      "bytes": 12138,
+      "sha256": "1820d8d3fb91d16b3c4e4b355694cf5ec668ec2380ca54e0a092e565921a7da2"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_observations_p0.parquet",
+      "bytes": 11101,
+      "sha256": "caf32406cb561f60cf099b42fe076a0797eb9caff701f9a28e9e7aaa4c8e5e14"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_query_queue_repaired.parquet",
+      "bytes": 35756,
+      "sha256": "071aec385c18b1244d8478e55c93049cc4535fb40de6a6c23d1ccc4deb3ecdea"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/provider_resolution_plan.parquet",
+      "bytes": 17978,
+      "sha256": "d58b78fde7dc007c85dc5900404ef25ed4e25370760a930414583ab9461f9318"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/repaired_queue_independent_gate.json",
+      "bytes": 190,
+      "sha256": "3ed83dc164e9eec26fd59db616f7df948cec1623fcb78a4f41d58a0bbccf0326"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/repaired_queue_independent_validation.parquet",
+      "bytes": 15049,
+      "sha256": "36f3d7d1d923bb0eedc8037740d4df0516eb1a4b0f1895d0a539617b36062bd8"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/repaired_queue_quality_report.json",
+      "bytes": 311,
+      "sha256": "9a90d92e56b63797756804ecebf295241010d7452580c4c4d67d4f04e804f213"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/repaired_queue_validation_detail.parquet",
+      "bytes": 15049,
+      "sha256": "36f3d7d1d923bb0eedc8037740d4df0516eb1a4b0f1895d0a539617b36062bd8"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/resolution_candidates.parquet",
+      "bytes": 24853,
+      "sha256": "75fd690a2c554aad2936bd35c09a22692e1af1bcb011634962f7aae77600637d"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/resolution_decisions.parquet",
+      "bytes": 14172,
+      "sha256": "6369bace9b1307b5bde4b316f279935dfbae12f9331828c6d4f74ce7c183adfb"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/resolution_decisions_expanded.parquet",
+      "bytes": 12150,
+      "sha256": "852a0dd064b10d96b8bd003f17189c147b846e5ed46b095ab67371622f5fc60e"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/resolution_decisions_full.parquet",
+      "bytes": 6749,
+      "sha256": "6b0cc2bc600cff0927466c4acc647c468fa14ebae23c351dd56411dacf64d0f3"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/resolution_decisions_p0.parquet",
+      "bytes": 5052,
+      "sha256": "dbe00d745c4807c3f061e62ffbc8929304eda24b3337e377dcfdfc878c41da0d"
+    },
+    {
+      "path": "data/30_geo/mbn/m7/run_20260808_m7_geo/why_it_matters_m7.parquet",
+      "bytes": 10295,
+      "sha256": "3a323db64cc10677420315073fe0f8e9a9ddbbad311de78cd3ce111ee3439dd9"
+    }
+  ]
+}

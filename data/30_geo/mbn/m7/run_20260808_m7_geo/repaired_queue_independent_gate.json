@@ -1,0 +1,9 @@
+{
+  "unsupportedRegion": 0,
+  "unsupportedName": 0,
+  "priorityMismatch": 0,
+  "brokenArticleFK": 0,
+  "brokenBlockFK": 0,
+  "brokenEntityFK": 0,
+  "verdict": "PRE_PROVIDER_READY_REPAIRED"
+}

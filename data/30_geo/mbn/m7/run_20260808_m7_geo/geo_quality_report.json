@@ -1,0 +1,18 @@
+{
+  "inputQueryCount": 265,
+  "providerAttemptedCount": 265,
+  "tourApiResolved": 32,
+  "googleFallbackAttempted": 0,
+  "resolutionCounts": {
+    "NOT_FOUND": 213,
+    "AUTO_RESOLVED": 32,
+    "AMBIGUOUS": 20
+  },
+  "mapEligibleCount": 32,
+  "invalidCoordinateCount": 0,
+  "brokenProvenanceCount": 0,
+  "providerVerifierConflictCount": 4,
+  "tourApiCoordinateCount": 32,
+  "googleCoordinateCount": 0,
+  "m7Verdict": "M7_GEO_READY"
+}

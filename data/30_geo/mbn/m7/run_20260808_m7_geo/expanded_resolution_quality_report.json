@@ -1,0 +1,15 @@
+{
+  "attempted": 215,
+  "statusCounts": {
+    "NOT_FOUND": 167,
+    "AUTO_RESOLVED": 28,
+    "AMBIGUOUS": 20
+  },
+  "providerCallCount": 215,
+  "unsafeAutoPromotion": false,
+  "invalidCoordinate": false,
+  "brokenProvenance": false,
+  "verifierDisagreementHeldCount": 4,
+  "autoResolvedVerifierContradiction": 0,
+  "verdict": "EXPANDED_PROVIDER_PILOT_PASS"
+}

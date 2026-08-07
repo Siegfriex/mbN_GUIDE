@@ -1,0 +1,11 @@
+{
+  "repairVersion": "m7_query_repair@1",
+  "priorityVersion": "provider_priority_v1",
+  "inputCandidateCount": 270,
+  "repairedQueueCount": 270,
+  "readyCount": 265,
+  "unsupportedNameAddedCount": 5,
+  "unsupportedRegionAddedCount": 0,
+  "priorityMismatchCount": 0,
+  "verdict": "PRE_PROVIDER_READY_REPAIRED"
+}

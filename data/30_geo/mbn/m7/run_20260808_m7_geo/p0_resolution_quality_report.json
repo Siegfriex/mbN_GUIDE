@@ -1,0 +1,19 @@
+{
+  "attempted": 4,
+  "statusCounts": {
+    "NOT_FOUND": 3,
+    "AUTO_RESOLVED": 1
+  },
+  "providerCallCount": 4,
+  "checks": {
+    "unsafeAutoPromotion": false,
+    "brokenProvenance": false,
+    "invalidCoordinate": false,
+    "ambiguousMapEligible": false,
+    "notFoundMapEligible": false,
+    "errorMapEligible": false,
+    "providerVerifierContradiction": false,
+    "requestResponseHashMissing": false
+  },
+  "verdict": "P0_PROVIDER_PILOT_PASS"
+}
