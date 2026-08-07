@@ -1,0 +1,72 @@
+{
+  "notebook": "02bNormalizeEditorialLabels.ipynb",
+  "executionTimestamp": "2026-08-07T11:36:14.092006+00:00",
+  "normalizationVersion": "label_normalization@1",
+  "extractionVersion": "mbn_index_parser@1",
+  "aliasesApplied": {
+    "AI 기상캐스터": "AI기상캐스터"
+  },
+  "excludedEditorialLabels": [
+    "반론보도"
+  ],
+  "checks": {
+    "row_count": 102,
+    "expected_row_count": 102,
+    "null_counts": {
+      "articleId": 0,
+      "rawBracketToken": 0,
+      "normalizedBracketToken": 0,
+      "normalizationMethod": 0,
+      "normalizationVersion": 0,
+      "isExcludedEditorialLabel": 0,
+      "extractionMethod": 0,
+      "extractionVersion": 0
+    },
+    "duplicate_counts": {
+      "articleId": 0
+    },
+    "excluded_count": 1,
+    "aliased_count": 1
+  },
+  "rawLabelFrequency": {
+    "Find Dining": 24,
+    "Health Recipe": 20,
+    "Style": 20,
+    "Consumer News": 11,
+    "AI기상캐스터": 10,
+    "Mind Note": 7,
+    "Issue Pick": 2,
+    "Season Item": 1,
+    "AI 기상캐스터": 1,
+    "Travel Trend": 1,
+    "Travel News": 1,
+    "반론보도": 1,
+    "Hotel News": 1,
+    "진료는 의사에게": 1,
+    "MBN이 본 신간": 1
+  },
+  "normalizedLabelFrequency": {
+    "Find Dining": 24,
+    "Health Recipe": 20,
+    "Style": 20,
+    "AI기상캐스터": 11,
+    "Consumer News": 11,
+    "Mind Note": 7,
+    "Issue Pick": 2,
+    "Season Item": 1,
+    "Travel Trend": 1,
+    "Travel News": 1,
+    "반론보도": 1,
+    "Hotel News": 1,
+    "진료는 의사에게": 1,
+    "MBN이 본 신간": 1
+  },
+  "qualityStatus": "PASS",
+  "outputArtifact": {
+    "row_count": 102,
+    "parquet_path": "/home/sieg/projects-wsl/mbN_GUIDE_PY/mbN_GUIDE/data/20_processed/mbn/life/title_labels.parquet",
+    "parquet_sha256": "650c96d294c7b3e7d137c85738cde04abaf6abf9b3504bd60d4586b0c159975c",
+    "csv_path": "/home/sieg/projects-wsl/mbN_GUIDE_PY/mbN_GUIDE/data/20_processed/mbn/life/title_labels.csv",
+    "csv_sha256": "5d7afab39fe47ccfee31d1d8210d633d49fa15e28d69f0b3aef5bde3568d4b8a"
+  }
+}

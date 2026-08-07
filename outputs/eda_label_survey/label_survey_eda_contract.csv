@@ -1,0 +1,9 @@
+﻿contract_field,value
+target,has_bracket_label
+target_type,binary editorial-label presence
+analysis_rows,225
+positive_rows,102
+negative_rows,123
+positive_rate,0.4533
+source_scope,"MBN Life frozen title survey, 12 pages"
+interpretation,"exploratory label-use pattern, not article quality or causal evidence"

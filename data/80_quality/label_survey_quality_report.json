@@ -1,0 +1,76 @@
+{
+  "notebook": "02aValidateLabelSurvey.ipynb",
+  "executionTimestamp": "2026-08-07T11:36:03.588875+00:00",
+  "inputPath": "data/00_raw/mbn/life/index/mbn_life_label_survey.source.json",
+  "inputSha256": "b76ecb2a26a69bba8f963ab44b39e229802ce9ea0cda182413cedd065a123c5a",
+  "indexParserVersion": "mbn_index_parser@1",
+  "checks": {
+    "row_count": 225,
+    "expected_row_count": 225,
+    "row_count_matches_expected": true,
+    "labeled_count": 102,
+    "unlabeled_count": 123,
+    "expected_labeled_count": 102,
+    "expected_unlabeled_count": 123,
+    "labeled_count_matches_expected": true,
+    "unlabeled_count_matches_expected": true,
+    "null_counts": {
+      "articleId": 0,
+      "source": 0,
+      "sourceArticleId": 0,
+      "url": 0,
+      "rawTitle": 0,
+      "publishedAt": 0,
+      "section": 0,
+      "collectedAt": 0,
+      "rawSha256": 0,
+      "indexParserVersion": 0,
+      "hasBracketLabel": 0
+    },
+    "min_published_at": "2026-01-01 17:23",
+    "max_published_at": "2026-08-07 13:04",
+    "min_date_within_period_start": true,
+    "max_date_within_period_end": true,
+    "page12_boundary_window": [
+      "2026-01-01 00:00",
+      "2026-01-07 18:30"
+    ],
+    "page12_boundary_article_count": 5,
+    "page12_boundary_count_is_5": true,
+    "duplicate_counts": {
+      "articleId": 0,
+      "url": 0,
+      "publishedAt+rawTitle": 0
+    },
+    "recomputed_labeled_count": 102,
+    "recomputed_labeled_count_matches_survey": true,
+    "recomputed_unique_raw_label_count": 15,
+    "recomputed_label_frequency": {
+      "Find Dining": 24,
+      "Health Recipe": 20,
+      "Style": 20,
+      "Consumer News": 11,
+      "AI기상캐스터": 10,
+      "Mind Note": 7,
+      "Issue Pick": 2,
+      "Season Item": 1,
+      "AI 기상캐스터": 1,
+      "Travel Trend": 1,
+      "Travel News": 1,
+      "반론보도": 1,
+      "Hotel News": 1,
+      "진료는 의사에게": 1,
+      "MBN이 본 신간": 1
+    }
+  },
+  "blockingIssues": [],
+  "warnings": [],
+  "qualityStatus": "PASS",
+  "outputArtifact": {
+    "row_count": 225,
+    "parquet_path": "/home/sieg/projects-wsl/mbN_GUIDE_PY/mbN_GUIDE/data/20_processed/mbn/life/article_index.parquet",
+    "parquet_sha256": "37d1d2b8ff7018ce67dcaa9f57299ee52363d3d6a11822dab866d7fb181dcdda",
+    "csv_path": "/home/sieg/projects-wsl/mbN_GUIDE_PY/mbN_GUIDE/data/20_processed/mbn/life/article_index.csv",
+    "csv_sha256": "7204fef10c2aeb957890f50096c1585a6a94b45b09b0f97380d54df9963e4696"
+  }
+}

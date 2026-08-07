@@ -1,0 +1,20 @@
+# Bracket-label normalization rules for notebooks/02bNormalizeEditorialLabels.ipynb
+#
+# rawBracketToken is contractually immutable (never edited, never deleted).
+# This file only maps rawBracketToken -> normalizedBracketToken via an
+# explicit allowlist of aliases. No blanket whitespace stripping, casing
+# changes, or fuzzy matching is applied — every merge must be named here.
+
+version: label_normalization@1
+
+# Explicit alias pairs, observed directly in the 2026-01-01..2026-08-07 life
+# section survey: a spacing-only duplicate of the AI weather-caster corner.
+aliases:
+  "AI 기상캐스터": "AI기상캐스터"
+
+# Raw labels that are NOT an editorial content taxonomy entry and must be
+# excluded from any future content-series classification, while still being
+# preserved verbatim in title_label (rawBracketToken kept, isExcludedEditorialLabel=true).
+# 반론보도 = legally mandated rebuttal/correction notice, not a content corner.
+excluded_editorial_labels:
+  - "반론보도"

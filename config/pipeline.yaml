@@ -1,0 +1,39 @@
+# mbN_GUIDE_PY pipeline configuration.
+# Consumed by notebooks/02a, 02b, 03, 03a. Do not hardcode these values inline
+# in notebook cells — read this file so version/parameter changes are
+# reviewable in one place and reproducible on Kernel Restart -> Run All.
+
+source: mbn
+section: life
+
+period:
+  start: "2026-01-01 00:00"
+  end: "2026-08-07 23:59"
+
+# Provenance of the frozen index input ingested into data/00_raw/.
+# The original collection ran outside this repo (crawl/mbn_label_survey.py,
+# a pre-repo prototype script) against 12 pages of https://www.mbn.co.kr/news/life/.
+source_survey:
+  relative_path: data/00_raw/mbn/life/index/mbn_life_label_survey.source.json
+  produced_by: crawl/mbn_label_survey.py (outside this repository)
+  pages_crawled: 12
+  expected_total_articles: 225
+  expected_labeled_articles: 102
+  expected_unlabeled_articles: 123
+  expected_unique_raw_labels: 15
+
+collection:
+  raw_html_dir: data/00_raw/mbn/life/articles
+  timeout_seconds: 15
+  max_retries: 4
+  base_backoff_seconds: 1.5
+  rate_limit_min_seconds: 0.4
+  rate_limit_jitter_seconds: 0.3
+
+random_seed: 20260107 # unused today (no sampling/ML in this phase); recorded for forward compatibility
+
+versions:
+  index_parser: mbn_index_parser@1
+  article_parser: mbn_article_parser@1
+  html_fix: mbn_html_fix@1
+  label_normalization: label_normalization@1

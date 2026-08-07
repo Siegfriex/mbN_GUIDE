@@ -1,0 +1,103 @@
+articleId,rawBracketToken,normalizedBracketToken,normalizationMethod,normalizationVersion,isExcludedEditorialLabel,extractionMethod,extractionVersion
+5210942,AI기상캐스터,AI기상캐스터,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5210752,Season Item,Season Item,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5210310,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5210190,AI 기상캐스터,AI기상캐스터,alias,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5209482,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5209481,AI기상캐스터,AI기상캐스터,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5208757,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5208709,AI기상캐스터,AI기상캐스터,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5208065,Consumer News,Consumer News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5208062,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5207975,Travel Trend,Travel Trend,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5207814,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5206420,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5205882,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5205833,AI기상캐스터,AI기상캐스터,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5205161,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5204104,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5203626,AI기상캐스터,AI기상캐스터,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5203141,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5202864,AI기상캐스터,AI기상캐스터,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5202639,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5202638,Consumer News,Consumer News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5202109,AI기상캐스터,AI기상캐스터,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5201675,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5201400,AI기상캐스터,AI기상캐스터,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5201217,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5200771,AI기상캐스터,AI기상캐스터,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5200560,Travel News,Travel News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5200114,AI기상캐스터,AI기상캐스터,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5199827,반론보도,반론보도,identity,label_normalization@1,True,regex_leading_bracket,mbn_index_parser@1
+5199888,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5199420,Consumer News,Consumer News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5198755,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5197490,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5195384,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5194716,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5194018,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5194011,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5193267,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5193172,Hotel News,Hotel News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5192642,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5192616,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5192118,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5192116,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5191019,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5191017,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5190776,Issue Pick,Issue Pick,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5190612,Consumer News,Consumer News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5190603,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5189489,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5189487,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5189229,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5188717,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5188716,Consumer News,Consumer News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5188051,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5187832,진료는 의사에게,진료는 의사에게,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5187792,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5187391,MBN이 본 신간,MBN이 본 신간,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5185506,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5184969,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5184957,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5183745,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5183734,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5183457,Mind Note,Mind Note,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5182962,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5182961,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5182265,Consumer News,Consumer News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5182010,Mind Note,Mind Note,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5181540,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5181537,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5181055,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5181054,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5180592,Mind Note,Mind Note,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5180085,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5179816,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5179275,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5179259,Mind Note,Mind Note,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5176581,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5175561,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5175560,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5175290,Consumer News,Consumer News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5174978,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5174699,Mind Note,Mind Note,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5173422,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5173421,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5173416,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5172539,Consumer News,Consumer News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5171749,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5171735,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5171442,Mind Note,Mind Note,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5171436,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5170846,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5170668,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5170666,Health Recipe,Health Recipe,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5169288,Consumer News,Consumer News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5168534,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5168194,Find Dining,Find Dining,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5168190,Mind Note,Mind Note,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5167637,Consumer News,Consumer News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5167208,Style,Style,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5166117,Consumer News,Consumer News,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1
+5166010,Issue Pick,Issue Pick,identity,label_normalization@1,False,regex_leading_bracket,mbn_index_parser@1

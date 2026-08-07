@@ -1,0 +1,59 @@
+{
+  "notebook": "03aValidateArticleBodies.ipynb",
+  "executionTimestamp": "2026-08-07T11:36:17.714558+00:00",
+  "coverage": {
+    "cohort_size": 101,
+    "article_body_rows": 101,
+    "article_authors_rows": 101,
+    "missing_from_article_body": [],
+    "extra_in_article_body": [],
+    "missing_from_article_authors": [],
+    "articles_with_zero_blocks": []
+  },
+  "parseStatusCounts": {
+    "ok": 101
+  },
+  "authorStatusCounts": {
+    "found": 87,
+    "not_found": 12,
+    "partial": 2
+  },
+  "authorMethodCounts": {
+    "b_tag_following_text": 86,
+    "not_found": 12,
+    "regex_email_only": 2,
+    "regex_tail_reporter_suffix": 1
+  },
+  "blockTypeCounts": {
+    "paragraph": 1061,
+    "heading": 201,
+    "table": 168,
+    "image": 89,
+    "byline": 89,
+    "caption": 11
+  },
+  "bodyLengthStats": {
+    "count": 101.0,
+    "mean": 1414.4851485148515,
+    "std": 816.5035776267167,
+    "min": 473.0,
+    "25%": 1023.0,
+    "50%": 1358.0,
+    "75%": 1545.0,
+    "max": 5850.0
+  },
+  "missingHtmlFiles": [],
+  "cleanBodyReconstructionMismatches": [],
+  "retryNeededCount": 0,
+  "httpStatusCounts": {
+    "200": 101
+  },
+  "errorTypeCounts": {
+    "None": 101
+  },
+  "blockingIssues": [],
+  "warnings": [
+    "12 articles have no parsed author"
+  ],
+  "qualityStatus": "WARN"
+}

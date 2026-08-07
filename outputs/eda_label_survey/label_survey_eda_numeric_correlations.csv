@@ -1,0 +1,5 @@
+﻿feature,pearson_vs_label_presence,spearman_vs_label_presence,non_null_rows
+title_chars,0.3825,0.3975,225
+title_token_count,0.1863,0.1932,225
+hour,0.1313,0.1116,225
+day_index,0.0344,0.0324,225

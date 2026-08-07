@@ -1,0 +1,67 @@
+{
+  "notebook": "03CollectArticleBodies.ipynb",
+  "executionTimestamp": "2026-08-07T11:36:23.845093+00:00",
+  "checks": {
+    "cohort_size": 101,
+    "row_count_article_body": 101,
+    "row_count_matches_cohort": true,
+    "parse_status_counts": {
+      "ok": 101
+    },
+    "author_status_counts": {
+      "found": 87,
+      "not_found": 12,
+      "partial": 2
+    },
+    "block_type_counts": {
+      "paragraph": 1061,
+      "heading": 201,
+      "table": 168,
+      "image": 89,
+      "byline": 89,
+      "caption": 11
+    },
+    "failure_count": 0,
+    "null_counts_article_body": {
+      "articleId": 0,
+      "cleanBody": 0,
+      "parseStatus": 0
+    },
+    "duplicate_counts_article_body": {
+      "articleId": 0
+    }
+  },
+  "failures": [],
+  "blockingIssues": [],
+  "qualityStatus": "PASS",
+  "outputArtifacts": {
+    "article_body": {
+      "row_count": 101,
+      "parquet_path": "/home/sieg/projects-wsl/mbN_GUIDE_PY/mbN_GUIDE/data/20_processed/mbn/life/article_body.parquet",
+      "parquet_sha256": "e35dc7d954b5d28450a569e697446cbf6d555313dc6844da17a3e121e319d358",
+      "csv_path": "/home/sieg/projects-wsl/mbN_GUIDE_PY/mbN_GUIDE/data/20_processed/mbn/life/article_body.csv",
+      "csv_sha256": "708cd57f731e52fd3f510c37a0fe11dc17d25faec586c43750cd7839563d66a8"
+    },
+    "article_body_block": {
+      "row_count": 1619,
+      "parquet_path": "/home/sieg/projects-wsl/mbN_GUIDE_PY/mbN_GUIDE/data/20_processed/mbn/life/article_body_block.parquet",
+      "parquet_sha256": "0faf902ebc1b7c68beb5ba3fd6c1d662b46c44dc091a844e45489402615949e8",
+      "csv_path": "/home/sieg/projects-wsl/mbN_GUIDE_PY/mbN_GUIDE/data/20_processed/mbn/life/article_body_block.csv",
+      "csv_sha256": "65a77466c48a416da2046dc340bec9060ff2641f425a7a4813d93d1eabcfb867"
+    },
+    "article_authors": {
+      "row_count": 101,
+      "parquet_path": "/home/sieg/projects-wsl/mbN_GUIDE_PY/mbN_GUIDE/data/20_processed/mbn/life/article_authors.parquet",
+      "parquet_sha256": "dc4624088d7305f5a9573a72473c0c45310a573c78e59b52e651fa729a8dc5d6",
+      "csv_path": "/home/sieg/projects-wsl/mbN_GUIDE_PY/mbN_GUIDE/data/20_processed/mbn/life/article_authors.csv",
+      "csv_sha256": "a3408fece286f4c1e7c3f2a5274279d404766366d6450997008663041cd726f8"
+    },
+    "fetch_attempts": {
+      "row_count": 101,
+      "parquet_path": "/home/sieg/projects-wsl/mbN_GUIDE_PY/mbN_GUIDE/data/10_interim/mbn/life/fetch_attempts.parquet",
+      "parquet_sha256": "58c202a3dd919224d8e52f0d45bf826655a08317ac96836cedd041816f39b82d",
+      "csv_path": "/home/sieg/projects-wsl/mbN_GUIDE_PY/mbN_GUIDE/data/10_interim/mbn/life/fetch_attempts.csv",
+      "csv_sha256": "01b61a14ebee5ef03ce31d1c2833514af6f40413bf2c01d6a0e41dffeddc58ab"
+    }
+  }
+}
