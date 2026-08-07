@@ -1,0 +1,67 @@
+{
+  "sourceCommit": "afe4d570cea3aa17ac05fe98e85cf5cc0a6a8439",
+  "releaseId": "mbn-guide-dc9f6a80d54985d6",
+  "status": "M13_RELEASE_BUILT_WITH_WARNINGS",
+  "files": [
+    {
+      "path": "data/80_quality/mbn/m13/run_20260808_m13_minimal_safe_release_v1_1/article_projection_exclusions.parquet",
+      "bytes": 1490,
+      "sha256": "3d87ce4a564170dac64f2d15b704a05115daa6c0acdf5b0470420019be6094a4",
+      "rows": 0
+    },
+    {
+      "path": "data/80_quality/mbn/m13/run_20260808_m13_minimal_safe_release_v1_1/frontend_fk_preflight.parquet",
+      "bytes": 1812,
+      "sha256": "4fa85c5e7f1a3bdcb92799416a4c24e896d5fe043b96b01d2e0a6229caf1b0d4",
+      "rows": 0
+    },
+    {
+      "path": "data/80_quality/mbn/m13/run_20260808_m13_minimal_safe_release_v1_1/frontend_handoff_report.md",
+      "bytes": 233,
+      "sha256": "86d99f867aa5a4e15f4be8af5f0ff42df9954b53aa049bc5bae4b7f99522f8a8",
+      "rows": null
+    },
+    {
+      "path": "data/80_quality/mbn/m13/run_20260808_m13_minimal_safe_release_v1_1/frontend_image_provenance_report.parquet",
+      "bytes": 1916,
+      "sha256": "c49ef2de5dd8a2195574a1e394add9be6010c113b2cef6ca23cf548e930f3c9c",
+      "rows": 0
+    },
+    {
+      "path": "data/80_quality/mbn/m13/run_20260808_m13_minimal_safe_release_v1_1/frontend_schema_preflight.json",
+      "bytes": 494,
+      "sha256": "75af5bf41b7e99272e48149f59741a143fa9211d00f4677fe35118c667e94c6f",
+      "rows": null
+    },
+    {
+      "path": "data/80_quality/mbn/m13/run_20260808_m13_minimal_safe_release_v1_1/m13_completion_report.md",
+      "bytes": 130,
+      "sha256": "985c820cf902a67b5c955280fa12b8b883e54dc3c8a158b1a46341f5b27395cd",
+      "rows": null
+    },
+    {
+      "path": "data/80_quality/mbn/m13/run_20260808_m13_minimal_safe_release_v1_1/m13_final_gate.json",
+      "bytes": 371,
+      "sha256": "86c66030d060db79946585a250a65b8dca64cfa118243a8226eca28ceada0928",
+      "rows": null
+    },
+    {
+      "path": "data/80_quality/mbn/m13/run_20260808_m13_minimal_safe_release_v1_1/place_category_projection_audit.parquet",
+      "bytes": 10670,
+      "sha256": "2822578785f64e343dc9699dcc44a8ea4731b88842994bd9b50080a6c2bfacec",
+      "rows": 25
+    },
+    {
+      "path": "data/80_quality/mbn/m13/run_20260808_m13_minimal_safe_release_v1_1/place_projection_exclusions.parquet",
+      "bytes": 1845,
+      "sha256": "9eabaf2cc5688931804f1e7d299af64e28e8710fb9b150aec9dc733809d0fc5b",
+      "rows": 6
+    },
+    {
+      "path": "data/80_quality/mbn/m13/run_20260808_m13_minimal_safe_release_v1_1/recommendation_projection_exclusions.parquet",
+      "bytes": 169693,
+      "sha256": "b6c38549c10fc7fa5d43879e323916794aecfd3a415fe9624d54871fd63ecec9",
+      "rows": 7413
+    }
+  ]
+}

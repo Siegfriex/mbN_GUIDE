@@ -1,0 +1,15 @@
+{
+  "m13Gate": "M13_RELEASE_BUILT_WITH_WARNINGS",
+  "releaseId": "mbn-guide-dc9f6a80d54985d6",
+  "checks": {
+    "projectedPlaceCount": 19,
+    "projectedArticleCount": 461,
+    "brokenFK": 0,
+    "invalidCoordinates": 0,
+    "missingWhyItMatters": 0,
+    "missingReason": 0,
+    "secretLeak": 0,
+    "silentRecommendationLoss": 0
+  },
+  "frontendReady": "NOT_DECLARED"
+}

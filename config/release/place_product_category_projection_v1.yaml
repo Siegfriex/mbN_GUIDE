@@ -1,0 +1,68 @@
+version: place_product_category_projection_v1.1
+authority: RELEASE_PROJECTION_MAPPING_V1
+contractAuthority: DOCS_PRODUCT_TAXONOMY_V2_1
+releaseProfile: MINIMAL_SAFE_RELEASE_V1
+
+# This is a release bridge, not a claim that the TourAPI taxonomy is the
+# product taxonomy.  Every rule below is backed by a literal TourAPI
+# classification code or a literal Korean place-name/evidence token.
+allowedProductCategories:
+  - performance
+  - exhibition
+  - music
+  - food
+  - beauty-fashion
+  - broadcast-media
+  - healing
+  - activity
+
+providerExactRules:
+  - ruleId: tourapi_ve07_cultural_facility
+    contentTypeId: "14"
+    lclsSystm2Prefix: VE07
+    category: exhibition
+    evidence: "TourAPI 문화시설 VE07 classification"
+  - ruleId: tourapi_fd_food
+    contentTypeId: "39"
+    lclsSystm1Prefix: FD
+    category: food
+    evidence: "TourAPI food-service FD classification"
+  - ruleId: tourapi_na04_nature_garden
+    contentTypeId: "12"
+    lclsSystm2Prefix: NA04
+    category: healing
+    evidence: "TourAPI nature/garden NA04 classification"
+  - ruleId: tourapi_ve03_park
+    contentTypeId: "12"
+    lclsSystm2Prefix: VE03
+    category: healing
+    evidence: "TourAPI park VE03 classification"
+
+literalNameRules:
+  - ruleId: literal_exhibition
+    tokens: ["미술관", "갤러리", "박물관"]
+    category: exhibition
+  - ruleId: literal_food
+    tokens: ["식당", "카페"]
+    category: food
+  - ruleId: literal_healing
+    tokens: ["수목원", "국립공원", "공원", "정원"]
+    category: healing
+
+bgeSupport:
+  enabled: true
+  modelId: BAAI/bge-m3
+  revision: 5617a9f61b028005a4858fdac845db406aefb181
+  localFilesOnly: true
+  highMargin: 0.12
+  # BGE alone never promotes a place.  A category-specific literal token
+  # must exist in provider/MBN evidence as well.
+  categoryEvidenceTokens:
+    performance: ["공연", "극장", "무대"]
+    exhibition: ["전시", "미술관", "갤러리", "박물관"]
+    music: ["음악", "콘서트"]
+    food: ["음식", "식당", "카페", "맛집"]
+    beauty-fashion: ["뷰티", "패션", "미용"]
+    broadcast-media: ["방송", "미디어", "촬영", "스튜디오"]
+    healing: ["휴양", "공원", "자연", "온천", "힐링", "정원", "수목원"]
+    activity: ["체험", "스포츠", "레포츠", "액티비티"]

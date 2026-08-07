@@ -1,0 +1,16 @@
+{
+  "buildStatus": "M13_RELEASE_BUILT_WITH_WARNINGS",
+  "releaseId": "mbn-guide-dc9f6a80d54985d6",
+  "sourceCommit": "afe4d570cea3aa17ac05fe98e85cf5cc0a6a8439",
+  "projectedPlaceCount": 19,
+  "projectedArticleCount": 461,
+  "projectedRecommendationCount": 109,
+  "contractWarnings": [
+    "EVENT_FRONTEND_SCHEMA_GAP",
+    "NO_CANONICAL_STORY_BUNDLE",
+    "C1_C2_C3_EXCLUDED_BY_FRONTEND_ENUM_GAP",
+    "KO_ONLY_LOCALE"
+  ],
+  "m14ValidationStatus": "PENDING",
+  "frontendReady": "NOT_DECLARED"
+}
