@@ -1,0 +1,13 @@
+{
+  "selectedModel": {
+    "modelId": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "qualityScore": 0.8343652818384735,
+    "textsPerSecond": 1.6190761002116854,
+    "device": "cuda",
+    "runtimeScore": 0.0,
+    "selectionScore": 0.7092104895627024
+  },
+  "benchmarkAuthority": "WEAK_RETRIEVAL_BENCHMARK",
+  "semanticRelationsMaterialized": false
+}

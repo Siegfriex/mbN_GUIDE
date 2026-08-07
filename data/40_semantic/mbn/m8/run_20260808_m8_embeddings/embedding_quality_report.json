@@ -1,0 +1,93 @@
+{
+  "authority": "WEAK_RETRIEVAL_BENCHMARK",
+  "inputFreeze": {
+    "titleRows": 461,
+    "bodyChunkRows": 1062,
+    "titleArticleUnique": true,
+    "bodyArticleChunkUnique": true,
+    "titleTextNonempty": true,
+    "bodyTextNonempty": true,
+    "titleHashPresent": true,
+    "bodyHashPresent": true,
+    "titleExpected461": true,
+    "bodyExpected1062": true,
+    "titleInputSha256": "6a02d88b8366d1800557037d65779dd4d1cf391717a13a3475edf261b50fefd5",
+    "bodyInputSha256": "f11fd32fc38240ee7bdafcae2cad08052dfece8f9513306e9a0ea87ad583b80d",
+    "bodyBlockProvenancePresent": true,
+    "verdict": "M8_INPUT_FREEZE_PASS"
+  },
+  "selectedModel": {
+    "modelId": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "qualityScore": 0.8343652818384735,
+    "textsPerSecond": 1.6190761002116854,
+    "device": "cuda",
+    "runtimeScore": 0.0,
+    "selectionScore": 0.7092104895627024
+  },
+  "device": "cuda",
+  "tokenAudit": {
+    "titles": {
+      "rows": 461,
+      "maxSequenceLength": 8192,
+      "maxTokens": 50,
+      "tokenCountP95": 40.0,
+      "truncatedCount": 0,
+      "truncationRate": 0.0
+    },
+    "bodyChunks": {
+      "rows": 1062,
+      "maxSequenceLength": 8192,
+      "maxTokens": 4131,
+      "tokenCountP95": 1298.85,
+      "truncatedCount": 0,
+      "truncationRate": 0.0
+    },
+    "cultureEntities": {
+      "rows": 32,
+      "maxSequenceLength": 8192,
+      "maxTokens": 257,
+      "tokenCountP95": 205.09999999999997,
+      "truncatedCount": 0,
+      "truncationRate": 0.0
+    }
+  },
+  "vectorChecks": {
+    "article_title_embeddings.npy": {
+      "rows": 461,
+      "dimension": 1024,
+      "metadataRows": 461,
+      "rowAligned": true,
+      "nanCount": 0,
+      "infCount": 0,
+      "zeroVectorCount": 0,
+      "normalizedWithinTolerance": true
+    },
+    "article_body_chunk_embeddings.npy": {
+      "rows": 1062,
+      "dimension": 1024,
+      "metadataRows": 1062,
+      "rowAligned": true,
+      "nanCount": 0,
+      "infCount": 0,
+      "zeroVectorCount": 0,
+      "normalizedWithinTolerance": true
+    },
+    "culture_entity_embeddings.npy": {
+      "rows": 32,
+      "dimension": 1024,
+      "metadataRows": 32,
+      "rowAligned": true,
+      "nanCount": 0,
+      "infCount": 0,
+      "zeroVectorCount": 0,
+      "normalizedWithinTolerance": true
+    }
+  },
+  "determinism": {
+    "sampleRows": 25,
+    "minCosine": 1.0,
+    "verdict": "DETERMINISM_PASS"
+  },
+  "m8Verdict": "M8_EMBEDDING_READY"
+}

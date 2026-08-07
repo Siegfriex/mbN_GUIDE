@@ -1,0 +1,35 @@
+version: embedding_models_v1
+authority: WEAK_RETRIEVAL_BENCHMARK
+selection:
+  qualityWeight: 0.85
+  runtimeWeight: 0.15
+  randomFloorRecallAt5: 0.01
+  # Runtime may break a near-tie only. A model that materially wins the weak
+  # retrieval benchmark remains preferred even if its long-context runtime is
+  # slower; M8 is an offline milestone, not an online serving path.
+  materialQualityDelta: 0.05
+candidates:
+  - modelId: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+    revision: e8f8c211226b894fcb81acc59f3b34ba3efd5f42
+    adapter: sentence_transformer
+    pooling: mean
+    normalize: true
+    maxSequenceLength: 128
+    queryPrefix: ""
+    documentPrefix: ""
+  - modelId: intfloat/multilingual-e5-small
+    revision: 614241f622f53c4eeff9890bdc4f31cfecc418b3
+    adapter: e5
+    pooling: mean
+    normalize: true
+    maxSequenceLength: 512
+    queryPrefix: "query: "
+    documentPrefix: "passage: "
+  - modelId: BAAI/bge-m3
+    revision: 5617a9f61b028005a4858fdac845db406aefb181
+    adapter: bge
+    pooling: cls
+    normalize: true
+    maxSequenceLength: 8192
+    queryPrefix: ""
+    documentPrefix: ""
