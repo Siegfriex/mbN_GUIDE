@@ -1,0 +1,179 @@
+{
+  "sourceBranch": "nbM_GUIDE_PY",
+  "sourceCommit": "b8e01c38e571790e453b4e3bffd4ac9c6dcb2fdd",
+  "m8Commit": "b8e01c38e571790e453b4e3bffd4ac9c6dcb2fdd",
+  "generatedAt": "2026-08-07T19:59:21.613560+00:00",
+  "files": [
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/article_article_semantic_relation.parquet",
+      "bytes": 406953,
+      "sha256": "095604d0d42ed5b2072e0210801c67b8459ce3694e8e60418bf9edf8d1ab27cd",
+      "rows": 9220
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/article_entity_semantic_relation.parquet",
+      "bytes": 131382,
+      "sha256": "28278c4b2209eacfc68fb5fc51a59699e7238a0a8713d13ce9702f1fb84be8c2",
+      "rows": 2305
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/m9_completion_report.md",
+      "bytes": 233,
+      "sha256": "6fd9f041d369970e6f274b1b5f00cf4423c33bf3a1fcab0b80ae23a3b9030de2",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/m9_final_gate.json",
+      "bytes": 700,
+      "sha256": "1c206ee015f751724778124d571997d19176d3edb9082df9c7c0aa751901546f",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/m9_input_manifest.json",
+      "bytes": 3403,
+      "sha256": "43d68fe58a409517a7e7e1db9c3fb0a7ec41ad7ae261fdc285eb67fac2f5b8c5",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/matrix_cache/article_body_max.npy",
+      "bytes": 850212,
+      "sha256": "77704758641d34c11f9ebbb14b87cf57f978fa66086df349c89da7699c2c56cb",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/matrix_cache/article_body_similarity.npy",
+      "bytes": 850212,
+      "sha256": "1fc94e5c5ede27e8e4a16e8bcbe6389840f5dc99d794ff373aca1de1696251f1",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/matrix_cache/article_body_top3.npy",
+      "bytes": 850212,
+      "sha256": "01c2444917f0269e072a869538111f0d0ff913557bc818805ec056a03aa54067",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/matrix_cache/article_entity_body_max.npy",
+      "bytes": 59136,
+      "sha256": "0742a8ec6feab4eb81073acab8eccb97b59846fee448648f1b5b6daac73c0bcf",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/matrix_cache/article_entity_body_similarity.npy",
+      "bytes": 59136,
+      "sha256": "a8065d51682c7b90470aaf27dfb6c9b4b6c401531c2fd9d609a18698bea7805a",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/matrix_cache/article_entity_body_top3.npy",
+      "bytes": 59136,
+      "sha256": "ea84c77ba3f6c7ab0adb64fb6b0ac1c5707377c7b99e589ee66fdf2337948182",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/matrix_cache/chunk_chunk_cosine.npy",
+      "bytes": 4511504,
+      "sha256": "38cd9e36712b602867321fc76c930614f9ea127981a0147b3704e1c493a71bdb",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/matrix_cache/chunk_entity_cosine.npy",
+      "bytes": 136064,
+      "sha256": "23843133088d2f162d055653af3d6c7f0df583e7f9415d9aa0f3134a83d16baf",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/matrix_cache/title_entity_cosine.npy",
+      "bytes": 59136,
+      "sha256": "b5daee7a7aac93cc4e718763d433da7999d7a47e2928dab091c5ae5677d7c83d",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/matrix_cache/title_title_cosine.npy",
+      "bytes": 850212,
+      "sha256": "6f7dcd59f9a924ea779b8d907a1ab735047c97d462f89a680ec733b151cfebbc",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/matrix_cache_manifest.json",
+      "bytes": 2151,
+      "sha256": "0c38a96e43497f239eb5c1bfa93dbd02b5a88e7f87494904e1fa13174635aee6",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/semantic_formula_audit_sample.parquet",
+      "bytes": 4405,
+      "sha256": "a97bca383ab734b4b2129d17bcb968e4f5834d318e918755a5f1552647cf09cd",
+      "rows": 300
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/semantic_hubness_report.parquet",
+      "bytes": 8637,
+      "sha256": "d17dd7ca728fd0e5b4fe1368901a4a6faab5f156b205608851a7f28b57bdc0eb",
+      "rows": 493
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/semantic_near_duplicate_candidates.parquet",
+      "bytes": 8469,
+      "sha256": "dda107ae3a0e4a807d1555de791f3ffe2a5c84d6504c7df4cca325afc4fe1843",
+      "rows": 0
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/semantic_relation_audit_report.json",
+      "bytes": 1014,
+      "sha256": "b7512572d3dabd189ce090e3182f66936750133f017dda180eb127ed2289a17f",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/semantic_relation_quality_report.json",
+      "bytes": 4328,
+      "sha256": "23c1f70147a71cad2beae2a44b63bef06b7dffa0f5622cf3e42a52b6123970c4",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/semantic_relation_sanity_sample.csv",
+      "bytes": 49075,
+      "sha256": "bd891116a8b4a253ad8f0f216c46271cfada3d2332b1d64c3d931f9906b15623",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/semantic_score_distribution.json",
+      "bytes": 809,
+      "sha256": "e9d674f40450a6924673379077df0383a0c20cc434b2f535b39e3da929c82ca6",
+      "rows": null
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/similarity_recipe_benchmark.parquet",
+      "bytes": 11382,
+      "sha256": "c6ae80e8ac18cbf15bc8f689cd06268a09ca8ffd6b4f417ce295e6b69c43bd41",
+      "rows": 3
+    },
+    {
+      "path": "data/40_semantic/mbn/m9/run_20260808_m9_similarity/similarity_recipe_selection.json",
+      "bytes": 498,
+      "sha256": "93dc287de9cc725bafa5f6e8727f655a2dc55a458c21c97da69fa25b3bcbb922",
+      "rows": null
+    }
+  ],
+  "m9Gate": "M9_SEMANTIC_READY",
+  "recipe": {
+    "recipeVersion": "m9_body_only@1",
+    "selectedRecipe": "BODY_ONLY",
+    "titleWeight": 0.0,
+    "bodyWeight": 1.0,
+    "bodyMaxWeight": 0.7,
+    "bodyTop3Weight": 0.3,
+    "evaluationAuthority": "DIRECT_GEO_RELATION_SILVER + M8_INTERNAL_RETRIEVAL_DIAGNOSTIC",
+    "benchmarkQueryCount": 25,
+    "benchmarkPositiveCount": 34,
+    "selectionReason": "selected on Article-to-Entity Recall@5, then MRR, then SharedGeo Recall@10",
+    "uncertainty": "weak direct-geo relation evidence only; not Human semantic Gold"
+  },
+  "counts": {
+    "articles": 461,
+    "chunks": 1062,
+    "entities": 32,
+    "articleArticleRelations": 9220,
+    "articleEntityRelations": 2305
+  }
+}

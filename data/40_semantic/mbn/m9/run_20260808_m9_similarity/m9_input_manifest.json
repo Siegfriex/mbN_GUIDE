@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-08-07T19:59:10.318012+00:00",
+  "m8Commit": "b8e01c38e571790e453b4e3bffd4ac9c6dcb2fdd",
+  "modelContract": {
+    "m8CommitPinned": true,
+    "modelId": true,
+    "modelRevision": true,
+    "shapes": true,
+    "float32": true,
+    "metaRows": true,
+    "modelMetadata": true,
+    "nanInfFree": true,
+    "verdict": "M9_MODEL_CONTRACT_PASS"
+  },
+  "inputs": [
+    {
+      "path": "data/40_semantic/mbn/m8/run_20260808_m8_embeddings/article_title_embeddings.npy",
+      "sha256": "eef586be984c06b2670cf641d93026153e8a57b72042c4e08712b34b0eef2ea2",
+      "bytes": 1888384
+    },
+    {
+      "path": "data/40_semantic/mbn/m8/run_20260808_m8_embeddings/article_body_chunk_embeddings.npy",
+      "sha256": "d1af1db8a42926e9e4e566767a25ddac870889cb94855521f537663072e5ddd4",
+      "bytes": 4350080
+    },
+    {
+      "path": "data/40_semantic/mbn/m8/run_20260808_m8_embeddings/culture_entity_embeddings.npy",
+      "sha256": "777a6755e4e17499bd449375e52c83d2e004301acd3ab245bba648a5ce6dddf0",
+      "bytes": 131200
+    },
+    {
+      "path": "data/40_semantic/mbn/m8/run_20260808_m8_embeddings/article_title_embedding_metadata.parquet",
+      "sha256": "fa4744ce77a42f409e66e0dd0644197d509796bac1624cbdff3019e2da00758a",
+      "bytes": 45546
+    },
+    {
+      "path": "data/40_semantic/mbn/m8/run_20260808_m8_embeddings/article_body_chunk_embedding_metadata.parquet",
+      "sha256": "a010dea93e95d0a22708f0c81bfb5f4661b860fdb0b07d576bb64fff66811404",
+      "bytes": 109429
+    },
+    {
+      "path": "data/40_semantic/mbn/m8/run_20260808_m8_embeddings/culture_entity_embedding_metadata.parquet",
+      "sha256": "970237a69769a136fc017d5a40a8411ffa1db4adcb985068be1d213233ea6d0a",
+      "bytes": 11369
+    },
+    {
+      "path": "data/40_semantic/mbn/m8/run_20260808_m8_embeddings/embedding_model_selection.json",
+      "sha256": "e05c8d585cb3b18c3260e376b3153b6bc7a8fb371ab1296fca637058bca2b29c",
+      "bytes": 1425
+    },
+    {
+      "path": "data/40_semantic/mbn/m8/run_20260808_m8_embeddings/embedding_quality_report.json",
+      "sha256": "7379151b8179324fce496eec0b3c2c609be0ca9629712dac7625aa3ac73260c9",
+      "bytes": 2459
+    },
+    {
+      "path": "data/40_semantic/mbn/m8/run_20260808_m8_embeddings/m8_final_gate.json",
+      "sha256": "617efe99e96c074f99eb5784d143605add4320fad756e86dadf1d15de6c18b9c",
+      "bytes": 2422
+    },
+    {
+      "path": "data/40_semantic/mbn/m8/run_20260808_m8_embeddings/artifact_manifest.json",
+      "sha256": "65c9c8dd778ec0cbbbbd9347d41d74439bc24c22868f1a1ed0554f61b805231e",
+      "bytes": 3802
+    },
+    {
+      "path": "data/30_geo/mbn/canonical/m7_replay_20260808/canonical_places.parquet",
+      "sha256": "be3d8d2a6a34aa98724e424eadfdafebbd4c211cc4c68b2c6f8e0b43ffca52aa",
+      "bytes": 16747
+    },
+    {
+      "path": "data/30_geo/mbn/canonical/m7_replay_20260808/culture_events.parquet",
+      "sha256": "d34904a3aacf3b9101d0e5fd15bc44365589f97041a6b17cc2c79a5911b8b6cb",
+      "bytes": 12190
+    },
+    {
+      "path": "data/30_geo/mbn/canonical/m7_replay_20260808/article_place_relation.parquet",
+      "sha256": "f1bfe974df4e8e6a4767bbcbaee351b0df9cb44482dde21f1d78841cebdf839b",
+      "bytes": 11405
+    },
+    {
+      "path": "data/30_geo/mbn/canonical/m7_replay_20260808/article_event_relation.parquet",
+      "sha256": "5fe3ad8117f1afeaa900ed9a49d4eaa0df32a2da17118e3e7e3b0fc18fc3525f",
+      "bytes": 8740
+    }
+  ]
+}

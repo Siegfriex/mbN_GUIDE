@@ -1,0 +1,28 @@
+{
+  "m9Gate": "M9_SEMANTIC_READY",
+  "modelContract": {
+    "m8CommitPinned": true,
+    "modelId": true,
+    "modelRevision": true,
+    "shapes": true,
+    "float32": true,
+    "metaRows": true,
+    "modelMetadata": true,
+    "nanInfFree": true,
+    "verdict": "M9_MODEL_CONTRACT_PASS"
+  },
+  "qualityChecks": {
+    "selfRelationCount": 0,
+    "articleRelationDuplicatePk": 0,
+    "entityRelationDuplicatePk": 0,
+    "brokenArticleFK": 0,
+    "brokenEntityFK": 0,
+    "nanCount": 0,
+    "infCount": 0,
+    "rankViolationCount": 0,
+    "topKViolationCount": 0
+  },
+  "formulaMismatchCount": 0,
+  "manifestHashMismatch": 0,
+  "canonicalNotebookExpected": "notebooks/09MeasureSemanticSimilarity.ipynb"
+}

@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-08-07T19:59:11.796352+00:00",
+  "sourceMatrixHashes": {
+    "title": "2d4b4aac4a32a8594412e03defa056df21074dd8996a54f76dc29375d08ff413",
+    "chunk": "ba7c6a25606af4c105e97ba89eb89811c77b78ca7d2a7f454c17a355b034a9e5",
+    "entity": "631884bb976986bc111fd4e7afa36e03b6a35502ed476ad1cae449ccb27944b5"
+  },
+  "matrices": {
+    "tt": {
+      "shape": [
+        461,
+        461
+      ],
+      "dtype": "float32",
+      "sha256": "854bd5b2568b26e9d3c6c19b57d107993dfda1891801a3d5f4a7aa1252962b13"
+    },
+    "cc": {
+      "shape": [
+        1062,
+        1062
+      ],
+      "dtype": "float32",
+      "sha256": "28ff05040aacfef1e8283fed90ea9009dfeafdd93f0094cd37c2ccbdb0dac731"
+    },
+    "te": {
+      "shape": [
+        461,
+        32
+      ],
+      "dtype": "float32",
+      "sha256": "720befe2cc537d0594e5b1fa157f8c2c84a5a5657e941fa3581447c9a5188cf8"
+    },
+    "ce": {
+      "shape": [
+        1062,
+        32
+      ],
+      "dtype": "float32",
+      "sha256": "a5e7ed9363e4ac3ccb6f6778c11b3b71d2d217a7f798952b77c64e8130b2ce13"
+    },
+    "body": {
+      "shape": [
+        461,
+        461
+      ],
+      "dtype": "float32",
+      "sha256": "ed13379713bf0ff1c8a35cb8f9c21ac56a34168437c657d4b89fcc0a011ac4c1"
+    },
+    "be": {
+      "shape": [
+        461,
+        32
+      ],
+      "dtype": "float32",
+      "sha256": "b2d30c65d1dc60d581c4d2a58560420945bf9ff496cffe53b3f5cceb8ceebb3b"
+    },
+    "bmax": {
+      "shape": [
+        461,
+        461
+      ],
+      "dtype": "float32",
+      "sha256": "fbff09b44c2c25665f95abb5ff06731e9ef1cac8c3b9e99cc45cc17ac14bda52"
+    },
+    "btop3": {
+      "shape": [
+        461,
+        461
+      ],
+      "dtype": "float32",
+      "sha256": "7bc5ceb68f5e79b5a8a7cf9d59e48a86eaeb1ef9f9f2aa1d411f3cce6c95afcc"
+    },
+    "bemax": {
+      "shape": [
+        461,
+        32
+      ],
+      "dtype": "float32",
+      "sha256": "25837d9c80a6697786586d7eb360f3451c53fefc657b2bbb64bacf70f10f316f"
+    },
+    "betop3": {
+      "shape": [
+        461,
+        32
+      ],
+      "dtype": "float32",
+      "sha256": "9404f416ea5f66c765faf9394a3a7bb93c3c7cf05635723e3391867f57937f9b"
+    }
+  }
+}

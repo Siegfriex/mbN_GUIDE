@@ -1,0 +1,120 @@
+{
+  "authority": "DIRECT_GEO_RELATION_SILVER + M8_INTERNAL_RETRIEVAL_DIAGNOSTIC",
+  "modelContract": {
+    "m8CommitPinned": true,
+    "modelId": true,
+    "modelRevision": true,
+    "shapes": true,
+    "float32": true,
+    "metaRows": true,
+    "modelMetadata": true,
+    "nanInfFree": true,
+    "verdict": "M9_MODEL_CONTRACT_PASS"
+  },
+  "recipe": {
+    "recipeVersion": "m9_body_only@1",
+    "selectedRecipe": "BODY_ONLY",
+    "titleWeight": 0.0,
+    "bodyWeight": 1.0,
+    "bodyMaxWeight": 0.7,
+    "bodyTop3Weight": 0.3,
+    "evaluationAuthority": "DIRECT_GEO_RELATION_SILVER + M8_INTERNAL_RETRIEVAL_DIAGNOSTIC",
+    "benchmarkQueryCount": 25,
+    "benchmarkPositiveCount": 34,
+    "selectionReason": "selected on Article-to-Entity Recall@5, then MRR, then SharedGeo Recall@10",
+    "uncertainty": "weak direct-geo relation evidence only; not Human semantic Gold"
+  },
+  "counts": {
+    "articles": 461,
+    "chunks": 1062,
+    "entities": 32,
+    "articleArticleRelations": 9220,
+    "articleEntityRelations": 2305
+  },
+  "checks": {
+    "selfRelationCount": 0,
+    "articleRelationDuplicatePk": 0,
+    "entityRelationDuplicatePk": 0,
+    "brokenArticleFK": 0,
+    "brokenEntityFK": 0,
+    "nanCount": 0,
+    "infCount": 0,
+    "rankViolationCount": 0,
+    "topKViolationCount": 0
+  },
+  "matrixHashes": {
+    "S_tt": "854bd5b2568b26e9d3c6c19b57d107993dfda1891801a3d5f4a7aa1252962b13",
+    "S_body": "ed13379713bf0ff1c8a35cb8f9c21ac56a34168437c657d4b89fcc0a011ac4c1",
+    "S_article": "ed13379713bf0ff1c8a35cb8f9c21ac56a34168437c657d4b89fcc0a011ac4c1",
+    "S_te": "720befe2cc537d0594e5b1fa157f8c2c84a5a5657e941fa3581447c9a5188cf8",
+    "S_be": "b2d30c65d1dc60d581c4d2a58560420945bf9ff496cffe53b3f5cceb8ceebb3b",
+    "S_article_entity": "b2d30c65d1dc60d581c4d2a58560420945bf9ff496cffe53b3f5cceb8ceebb3b"
+  },
+  "performance": {
+    "loadNormalizeSeconds": 0.0071404320042347535,
+    "titleMatrixSeconds": 0.02310652500455035,
+    "chunkMatrixSeconds": 0.03168584399827523,
+    "entityMatricesSeconds": 0.008066606998909265,
+    "bodyAggregationSeconds": 1.3309643210013746,
+    "recipeBenchmarkSeconds": 0.026413526000396814,
+    "topKMaterializationSeconds": 1.0078452560046571,
+    "totalSeconds": 3.5990191730015795,
+    "peakRAMMB": 238.703125
+  },
+  "retrievalBenchmark": [
+    {
+      "recipeVersion": "m9_title_only@1",
+      "recipeName": "TITLE_ONLY",
+      "titleWeight": 1.0,
+      "bodyWeight": 0.0,
+      "evaluationAuthority": "DIRECT_GEO_RELATION_SILVER + M8_INTERNAL_RETRIEVAL_DIAGNOSTIC",
+      "articleEntity_queryCount": 25,
+      "articleEntity_recallAt1": 0.44,
+      "articleEntity_recallAt3": 0.68,
+      "articleEntity_recallAt5": 0.72,
+      "articleEntity_recallAt10": 0.88,
+      "articleEntity_mrr": 0.5903496133496133,
+      "sharedGeo_queryCount": 3,
+      "sharedGeo_recallAt5": 0.3333333333333333,
+      "sharedGeo_recallAt10": 0.3333333333333333,
+      "sharedGeo_recallAt20": 0.6666666666666666,
+      "sharedGeo_mrr": 0.18611111111111112
+    },
+    {
+      "recipeVersion": "m9_body_only@1",
+      "recipeName": "BODY_ONLY",
+      "titleWeight": 0.0,
+      "bodyWeight": 1.0,
+      "evaluationAuthority": "DIRECT_GEO_RELATION_SILVER + M8_INTERNAL_RETRIEVAL_DIAGNOSTIC",
+      "articleEntity_queryCount": 25,
+      "articleEntity_recallAt1": 0.84,
+      "articleEntity_recallAt3": 0.96,
+      "articleEntity_recallAt5": 1.0,
+      "articleEntity_recallAt10": 1.0,
+      "articleEntity_mrr": 0.8966666666666666,
+      "sharedGeo_queryCount": 3,
+      "sharedGeo_recallAt5": 0.0,
+      "sharedGeo_recallAt10": 0.0,
+      "sharedGeo_recallAt20": 0.0,
+      "sharedGeo_mrr": 0.008866483424005547
+    },
+    {
+      "recipeVersion": "m9_hybrid_baseline@1",
+      "recipeName": "HYBRID_BASELINE",
+      "titleWeight": 0.4666666667,
+      "bodyWeight": 0.5333333333,
+      "evaluationAuthority": "DIRECT_GEO_RELATION_SILVER + M8_INTERNAL_RETRIEVAL_DIAGNOSTIC",
+      "articleEntity_queryCount": 25,
+      "articleEntity_recallAt1": 0.84,
+      "articleEntity_recallAt3": 0.92,
+      "articleEntity_recallAt5": 0.96,
+      "articleEntity_recallAt10": 1.0,
+      "articleEntity_mrr": 0.89,
+      "sharedGeo_queryCount": 3,
+      "sharedGeo_recallAt5": 0.0,
+      "sharedGeo_recallAt10": 0.0,
+      "sharedGeo_recallAt20": 0.3333333333333333,
+      "sharedGeo_mrr": 0.029929608838991355
+    }
+  ]
+}

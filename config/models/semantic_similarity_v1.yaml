@@ -1,0 +1,29 @@
+version: semantic_similarity_v1
+modelContract:
+  modelFamily: BGE-M3
+  requiredModelId: BAAI/bge-m3
+  requiredRevision: 5617a9f61b028005a4858fdac845db406aefb181
+  requiredDimension: 1024
+  requiredNormalize: true
+bodyAggregation:
+  maxWeight: 0.70
+  top3Weight: 0.30
+recipes:
+  - recipeVersion: m9_title_only@1
+    name: TITLE_ONLY
+    titleWeight: 1.0
+    bodyWeight: 0.0
+  - recipeVersion: m9_body_only@1
+    name: BODY_ONLY
+    titleWeight: 0.0
+    bodyWeight: 1.0
+  - recipeVersion: m9_hybrid_baseline@1
+    name: HYBRID_BASELINE
+    titleWeight: 0.4666666667
+    bodyWeight: 0.5333333333
+canonical:
+  articleTopK: 20
+  entityTopK: 5
+  retrievalMethod: EXACT_COSINE
+  seed: 42
+  dtype: float32

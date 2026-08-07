@@ -1,0 +1,13 @@
+{
+  "recipeVersion": "m9_body_only@1",
+  "selectedRecipe": "BODY_ONLY",
+  "titleWeight": 0.0,
+  "bodyWeight": 1.0,
+  "bodyMaxWeight": 0.7,
+  "bodyTop3Weight": 0.3,
+  "evaluationAuthority": "DIRECT_GEO_RELATION_SILVER + M8_INTERNAL_RETRIEVAL_DIAGNOSTIC",
+  "benchmarkQueryCount": 25,
+  "benchmarkPositiveCount": 34,
+  "selectionReason": "selected on Article-to-Entity Recall@5, then MRR, then SharedGeo Recall@10",
+  "uncertainty": "weak direct-geo relation evidence only; not Human semantic Gold"
+}

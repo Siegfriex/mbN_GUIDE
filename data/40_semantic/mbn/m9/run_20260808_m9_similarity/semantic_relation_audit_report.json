@@ -1,0 +1,28 @@
+{
+  "auditAuthority": "DETERMINISTIC_FORMULA_QA",
+  "modelContract": {
+    "m8CommitPinned": true,
+    "modelId": true,
+    "modelRevision": true,
+    "shapes": true,
+    "float32": true,
+    "metaRows": true,
+    "modelMetadata": true,
+    "nanInfFree": true,
+    "verdict": "M9_MODEL_CONTRACT_PASS"
+  },
+  "formulaSampleRows": 300,
+  "formulaMismatchCount": 0,
+  "formulaTolerance": 1e-06,
+  "matrixHashChecks": {
+    "S_tt": "854bd5b2568b26e9d3c6c19b57d107993dfda1891801a3d5f4a7aa1252962b13",
+    "S_body": "ed13379713bf0ff1c8a35cb8f9c21ac56a34168437c657d4b89fcc0a011ac4c1",
+    "S_article": "ed13379713bf0ff1c8a35cb8f9c21ac56a34168437c657d4b89fcc0a011ac4c1",
+    "S_te": "720befe2cc537d0594e5b1fa157f8c2c84a5a5657e941fa3581447c9a5188cf8",
+    "S_be": "b2d30c65d1dc60d581c4d2a58560420945bf9ff496cffe53b3f5cceb8ceebb3b",
+    "S_article_entity": "b2d30c65d1dc60d581c4d2a58560420945bf9ff496cffe53b3f5cceb8ceebb3b"
+  },
+  "manifestHashMismatch": 0,
+  "manifestMismatchPaths": [],
+  "auditVerdict": "M9_AUDIT_PASS"
+}
