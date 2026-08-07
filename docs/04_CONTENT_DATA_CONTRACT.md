@@ -3,7 +3,7 @@
 Document: `04_CONTENT_DATA_CONTRACT`
 Status: `PROPOSED`
 Authority: Normative data semantics and PY→FRONT release contract
-Contract Version: `0.2.0`
+Contract Version: `0.3.0`
 Owner: MBN GUIDE Product Architecture & Documentation Director
 Upstream Authority: `00_PRODUCT_CONSTITUTION.md`, `01_PRD.md`, `03_FEATURE_SPEC.md`
 Downstream Consumers: PY producer, FRONT consumer, `05~06`
@@ -64,22 +64,84 @@ Broken provenance, missing required review, invalid schema, or broken foreign ke
 
 `rawTitle`, bracket metadata, raw body, clean derived text, parsing status, parser version, source URL, collection time, and hashes serve different audit purposes. `FAILED`, `PARTIAL`, and empty parsing are retained as states, not discarded nulls. Article full text remains a PY/corpus concern unless a separately approved FRONT projection allows a bounded excerpt.
 
+## Local artifact SSOT and external-provider policy
+
+All data, ML, QA, and FRONT release artifacts are local to the PY execution environment. Parquet is the tabular artifact SSOT; DuckDB is an optional local analytical/query layer, not a server database. This contract does not authorize GCS, BigQuery, Cloud Run, Vertex AI, Composer, or a GCP database.
+
+| Artifact class | Local format | Logical location |
+|---|---|---|
+| Contracts, taxonomy, pipeline/model/recommendation config | YAML | `config/`, `data/00_contracts/` |
+| MBN raw acquisition | HTML | `data/10_raw/mbn/` |
+| Provider observations permitted for retention | JSON or Parquet | `data/10_raw/providers/`, subject to provider policy |
+| Article index/body/body blocks, candidates, canonical entities, relations, rankings | Parquet | `data/20_corpus/`, `30_geo/`, `40_semantic/`, `50_recommendation/` |
+| Gold/manual review sets | CSV | Relevant quality or contract path |
+| Vectors / vector index | NPY / FAISS | `data/40_semantic/embeddings/`, `data/40_semantic/faiss/` |
+| Quality evidence | JSON and report artifacts | `data/80_quality/`, `reports/` |
+| Frontend payload | JSON in immutable release directory | `data/90_exports/frontend/<releaseId>/` |
+
+The logical local tree is `data/10_raw`, `20_corpus`, `30_geo`, `40_semantic`, `50_recommendation`, `80_quality`, and `90_exports`; the subdirectories in the supplied local-first plan express artifact ownership, not a cloud deployment topology.
+
+### Provider boundary and retention
+
+`sbsds4` is a Google Maps Platform billing, credential, quota, and alert boundary only. Its initial permitted role is Google Places API (New) Text Search through HTTP from a local notebook/process. Geocoding API is optional and must not be enabled or depended upon until address-to-coordinate resolution is separately required. The project is not an artifact store or pipeline runtime.
+
+Provider data must be classified before storage:
+
+| Provider class | Persistence rule |
+|---|---|
+| MBN or public/open source whose terms permit retention | Raw response may be retained locally with source policy, hash, and provenance. |
+| Google Maps Platform | Do not assume raw responses/content can be permanently archived. Retain only what current provider terms permit; record a policy-aware observation and durable provider identity where allowed. |
+
+`providerRawPath` is therefore not a universal required field. A provider observation records:
+
+```text
+articleId
+cultureKeyId
+provider
+queryText
+queriedAt
+providerEntityId
+providerRank
+resolutionFeatures
+resolutionScore
+resolutionStatus
+responseRetentionPolicy
+```
+
+For a Google Places observation, `provider = GOOGLE_PLACES`, `providerEntityId` is the Place ID, and `responseRetentionPolicy = PROVIDER_RESTRICTED`. Provider IDs are references that may need refresh; they are not CanonicalPlace IDs. A local credential uses a source-tree-external value such as `GOOGLE_MAPS_API_KEY`; `.env`, `.env.*`, `credentials/`, and `secrets/` are excluded from version control. API restriction is Places API (New) initially, with Geocoding API added only by decision. Budget/alert is cost observation, not assumed automatic spend blocking.
+
 ## Georesolution, relation, and recommendation contracts
 
 ```text
-Article → PlaceMention → PlaceCandidate → GeocodeResult → CanonicalPlace → Place projection
+Article evidence → CultureKey → PlaceMention / PlaceCandidate → provider observation → resolution → CanonicalPlace → Place projection
 ```
 
 | Object/status | Required meaning | UI/promotion rule |
 |---|---|---|
 | PlaceMention | Extracted surface, context, article ID, method/version, confidence. | Not a Place and never directly rendered as a pin. |
 | PlaceCandidate | Grouped mention candidate and region/category hints. | Pending/merged/rejected state remains explicit. |
+| ProviderObservation | Query, provider identity/rank, observed time, policy-aware retention state, resolution features/score/status. | Provider DTO/raw response is not the canonical entity and may be retention-restricted. |
 | GeocodeResult `RESOLVED` | Valid coordinates and one selected result. | Eligible for canonical review/projection. |
 | `AMBIGUOUS` | More than one plausible result or insufficient evidence. | No automatic pin; review queue. |
 | `NOT_FOUND` | Provider could not resolve. | May remain an article relation; no coordinates invented. |
 | `ERROR` | Provider, transport, or validation failure. | Retry/audit state; never merged into not-found. |
 | SemanticRelation | Source/target IDs, method/model/version, rank/distance/score components, reason/evidence, createdAt, staleness. | Relation must pass FK and eligibility validation. |
 | Recommendation | Candidate set, ranking version, score decomposition, human-readable reason, context/time, status. | Sponsored candidates are separately labelled; no opaque promotion. |
+
+### CanonicalPlace is provider-independent
+
+`CanonicalPlace` is resolved from article evidence, CultureKey/candidates, permitted provider observations, public-culture observations, and local context. It is not a copied Google response. Its semantic contract includes `canonicalPlaceId`, `canonicalName`, article evidence, source candidate IDs, `providerReferences[]`, resolution status, coordinate source/provenance, and canonical status.
+
+```text
+providerReferences[] = {
+  provider,
+  providerEntityId,
+  observedAt,
+  responseRetentionPolicy
+}
+```
+
+Coordinates intended for a durable local canonical dataset require a source and reuse right appropriate to that purpose. A Google observation may assist resolution/cross-checking but does not by itself authorize copying all Google content into a permanent local geographic dataset.
 
 ## Contextual Live Recommendation Specification — local-first MVP
 
@@ -239,10 +301,15 @@ Never label Article similarity as a live recommendation, live recommendation as 
 manifest.json
 places.json
 articles.json
-article_relations.json
+stories.json
 live_sessions.json
+offers.json
+article_place_relations.json
+article_article_relations.json
 article_live_relations.json
 place_live_relations.json
+recommendations.json
+taxonomy.json
 quality_report.json
 ```
 
@@ -267,8 +334,8 @@ PY is the producer of a validated release; FRONT is the consumer. The handoff is
 | File SHA-256 | Bundle integrity for every declared file. |
 | Validation report | Schema, enum, locale/provenance, FK, quality, and promotion verdict. |
 
-Release rules: do not overwrite an existing release when parser/model/taxonomy/ranking changes; do not promote `FAIL`; do not silently coerce schema mismatch in UI; do not ignore broken FK; keep deterministic fixtures explicitly marked with their contract version and non-empirical status.
+Release rules: build and retain the immutable bundle locally; do not overwrite an existing release when parser/model/taxonomy/ranking changes; do not promote `FAIL`; do not silently coerce schema mismatch in UI; do not ignore broken FK; keep deterministic fixtures explicitly marked with their contract version and non-empirical status. How FRONT receives a validated local release is a FRONT-track decision, not a reason to make the release cloud storage.
 
 ## PY responsibility boundary
 
-PY may implement article intake/body corpus, title parsing, taxonomy, georesolution, embeddings, semantic relations, recommendation, and release generation. DOCS owns the meaning of inputs/outputs, taxonomy, provenance, confidence, unknown/unavailable rules, and versioning. Exact provider, crawler, model, notebook name, source scope, and execution evidence are not asserted here.
+PY may implement article intake/body corpus, title parsing, taxonomy, local georesolution, local embeddings/FAISS or cosine relations, local recommendation, local DuckDB/Pandas QA, and local release generation. DOCS owns the meaning of inputs/outputs, taxonomy, provenance, confidence, unknown/unavailable rules, provider-retention boundary, and versioning. Exact model, crawler, notebook filename, source scope, and execution evidence are not asserted here.

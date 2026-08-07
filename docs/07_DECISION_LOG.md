@@ -3,7 +3,7 @@
 Document: `07_DECISION_LOG`
 Status: `PROPOSED`
 Authority: Decision audit trail for normative product contracts
-Contract Version: `0.3.0`
+Contract Version: `0.4.0`
 Owner: MBN GUIDE Product Architecture & Documentation Director
 Upstream Authority: User-directed product constitution and v2.1 candidate
 Downstream Consumers: `00~06`, FRONT, PY
@@ -196,6 +196,32 @@ Rejected Alternatives: Silently treat `/story/:storyId` as an Article route; add
 Affected Contracts: `02`, `03`, `04`, `06`.
 Affected Branches: DOCS, FRONT, PY.
 Migration Required: Yes after acceptance if a dedicated Article route is selected.
+
+### INFRA-001 — Local-first PY runtime and `sbsds4` provider boundary
+
+Decision ID: `INFRA-001`
+Date: 2026-08-07
+Status: `ACCEPTED`
+Context: The initial cloud scope was broader than the product needs and could blur the ownership of data, ML, QA, and release artifacts.
+Decision: MBN GUIDE PY runs entirely locally. Notebooks are its control plane; local Parquet/JSON/HTML/CSV/NPY/FAISS, PyTorch, DuckDB, Pandas, reports, and immutable frontend releases are its artifact boundary. `sbsds4` is only a Google Maps Platform billing/credential/quota/alert boundary for local HTTP calls to Places API (New), and optionally Geocoding API when separately needed.
+Reason: Current corpus/pilot scale does not require cloud storage, orchestration, database, model, or serving infrastructure; local artifacts remain auditable and reproducible.
+Rejected Alternatives: GCS artifact SSOT; BigQuery/DuckDB replacement; Cloud Run/Composer pipeline; Vertex AI embeddings; GCP database; cloud-only execution.
+Affected Contracts: `04`, `06`.
+Affected Branches: DOCS, PY (consumer); FRONT only consumes validated local release artifacts by a future handoff decision.
+Migration Required: Yes — future PY design must not introduce a GCP persistence/runtime dependency without a new accepted decision.
+
+### DATA-001 — Provider observation retention and CanonicalPlace independence
+
+Decision ID: `DATA-001`
+Date: 2026-08-07
+Status: `ACCEPTED`
+Context: A universal local `providerRawPath` or a provider DTO as the CanonicalPlace would conflate source retention rights with entity resolution.
+Decision: Classify provider retention by source. Retain permitted MBN/public raw data locally with provenance; for Google Maps Platform, do not assume permanent raw-content archive. Record policy-aware `ProviderObservation` and durable provider identity where allowed. Resolve CanonicalPlace from evidence/candidates/references without making GooglePlace a canonical DTO or unrestricted coordinate dataset.
+Reason: Retention and reuse policy are provider-specific; provenance is clearer when observation/reference and canonical entity are separate.
+Rejected Alternatives: Require `providerRawPath` for every provider; copy Google responses into permanent local SSOT by default; `GooglePlace = CanonicalPlace` coupling.
+Affected Contracts: `04`, `06`.
+Affected Branches: DOCS, PY.
+Migration Required: Yes — provider adapters and release validation need retention-policy and provider-reference fields.
 
 ## Open decision queue
 
