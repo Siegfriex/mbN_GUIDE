@@ -3,7 +3,7 @@
 Document: `00_PRODUCT_CONSTITUTION`
 Status: `PROPOSED`
 Authority: Normative product contract; highest authority within `docs/00~07`
-Contract Version: `0.1.0`
+Contract Version: `0.2.0`
 Owner: MBN GUIDE Product Architecture & Documentation Director
 Upstream Authority: User-approved product constitution; `MBN_GUIDEBOOK_PRODUCT_FUNCTION_SPEC_V2.md` v2.1 candidate
 Downstream Consumers: `01~07`, FRONT, PY
@@ -67,10 +67,11 @@ MBN is a content/IP and provenance layer, not the sole data source or the whole 
 1. A primary discovery Place requires meaningful localized `whyItMatters`, not coordinates alone.
 2. Context and trust precede commerce CTA; a CTA cannot masquerade as a completed transaction.
 3. Sponsored/partner material is distinguishable from organic/editorial material.
-4. Live, upcoming, replay, and unavailable are distinct states. No fake chat, viewer count, stock, or availability is allowed.
+4. Live lifecycle is `LIVE`, `UPCOMING`, `REPLAY`, or `ENDED`; content/action unavailability is a separate state. No fake chat, viewer count, stock, or availability is allowed.
 5. Community exposure follows moderation and policy readiness. It is not assumed to be writable or public.
 6. Missing locale content, source evidence, relation, or provider result is represented as a state; it is not silently fabricated.
 7. Product contracts define semantics, not a React component tree, notebook filenames, provider choice, or a working implementation.
+8. Contextual relation is not a generic banner system: Place→Article, Article→Article, Article→LiveSession, and Place→LiveSession retain distinct typed evidence and scores.
 
 ## Authority and reality
 

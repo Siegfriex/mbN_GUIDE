@@ -3,7 +3,7 @@
 Document: `06_TECH_ARCHITECTURE_CONSTRAINTS`
 Status: `PROPOSED`
 Authority: Normative implementation-boundary and handoff constraint
-Contract Version: `0.1.0`
+Contract Version: `0.2.0`
 Owner: MBN GUIDE Product Architecture & Documentation Director
 Upstream Authority: `00_PRODUCT_CONSTITUTION.md`, `02_IA_USER_FLOW.md`, `03_FEATURE_SPEC.md`, `04_CONTENT_DATA_CONTRACT.md`
 Downstream Consumers: FRONT, PY
@@ -52,6 +52,18 @@ DOCS semantic contract → PY pipeline → validated immutable release → FRONT
 | M6 Validated release | Approved L4 projections. | Immutable release bundle, manifest, hashes, validation/promotion verdict. | `PASS` only for promotion. |
 
 Raw source, corpus, geo, semantic/vector, recommendation, quality, and frontend projection zones must remain logically separate. Missing, ambiguous, failed, stale, or rejected records are retained as quality evidence and cannot be erased to overstate readiness.
+
+### Local-first contextual-relation implementation constraints
+
+The initial relation workflow is local and evidence-first. It does not authorize cloud deployment, real-time ad serving, supervised CTR training, or user-profile personalization.
+
+1. Keep Article title vectors and ArticleBodyBlock vectors in separate versioned artifacts; never concatenate title/body into one undifferentiated embedding input.
+2. Persist model/version, body block/chunk identity, text hash, vector row index, score components, candidate eligibility, rank, and evidence-based reason for every emitted relation.
+3. Materialize `article_article_relation`, `article_live_relation`, and `place_live_relation` separately. Do not share `finalScore`, candidate pool, or display semantics across relation types.
+4. Filter LiveSession eligibility before Article→Live or Place→Live ranking. `ENDED`, missing disclosure, missing title/thumbnail, and missing stream/outbound target cannot produce a live/commerce card.
+5. Rank the LIVE feed from broadcast inventory status/schedule/category/partner/content coverage independently; contextual Place/Article ranks are detail-level relations only.
+6. Keep scoring weights configurable and versioned; manual relevance/diversity/commerce-card review is required before a static release. A score is not a production quality claim.
+7. The static release must declare relation files and quality metrics in its manifest, including foreign-key, embedding-dimension, eligibility, disclosure, and outbound-URL checks.
 
 ## Release consumption constraints
 

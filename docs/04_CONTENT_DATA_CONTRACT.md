@@ -3,7 +3,7 @@
 Document: `04_CONTENT_DATA_CONTRACT`
 Status: `PROPOSED`
 Authority: Normative data semantics and PY→FRONT release contract
-Contract Version: `0.1.0`
+Contract Version: `0.2.0`
 Owner: MBN GUIDE Product Architecture & Documentation Director
 Upstream Authority: `00_PRODUCT_CONSTITUTION.md`, `01_PRD.md`, `03_FEATURE_SPEC.md`
 Downstream Consumers: PY producer, FRONT consumer, `05~06`
@@ -48,8 +48,9 @@ Broken provenance, missing required review, invalid schema, or broken foreign ke
 | Place | `id`, `name`, `lat`, `lng`, `address`, `category`, `tags`, `availableFrom`, `availableTo`, `summary`, `whyItMatters`, `localeSupport`, `source`, `provenance`, `relatedStoryIds`, `relatedLiveIds`, `offerIds` | A map-projected active Place needs valid coordinates; every primary discovery Place needs localized `whyItMatters`. `available*` may be unknown, never invented. |
 | Story | `id`, localized headline/deck/summary, `articleIds`, `placeIds`, `liveIds`, tags, provenance, publish/status metadata | Story links require valid FK validation. Hero media is optional and has its own availability/provenance. |
 | Article | `articleId`, `source`, `url`, `rawTitle`, `cleanTitle`, `publishedAt`, `category`, `tags`, `placeIds`, `storyIds` | Also retain source article ID, bracket tokens, collection time, raw/body SHA, parse status/version. Body corpus is not a default FRONT payload. |
+| ArticleBodyBlock | `articleId`, `blockIndex`, `blockType`, `cleanText`, `chunkId`, `chunkTextHash`, parser/model version, vector row index when embedded | Block structure is the body-chunk boundary; it preserves a heading with its adjacent explanatory paragraphs where possible. |
 | CommunityPost | `id`, author/source class, content/reference, `createdAt`, freshness, `moderationStatus`, visibility, provenance, related target IDs | Readability and writeability are separate. MVP write/public status is proposed, not assumed. |
-| LiveSession | `id`, status, localized title/deck/summary, host reference, scheduled/replay fields, `placeIds`, `offerIds`, provenance | Status is `live|upcoming|replay|unavailable`; no inferred live state. |
+| LiveSession | `id`/`liveSessionId`, title, description, thumbnail URL, `startsAt`, `endsAt`, stream/outbound URL, disclosure type, partner name, product categories, brand names, `placeIds`, provenance | Broadcast lifecycle is `LIVE|UPCOMING|REPLAY|ENDED`; action/content unavailability is separate. Only the first three are eligible for a contextual live/commerce card. |
 | Offer | `id`, type, title, Partner reference, availability, disclosure, target relations, outbound target when eligible | `availability` and `disclosure` are both required before active CTA. `partner_cta_clicked` is outbound attempt only. |
 | Partner | `id`, name, disclosure identity, allowed action types, outbound-domain/adapter reference, status, provenance | Partner selection/contract is not confirmed by this schema. |
 | TravelerProfile | locale, visitor mode, interests, preference values, persistence status | Profile is user preference, not a new product identity; account model remains open. |
@@ -79,6 +80,175 @@ Article → PlaceMention → PlaceCandidate → GeocodeResult → CanonicalPlace
 | `ERROR` | Provider, transport, or validation failure. | Retry/audit state; never merged into not-found. |
 | SemanticRelation | Source/target IDs, method/model/version, rank/distance/score components, reason/evidence, createdAt, staleness. | Relation must pass FK and eligibility validation. |
 | Recommendation | Candidate set, ranking version, score decomposition, human-readable reason, context/time, status. | Sponsored candidates are separately labelled; no opaque promotion. |
+
+## Contextual Live Recommendation Specification — local-first MVP
+
+**Scope.** GUIDE Place detail, MAGAZINE/Article context, and LIVE broadcast surface. **Non-goals.** Cloud deployment, real-time ad serving, supervised CTR optimization, and user-profile personalization.
+
+This is a contextual relationship engine, not a generic banner system:
+
+```text
+Place ↔ Article ↔ LiveSession / Offer
+```
+
+The current-context object determines the recommendation. `RelatedArticle` and `RelatedLive` are separate relation types, tables, scores, and presentation contracts. A score from one type must never be reused as the score for another type.
+
+| Surface | Current context | Primary question | Permitted recommendation object |
+|---|---|---|---|
+| GUIDE Place detail | `placeId` | What content or live offer is relevant to this Place? | RelatedArticle, RelatedLive |
+| MAGAZINE article context | `articleId` | What articles, places, and live offers are relevant to this Article? | RelatedArticle, mentioned Place, RelatedLive |
+| LIVE | `liveSessionId` or feed | What is broadcasting now or upcoming? | LiveSession, then related Places/Articles |
+
+### Typed relationship inventory
+
+```text
+Article ──MENTIONS──> Place
+Article ──SIMILAR_TO──> Article
+Article ──CONTEXT_MATCH──> LiveSession
+Place   ──CONTEXT_MATCH──> LiveSession
+LiveSession ──FEATURES──> Product / Brand / Place
+```
+
+| Relation table | Required fields | Meaning and safety rule |
+|---|---|---|
+| `article_place_relation` | `articleId`, `placeId`, `relationType`, `evidenceBlockIndexes`, `confidence`, `resolutionStatus`, `relationReason` | Mention evidence links an Article to a resolved/known Place. Ambiguous/unresolved place candidates cannot become a map relation. |
+| `article_article_relation` | `sourceArticleId`, `targetArticleId`, `titleSimilarity`, `bodySimilarity`, `labelSimilarity`, `placeSimilarity`, `finalScore`, `rank`, `relationReason`, `modelVersion` | This is the only RelatedArticle score. It cannot justify a live/commerce card. |
+| `article_live_relation` | `articleId`, `liveSessionId`, `titleSimilarity`, `bodySimilarity`, `productCategoryScore`, `placeScore`, `brandScore`, `availabilityScore`, `finalScore`, `rank`, `matchReason`, `disclosureEligible` | Article-context RelatedLive. A row does not override live-card eligibility. |
+| `place_live_relation` | `placeId`, `liveSessionId`, `directPlaceScore`, `articleBridgeScore`, `categoryScore`, `geoScore`, `availabilityScore`, `finalScore`, `rank`, `matchReason`, `disclosureEligible` | Place-context RelatedLive. It is never an editorial RelatedArticle. |
+
+### Embedding and evidence policy
+
+Title and body are separate semantic signals. `cleanTitle` alone is embedded for topic/intent and fast retrieval. Body chunks are built from heading plus adjacent paragraphs before any arbitrary-length fallback, and support reranking and evidence. Do not include bracket tokens, boilerplate, share widgets, recommended-news widgets, bylines, legal footers, or ad copy in embedding input. Explicit label/place/brand/category/date metadata is a constraint, boost, and explanation signal; it cannot replace relation evidence.
+
+Required versioned artifacts:
+
+```text
+article_title_embeddings.npy
+article_title_embedding_metadata.parquet
+article_body_chunk_embeddings.npy
+article_body_chunk_metadata.parquet
+live_embeddings.npy
+live_embedding_metadata.parquet
+```
+
+Every body-chunk metadata row includes `articleId`, `blockIndex`, `chunkId`, `chunkTextHash`, model/version, and vector row index. For a source article `a` and target `x`, retain local evidence rather than average its whole body:
+
+```text
+bodySimilarity(a, x) = 0.70 × max(chunk cosine) + 0.30 × mean(top 3 chunk cosine)
+```
+
+This configuration is versioned and manually evaluated; it is not a learned CTR model or a factual relevance guarantee.
+
+### RelatedArticle algorithm
+
+Candidate set: union title-vector top 30 Articles, body-chunk-vector top 30 Article IDs, and direct candidates sharing an active resolved `placeId`; exclude the source Article, invalid Article status, duplicate URL, excluded/legal-only editorial type, and prohibited source scope.
+
+```text
+ArticleArticleScore =
+  0.35 × TitleSimilarity
++ 0.40 × BodySimilarity
++ 0.15 × PlaceSimilarity
++ 0.05 × LabelSimilarity
++ 0.05 × RecencyScore
+```
+
+`PlaceSimilarity` is high for the same resolved Place and medium for the same canonical region/category. `LabelSimilarity` is a weak signal and cannot be the sole reason. Apply MMR after ranking to prevent near-duplicates:
+
+```text
+MMR(candidate) = λ × ArticleArticleScore - (1 - λ) × maxSimilarityToAlreadySelected
+```
+
+Initial `λ = 0.75` is configurable and must be evaluated in the local notebook/workflow. `relationReason` uses saved evidence only, for example same resolved place, supported body topic, or canonical region/category; it is not unsupported free-form generation.
+
+### Article-to-Live algorithm
+
+A LiveSession is eligible for a commerce/live card only when all are true:
+
+```text
+status ∈ {LIVE, UPCOMING, REPLAY}
+AND disclosureType ∈ {AD, PARTNER, AFFILIATE, OWNED}
+AND streamUrl OR outboundUrl exists
+AND title AND thumbnailUrl exist
+```
+
+Candidates are the union of exact normalized brand/product-category/resolved-place matches, nearest live title/description vectors, and top body-chunk evidence matches. Remove ineligible sessions before ranking.
+
+```text
+ArticleLiveScore =
+  0.20 × TitleSimilarity
++ 0.35 × BodySimilarity
++ 0.15 × ProductCategoryScore
++ 0.15 × PlaceScore
++ 0.10 × BrandScore
++ 0.05 × AvailabilityScore
+```
+
+Brand score requires explicit brand evidence. Availability orders `LIVE > UPCOMING > REPLAY`; `ENDED` is excluded. MAGAZINE Article context renders at most three cards under **관련 라이브**, with **광고 · 제휴 콘텐츠** disclosure, status, start time, partner name, thumbnail, saved `matchReason`, and only a Live detail or eligible partner outbound target. It never states MBN editorial endorsement.
+
+### Place-to-Live algorithm
+
+Candidates are direct Place IDs listed by sessions, sessions bridged through Articles with that Place relation, and sessions compatible with canonical region/category. Remove ineligible sessions before ranking.
+
+```text
+PlaceLiveScore =
+  0.40 × DirectPlaceScore
++ 0.20 × ArticleBridgeScore
++ 0.15 × CategoryScore
++ 0.10 × GeoScore
++ 0.15 × AvailabilityScore
+```
+
+Geo score uses same neighborhood/city context, not raw distance alone. GUIDE Place detail renders at most two cards under **이 장소와 관련된 라이브**, includes **광고 · 제휴 콘텐츠** disclosure, and saves a place/category/region evidence reason. A non-eligible relation remains data/audit evidence and is not a CTA.
+
+### LIVE feed independence
+
+LIVE is the broadcast source-of-truth surface, not a contextual ad widget. Its initial feed ranks inventory independently from any currently open Article or Place:
+
+```text
+LiveTabScore =
+  0.45 × BroadcastStatusScore
++ 0.20 × ScheduledRecency
++ 0.15 × CategoryPriority
++ 0.10 × PartnerPriority
++ 0.10 × ContentRelationCoverage
+```
+
+The LIVE surface exposes Live now, Upcoming, Replay, filters, detail, related Places/Articles, and an eligible product/reservation CTA. Only after a session is selected may it show `LiveSession → Related articles → Related places → Open in map`.
+
+### Surface non-confusion rules
+
+| Rule | GUIDE | MAGAZINE | LIVE |
+|---|---|---|---|
+| Primary object | Place | Article | LiveSession |
+| RelatedArticle ranking | Place-linked first | Article→Article similarity | Live→Article relation after selection |
+| RelatedLive ranking | Place→Live | Article→Live | Feed ranking, not contextual-widget ranking |
+| Disclosure | Required for partner/affiliate live/offer | Required | Required for partner/affiliate offer |
+| Full broadcast player | No | No | Yes |
+| Map emphasis | Primary | Linked/secondary | Related-place secondary |
+
+Never label Article similarity as a live recommendation, live recommendation as editorial recommendation, or an unverified outbound URL as advertising.
+
+### Local-first delivery and QA
+
+1. Validate Article index/labels, block-parse bodies, and extract place/product/brand/category/outbound evidence with block indexes; build a small manual gold set.
+2. Produce title and body-chunk embeddings, `article_article_relation`, and review 15–20 manual queries for relevance/diversity.
+3. Define/ingest a small local LiveSession catalog with explicit product/brand/place/disclosure metadata; generate both Live relation tables and review every commerce card.
+4. Build a static immutable release with:
+
+```text
+manifest.json
+places.json
+articles.json
+article_relations.json
+live_sessions.json
+article_live_relations.json
+place_live_relations.json
+quality_report.json
+```
+
+Required quality metrics: `articleBodyParseRate`, `placeExtractionPrecision@sample`, `resolvedPlaceRate`, `bodyEmbeddingValidRate`, `embeddingDimensionConsistency`, `relatedArticleTopKRelevance`, `relatedArticleDiversity`, `articleLiveEligibleCoverage`, `articleLiveManualPrecision@K`, `placeLiveManualPrecision@K`, `disclosureCoverage`, and `brokenOutboundUrlCount`.
+
+Primary-feature done requires separate versioned title/body artifacts; separate relation tables/scores; disclosure and saved match reason on every displayed live card; GUIDE ranked from Place context; MAGAZINE ranked from Article context; independently ranked LIVE inventory; no unverified advertising link; and zero broken Article/Place/Live foreign keys in the static release.
 
 ## Generated and editorial text provenance
 

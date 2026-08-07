@@ -3,7 +3,7 @@
 Document: `07_DECISION_LOG`
 Status: `PROPOSED`
 Authority: Decision audit trail for normative product contracts
-Contract Version: `0.1.0`
+Contract Version: `0.2.0`
 Owner: MBN GUIDE Product Architecture & Documentation Director
 Upstream Authority: User-directed product constitution and v2.1 candidate
 Downstream Consumers: `00~06`, FRONT, PY
@@ -157,6 +157,32 @@ Rejected Alternatives: Name a provider/partner as current fact; embed provider D
 Affected Contracts: `03`, `04`, `05`, `06`.
 Affected Branches: DOCS, FRONT, PY.
 Migration Required: No until a provider/partner decision is accepted.
+
+### ALG-001 — Contextual relationship engine and local-first relation policy
+
+Decision ID: `ALG-001`
+Date: 2026-08-07
+Status: `ACCEPTED`
+Context: GUIDE Place detail, MAGAZINE Article context, and LIVE require useful connections without degenerating into generic banners or treating an outbound link as editorial endorsement.
+Decision: Use typed Place↔Article↔LiveSession/Offer relations. `article_article_relation`, `article_live_relation`, and `place_live_relation` have separate candidate sets, score decomposition, evidence, rank, and presentation rules. The local-first MVP excludes cloud deployment, real-time ad serving, supervised CTR models, and user-profile personalization.
+Reason: Current object context—not a generic inventory banner—determines the relationship. Typed relations preserve disclosure, auditability, and surface-specific meaning.
+Rejected Alternatives: One shared recommendation score; article similarity relabelled as live recommendation; LIVE feed ranked by an open Article/Place; implicit advertising from outbound links.
+Affected Contracts: `00`, `03`, `04`, `06`.
+Affected Branches: DOCS, FRONT (consumer), PY (producer).
+Migration Required: Yes — future producer/release artifacts must expose typed relations, evidence reasons, eligibility, and QA rather than a generic banner payload.
+
+### ALG-002 — Broadcast lifecycle and action availability separation
+
+Decision ID: `ALG-002`
+Date: 2026-08-07
+Status: `ACCEPTED`
+Context: Existing wording combined broadcast state with content/action unavailability, while contextual live eligibility requires an explicit `ENDED` lifecycle.
+Decision: LiveSession lifecycle is `LIVE`, `UPCOMING`, `REPLAY`, or `ENDED`. `Unavailable` remains a separate S-07 content/action state; only the first three lifecycle values can be eligible for a contextual live/commerce card, subject to disclosure and destination requirements.
+Reason: A session can be ended while still known, or known but action-unavailable; these conditions are not interchangeable.
+Rejected Alternatives: Treat `ENDED` as `Unavailable`; display ended sessions as live/commerce cards; infer a live state from a player/thumbnail.
+Affected Contracts: `00`, `03`, `04`, `05`, `06`.
+Affected Branches: DOCS, FRONT, PY.
+Migration Required: Yes — any future LiveSession schema must preserve the lifecycle/action distinction.
 
 ## Open decision queue
 
